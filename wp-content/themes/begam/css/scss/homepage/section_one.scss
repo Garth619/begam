@@ -1,6 +1,6 @@
 #section_one {
 	width:100%;
-	height:1000px;
+	height:930px;
 	background: url(#{$themePath}images/hero-laptop.jpg) top center no-repeat;
 	background-size:cover;
 	padding:0 75px;
@@ -11,7 +11,7 @@
 	color:#fff;
 	max-width:1480px;
 	margin:0px auto;
-	padding:240px 0;
+	padding-top:240px;
 	span.sec_one_content {
 		display: block;
 		font-family: $actamedium;
@@ -33,7 +33,7 @@
 
 .select_mock_wrapper {
 	width:470px;
-	margin:20px 0 0;
+	margin:35px 0 0;
 	.first_input_wrapper {
 		width:100%;
 		height:78px;
@@ -67,3 +67,94 @@
 		}
 	}
 }
+
+
+
+
+@media screen and (max-width: 1450px) {
+	
+
+
+
+
+#section_one {
+	 height: 779px;
+}
+
+
+
+   
+
+
+.sec_one_form_wrapper {
+	margin: 60px 0 0;
+}
+
+
+	
+.inner_section_one {
+	padding-top: 209px;
+	span.sec_one_content {
+		font-size: 92px;
+		line-height: 92px;
+		max-width: 620px;
+	}
+}
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1370px) {
+	
+	
+	
+	
+#section_one {
+ background: url(#{$themePath}images/hero-tablet.jpg) top right no-repeat;
+ background-size:cover;
+}
+
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1270px) {
+	
+	
+	#section_one {
+		background-position: top center;
+	}
+
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1150px) {
+	
+	
+	
+	#section_one {
+		background-size: 1160px;
+	}
+	
+	
+	
+	
+} /* Media Query */
