@@ -30,6 +30,19 @@
 		"oAP": "\/category.php",
 		"oF": 0
 		},
+	"\/css\/scss\/_fonts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -81,6 +94,191 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Black.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Black.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Book.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Book.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Book.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Book.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-BookItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-BookItalic.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-BookItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-BookItalic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Medium.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-Medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-Medium.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-MediumItalic.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-MediumItalic.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-MediumItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-MediumItalic.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-XBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-XBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/ActaDisplayW01-XBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/ActaDisplayW01-XBold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-Black.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-Black.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-Black.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-Black.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-Bold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-Bold.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-Bold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-Bold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-ExtraBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-ExtraBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-ExtraBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-ExtraBold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-Regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-Regular.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-Regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-Regular.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-SemiBold.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-SemiBold.woff",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/Muli-SemiBold.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/Muli-SemiBold.woff2",
+		"oF": 0
+		},
+	"\/fonts\/acta-muli\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/footer.php": {
 		"cB": 0,
