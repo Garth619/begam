@@ -56,6 +56,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -78,6 +91,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/homepage\/section_one.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_one.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -269,6 +295,16 @@
 		"oA": 0,
 		"oAP": "\/fonts\/acta-muli\/Muli-SemiBold.woff2",
 		"oF": 0
+		},
+	"\/fonts\/acta-muli\/stylesheet-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/acta-muli\/stylesheet-min-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/fonts\/acta-muli\/stylesheet.css": {
 		"aP": 1,
@@ -672,6 +708,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
