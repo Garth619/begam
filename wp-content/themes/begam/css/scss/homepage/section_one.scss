@@ -156,5 +156,42 @@
 	
 	
 	
+.inner_section_one {
+	padding-top: 163px;
+	span.sec_one_content {
+		font-size: 75px;
+		line-height: 75px;
+		max-width: 485px;
+	}
+}
+
+
+.sec_one_form_wrapper {
+   margin: 49px 0 0;
+}
+
+
+.select_mock_wrapper {
+  width: 368px;
+  margin: 28px 0 0;
+  .first_input_wrapper {
+	  height: 62px;
+	  .input_left {
+		  font-size: 16px;
+		  padding-top: 21px;
+	  }
+	  .input_right {
+		  flex-basis:67px;
+		  &:before {
+			 border-left: 8px solid transparent;
+			 border-right: 8px solid transparent;
+			 border-top: 8px solid #fff;
+		  }
+	  }
+  } 
+}
+	
+	
+	
 	
 } /* Media Query */
