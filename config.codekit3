@@ -5349,6 +5349,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/wp-content\/themes\/begam\/images\/cr-bg-pattern-03.png": {
+		"ft": 32768,
+		"iS": 101858,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/images\/cr-bg-pattern-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/wp-content\/themes\/begam\/images\/cr-icon-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -5388,6 +5399,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/cr-new.png": {
+		"ft": 32768,
+		"iS": 41305,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/images\/cr-new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/wp-content\/themes\/begam\/images\/footer-image-desktop.jpg": {
 		"ft": 16384,

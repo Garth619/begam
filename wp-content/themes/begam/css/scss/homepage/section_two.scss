@@ -10,10 +10,14 @@
 
 .sec_two_single {
 	width:33.3333%;
+	height:715px;
+	position: relative;
+	text-align: center;
 	a {
 		display: block;
-		text-align: center;
 		text-decoration: none;
+		position: relative;
+		z-index: 2;
 		span.header {
 			display: block;
 			text-transform: uppercase;
@@ -39,7 +43,25 @@
 			max-width: 474px;
 			margin:24px auto 0;
 		}
+		span.gold_link {
+			color:$gold;
+			font-size:25px;
+			display: block;
+			margin:35px 0 0;
+			text-decoration:underline;
+		}
+		
 	}
+	.img_bg_wrapper {
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			img.bg {
+				max-width: 100%;
+				height:auto;
+			}
+		}
 }
 
 
@@ -53,6 +75,9 @@
 		span.header {
 			margin-top:27px;
 		}
+	}
+	.img_bg_wrapper {
+		top:75px;
 	}
 }
 
@@ -68,6 +93,9 @@
 			margin-top:25px;
 		}
 	}
+	.img_bg_wrapper {
+		top:75px;
+	}
 }
 
 .sec_two_single.three {
@@ -80,5 +108,8 @@
 		span.header {
 			margin-top:33px;
 		}
+	}
+	.img_bg_wrapper {
+		top:69px;
 	}
 }
