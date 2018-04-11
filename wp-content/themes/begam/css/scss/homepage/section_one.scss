@@ -69,7 +69,9 @@
 }
 
 
-
+.mobile_free_button {
+	display: none;
+}
 
 @media screen and (max-width: 1450px) {
 	
@@ -152,6 +154,7 @@
 	
 	#section_one {
 		background-size: 1160px;
+		margin-top:-80px;
 	}
 	
 	
@@ -190,6 +193,69 @@
 	  }
   } 
 }
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+#section_one {
+	margin:0;
+	background: url(#{$themePath}images/hero-mobile.jpg) top center no-repeat;
+	background-size:cover;
+	height: 373px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+.inner_section_one {
+	text-align: center;
+	padding-top: 206px;
+	span.sec_one_content {
+		font-size: 41px;
+		line-height: 41px;
+		margin-left:auto;
+		margin-right:auto;
+		max-width:300px;
+	}
+}
+
+
+.sec_one_form_wrapper {
+	display: none;
+	span.get_stared_here {
+		
+	}
+}
+
+	.mobile_free_button {
+		display: block;
+		width:100%;
+		background:$teal;
+		text-align: center;
+		a {
+			color:#fff;
+			display: block;
+			text-decoration: none;
+			height:82px;
+		}
+	}
+
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 700px) {
+	
+	
+	
 	
 	
 	

@@ -34,7 +34,7 @@
 
 <body <?php body_class(); ?>>
 				
-<header>
+<header id="header_trigger">
 	
 	<div class="header_left">
 		
@@ -68,6 +68,35 @@
 		
 		
 	</div><!-- header_right -->
+	
+	<div class="mobile_nav">
+		
+		<div class="menu_wrapper">
+			
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_bar"></span><!-- menu_bar -->
+			<span class="menu_title">Menu</span><!-- menu_title -->
+			
+		</div><!-- menu_wrapper -->
+		
+		<div class="mobile_tel">
+			
+			<a href="">
+				
+				<?php echo file_get_contents("wp-content/themes/begam/images/new_phone.svg"); ?>
+				
+			</a>
+			
+		</div><!-- mobile_tel -->
+		
+		<div class="mobile_email">
+			
+			<?php echo file_get_contents("wp-content/themes/begam/images/new_email.svg"); ?>
+			
+		</div><!-- mobile_email -->
+		
+	</div><!-- mobile_nav -->
 	
 </header>
 

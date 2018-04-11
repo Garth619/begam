@@ -3,6 +3,7 @@ header {
 	display: flex;
 	position: absolute;
 	justify-content: space-between;
+	z-index: 1;
 }
 
 
@@ -52,6 +53,7 @@ a.logo {
 		text-align: center;
 		padding:23px 21px 0;
 		margin:22px 47px 0 0;
+		cursor: pointer;
 		span.menu_bar {
 			width:100%;
 			height:3px;
@@ -71,7 +73,9 @@ a.logo {
 	}
 	
 	
-	
+	.mobile_nav {
+		display: none;
+	}
 	
 @media screen and (max-width: 1450px) {
 	
@@ -94,6 +98,7 @@ a.logo {
 	
 	header {
 		height: 82px;
+		position: relative;
 	}
 	
 	.header_left {
@@ -200,6 +205,66 @@ a.logo {
 			font-size: 12.5px;
 			padding-top:0;
 		}
+	}
+	
+	.mobile_nav.visible {
+		opacity: 1;
+		visibility: visible;
+	}
+	
+	.mobile_nav {
+		position: fixed;
+		top:0;
+		left:0;
+		width:100%;
+		z-index: 5;
+		height:74px;
+		display: flex;
+		opacity: 0;
+		visibility: hidden;
+		transition: all .2s ease-in-out;
+		.menu_wrapper {
+			order:1;
+		}
+	}
+	
+	.mobile_tel {
+		flex-grow:1;
+		order:2;
+		a {
+			display: block;
+			background: #ebe8e5;
+			height:100%;
+			display: flex;
+			justify-content: center;
+			svg {
+				width:55px;
+				.new_phone-cls-1,.new_phone-cls-2{
+					fill:none;
+					stroke:$teal;
+					stroke-miterlimit:10;
+				}
+				.new_phone-cls-1{
+					stroke-linecap:round;
+				}
+			}
+		}
+	}
+	
+	.mobile_email {
+		flex-grow:1;
+		order:3;
+		background: $teal;
+		display: flex;
+		justify-content: center;
+		svg {
+				width:53px;
+				.mobile_email-cls-1{
+					fill:none;
+					stroke:#fff;
+					stroke-miterlimit:10;
+				}
+			}
 	}
 	
 	
