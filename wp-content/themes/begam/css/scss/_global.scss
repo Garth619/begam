@@ -29,6 +29,28 @@ img.aligncenter {
 
 
 
+
+.content {
+	font-family: $mulireg;
+	font-size: 17px;
+	line-height: 35px;
+	color:#616466;
+	h2 {
+		color:$gold;
+		font-family: $muliblack;
+		font-size:20px;
+		line-height: 30px;
+		letter-spacing: 0.05em;
+		padding:24px 0 25px;
+		display: block;
+	}
+	p {
+		margin-bottom:32px;
+	}
+}
+
+
+
 @media screen and (max-width: 767px) {
 	
 	
