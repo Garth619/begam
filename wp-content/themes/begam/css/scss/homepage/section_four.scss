@@ -1,0 +1,103 @@
+#section_four {
+	background: url(#{$themePath}images/results-bg.jpg) top center no-repeat;
+	width:100%;
+	text-align: center;
+	height:1000px;
+}
+
+
+
+span.sec_four_case_results {
+	color:#fff;
+	padding:280px 0 0;
+	display: block;
+}
+
+
+.case_results_slider {
+	margin:160px auto 0;	
+	display: flex;
+	max-width:1610px;
+	
+}
+
+
+.case_results_single_slide {
+	background:$bluedark;
+	box-shadow: 6.889px 11.025px 48.96px 2.04px rgba(0, 0, 0, 0.45);
+	height:520px;
+	width:100%;
+	margin:0 28px;
+	svg#car {
+		margin:143px 0 35px;
+		width:154px;
+		.car-cls-1{
+			fill:none;
+			stroke:#17bbbd;
+			stroke-width:2;
+			stroke-miterlimit:10;
+		}
+	}
+	svg#heart {
+		width:108px;
+		margin:135px 0 38px;
+		.heart-cls-1{
+			fill:none;
+			stroke:#17bbbd;
+			stroke-width:2;
+			stroke-miterlimit:10;
+		}
+	}
+	svg#steth {
+		width:90px;
+		margin:125px 0 32px;
+		.steth-cls-1{
+			fill:#17bbbd;}.steth-cls-2{
+				fill:none;stroke:#17bbbd;stroke-miterlimit:10;stroke-width:2px;}
+	}
+	span.case_amount {
+		color:#fff;
+		font-family: $actaextrabold;
+		font-size:85px;
+		display: block;
+	}
+	span.case_cat {
+		color:$gold;
+		font-family: $muliblack;
+		font-size:15px;
+		text-transform: uppercase;
+		letter-spacing: 0.25em;
+		display: block;
+		margin:22px 0 0;
+	}
+}
+
+
+.case_results_single_slide {
+	position: relative;
+	width:30%;
+	.hover_content {
+		opacity: 0;
+		visibility: hidden;
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:#fff;
+		z-index: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-family: $actaextrabold;
+		font-size:26px;
+		color:$bluedark;
+		line-height: 44px;
+		padding:0 25px;
+		span {
+			max-width: 375px;
+		}
+	}
+}
+
+

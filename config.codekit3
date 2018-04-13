@@ -4928,6 +4928,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/begam\/css\/scss\/homepage\/section_four.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/css\/scss\/homepage\/section_four.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/begam\/css\/scss\/homepage\/section_one.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5215,6 +5228,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/homepage_template_parts\/section-3.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/homepage_template_parts\/section-4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/homepage_template_parts\/section-4.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/begam\/images\/att-bio-temp-tablet.jpg": {
@@ -5632,11 +5652,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/begam\/images\/new_car.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_car.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/begam\/images\/new_email.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_heart.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -5707,6 +5747,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_sp_two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_steth.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_steth.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
