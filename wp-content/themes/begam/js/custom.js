@@ -99,6 +99,7 @@ $('.case_results_slider').slick({
   arrows:false,
   mobileFirst: true,
   dots:true,
+  arrows:true,
   prevArrow:".back_button",
   nextArrow:".next_button",
   slide: ".case_results_single_slide",

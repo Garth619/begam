@@ -212,19 +212,29 @@ a.view_more {
 	
 	
 	.outer_slider {
-		
+		display: flex;
+		justify-content: center;
+		margin:0 auto;
+		max-width: 686px;
+		align-items: center;
 	}
 	
 	
 	.back_button {
-		width:50px;
-		height:50px;
-		background: red;
+		
 	}
 	
 	
 	.next_button {
 		
+	}
+	
+	
+	.back_button,.next_button {
+		width:50px;
+		height:50px;
+		background: red;
+		margin-top:-80px;
 	}
 	
 	
