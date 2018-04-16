@@ -17,6 +17,17 @@
 		font-family: $actamedium;
 		font-size:112px;
 		max-width: 720px;
+		line-height: 112px;
+		strong {
+			font-family: $atf;
+			color:$teal;
+			font-weight: 300;
+			font-style: none;
+			font-size:150px;
+			letter-spacing: -0.015em;
+			display: inline-block;
+			margin:0 0 0 20px;
+		}
 	}
 }
 
@@ -100,6 +111,10 @@
 		font-size: 92px;
 		line-height: 92px;
 		max-width: 620px;
+		strong {
+			font-size: 130px;
+			margin-left:5px;
+		}
 	}
 }
 
@@ -161,11 +176,15 @@
 	
 	
 .inner_section_one {
-	padding-top: 163px;
+	padding-top: 183px;
 	span.sec_one_content {
 		font-size: 75px;
 		line-height: 75px;
-		max-width: 485px;
+		max-width: 515px;
+		strong {
+			font-size:110px;
+			margin-left:0
+		}
 	}
 }
 
@@ -224,6 +243,9 @@
 		margin-left:auto;
 		margin-right:auto;
 		max-width:300px;
+		strong {
+			font-size:58px;
+		}
 	}
 }
 

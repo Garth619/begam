@@ -4,7 +4,7 @@
 	<div class="inner_section_one">
 		
 		
-		<span class="sec_one_content">We maximize the value of your case.</span><!-- sec_one_content -->
+		<span class="sec_one_content">We <strong>maximize</strong> the value of your case.</span><!-- sec_one_content -->
 		
 		<div class="sec_one_form_wrapper">
 			
