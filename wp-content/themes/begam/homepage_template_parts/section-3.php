@@ -44,7 +44,7 @@ Sed commodo eros at felis interdum gravida. Suspendisse vulputate, neque a molli
 
 			<p>Sed dictum posuere aliquet. Phasellus semper, augue in ultrices sollicitudin, velit erat pulvinar lectus, in euismod mauris eros id neque. Integer sed ullamcorper justo. Aliquam mauris diam, consectetur in posuere in, varius ac ligula. Ut sed risus sit amet sem consequat ultrices in sit amet mi. Cras ut augue ut mauris pharetra elementum id sit amet mauris. Morbi at urna porta, ultricies dui semper, hendrerit turpis. Phasellus maximus velit et lorem ullamcorper convallis. Sed magna ligula, pharetra non ipsum a, dictum feugiat urna. Donec at dignissim est. Nulla egestas ut ligula quis scelerisque. Pellentesque id lacus turpis. Donec sit amet risus sollicitudin, fermentum augue facilisis, aliquet erat.</p>
 
-			<p>Nullam arcu risus, fermentum eu ante vitae, malesuada semper neque. Phasellus ut nibh nec nunc pellentesque dignissim.</p>
+			<p>Nullam arcu risus, fermentum eu ante vitae, malesuada sempe.</p>
 			
 			
 		</div><!-- sec_three_col -->

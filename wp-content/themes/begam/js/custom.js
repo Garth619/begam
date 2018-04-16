@@ -78,7 +78,7 @@ $('.sec_two_slider').slick({
   slidesToScroll: 1,
   arrows:false,
   mobileFirst: true,
-  dots:false,
+  dots:true,
   responsive: [
     {
       breakpoint: 1265,
