@@ -1,15 +1,16 @@
 #section_four {
 	background: url(#{$themePath}images/results-bg.jpg) top center no-repeat;
+	background-size:cover;
 	width:100%;
 	text-align: center;
-	height:1000px;
+	padding-bottom:350px;
 }
 
 
 
 span.sec_four_case_results {
 	color:#fff;
-	padding:280px 0 0;
+	padding:280px 0px 0;
 	display: block;
 }
 
@@ -18,7 +19,7 @@ span.sec_four_case_results {
 	margin:160px auto 0;	
 	display: flex;
 	max-width:1610px;
-	
+	position: relative;
 }
 
 
@@ -94,10 +95,184 @@ span.sec_four_case_results {
 		color:$bluedark;
 		line-height: 44px;
 		padding:0 25px;
+		transition: all .2s ease-in-out;
 		span {
 			max-width: 375px;
 		}
 	}
 }
+
+
+.case_results_single_slide {
+	&:hover {
+		.hover_content {
+			opacity: 1;
+			visibility: visible;
+		}
+	}
+}
+
+
+a.view_more {
+	position: absolute;
+	bottom:-80px;
+	right:30px;
+	color:$teal;
+}
+
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	#section_four {
+		padding-bottom: 282px;
+	}
+	
+	    
+	
+	
+	.case_results_slider {
+		padding:0 23px;
+		margin: 138px auto 0;
+	}
+	
+	.case_results_single_slide {
+		margin:0 22px;
+		height: 435px;
+		span.case_amount {
+			font-size:78px;
+		}
+		svg#car {
+			margin: 108px 0 31px;
+			.car-cls-1 {
+			
+			}
+		}
+		svg#heart {
+			margin: 97px 0 33px;
+			.heart-cls-1 {
+		
+			}
+		}
+		svg#steth {
+			margin: 86px 0 26px;
+			.steth-cls-1 {
+		
+			}
+			.steth-cls-2 {
+		
+			}
+		}
+	}
+	
+	
+	span.sec_four_case_results {
+		padding: 201px 0px 0;
+	}
+	
+	
+	
+	
+	
+.case_results_single_slide {
+
+	.hover_content {
+		font-size: 23px;
+		line-height: 39px;
+		span {
+			
+		}
+	}
+}
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 1150px) {
+	
+	
+	#section_four {
+		padding-bottom: 177px;
+	}
+	
+	
+	span.sec_four_case_results {
+		padding: 166px 0px 0;
+	}
+	
+	
+	.outer_slider {
+		
+	}
+	
+	
+	.back_button {
+		width:50px;
+		height:50px;
+		background: red;
+	}
+	
+	
+	.next_button {
+		
+	}
+	
+	
+	.case_results_slider {
+		padding:0;
+		max-width:575px;
+		margin: 72px auto 0;
+		display: block;
+	}
+	
+	.case_results_single_slide {
+		margin:40px 40px;
+		height: 497px;
+		svg#car {
+			margin: 138px 0 31px;
+			.car-cls-1 {
+			
+			}
+		}
+		svg#heart {
+			margin: 117px 0 33px;
+			.heart-cls-1 {
+		
+			}
+		}
+		svg#steth {
+			margin: 106px 0 26px;
+			.steth-cls-1 {
+		
+			}
+			.steth-cls-2 {
+		
+			}
+		}
+	}
+	
+	
+	
+	a.view_more {
+		position: static;
+		display: block;
+		margin:63px auto 45px;
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
 
 

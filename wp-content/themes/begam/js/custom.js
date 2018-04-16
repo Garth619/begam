@@ -78,7 +78,7 @@ $('.sec_two_slider').slick({
   slidesToScroll: 1,
   arrows:false,
   mobileFirst: true,
-  dots:true,
+  dots:false,
   responsive: [
     {
       breakpoint: 1265,
@@ -86,6 +86,35 @@ $('.sec_two_slider').slick({
      }
    ]
 });
+
+
+
+
+
+
+$('.case_results_slider').slick({
+  infinite: true,
+  slidesToShow:1,
+  slidesToScroll: 1,
+  arrows:false,
+  mobileFirst: true,
+  dots:true,
+  prevArrow:".back_button",
+  nextArrow:".next_button",
+  slide: ".case_results_single_slide",
+  responsive: [
+    {
+      breakpoint: 1150,
+      settings:"unslick"
+     }
+   ]
+});
+
+
+
+
+
+
 
 
 
