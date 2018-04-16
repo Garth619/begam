@@ -13,8 +13,11 @@
 	h1 {
 		font-style: normal;
 		font-weight: 300;
-		padding:435px 0 0;
-		margin-bottom: 89px;
+		padding:370px 0 0;
+		font-family: $atf;
+		color:$gold;
+		font-size:300px;
+		margin-bottom: 98px;
 		span {
 			font-size: 100px;
 			color:#003454;
@@ -22,7 +25,8 @@
 			font-family: $actamediumitalic;
 			line-height: 100px;
 			max-width: 734px;
-			margin:0 0 0 135px;
+			margin:0 0 0 125px;
+			padding-top:59px;
 		}
 	}
 }
@@ -68,7 +72,7 @@
     font-size: 121px;
     float: left;
     line-height: 83px;
-    padding: 20px 33px 0 0;
+    padding: 20px 20px 0 0;
 	}
 }
 
@@ -178,11 +182,13 @@
 .sec_three_inner {
 	
 	h1 {
-		
+		font-size:220px;
+		padding: 302px 0 0;
 		span {
 			font-size:74px;
 			line-height: 74px;
-			margin: 0 0 0 62px;
+			margin: 0 0 0 92px;
+			padding-top: 32px;
 		}
 	}
 }
