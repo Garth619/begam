@@ -32,16 +32,22 @@ a.logo {
 
 
 .phone_wrapper {
-	margin:44px 31px 0 0;
+	margin: 29px 31px 0 0;
 	span.free {
 		display: block;
 		color:$gold;
+		font-family: $atf;
+		text-transform: lowercase;
+		font-size:37px;
+		letter-spacing: 0.02em;
+		
 	}
 	a.phone {
 		color:#fff;
 		text-decoration: none;
 		font-family: $actabold;
 		font-size:32px;
+		
 	}
 }
 	
@@ -86,6 +92,15 @@ a.logo {
 	}
 	
 	
+.phone_wrapper {
+	span.free {
+		letter-spacing: 0;
+		font-size: 35px;
+		margin-left:19px;
+	}
+}
+	
+	
 	
 	
 	
@@ -121,7 +136,10 @@ a.logo {
 	
 	
 	.phone_wrapper {
-		margin: 22px 31px 0 0;
+		margin: 14px 20px 0 0;
+		span.free {
+			font-size:30px;
+		}
 		a.phone {
 			color:$bluedark;
 			font-size:27px;
