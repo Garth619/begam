@@ -58,12 +58,24 @@
 				
 			</div><!-- case_results_single_slide -->
 			
+			<div class="mobile_buttons">
+			
+				<div class="mobile_back_button"></div><!-- mobile_back_button -->
+			
+				<div class="mobile_next_button"></div><!-- mobile_next_button -->
+			
+			</div><!-- mobile_buttons -->
+
+			
 			<a class="view_more" href="">View More</a><!-- view_more -->
 			
+				
 		</div><!-- case_results_slider -->
 		
 		<div class="next_button"></div><!-- next_button -->
 		
+		
+				
 		</div><!-- outer_slider -->
 	
 	

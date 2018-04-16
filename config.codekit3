@@ -5188,6 +5188,82 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/MyFontsWebfontsKit.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/MyFontsWebfontsKit-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/Start here files\/header.png": {
+		"ft": 32768,
+		"iS": 3167,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/Start here files\/header.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/Start here files\/highlight.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/Start here files\/highlight-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/Start here files\/layout.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/Start here files\/layout-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/StartHere.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/StartHere.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/fonts\/atf\/webfonts\/364FFA_0_0.woff2",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/begam\/footer.php": {
 		"cB": 0,
 		"ft": 8192,

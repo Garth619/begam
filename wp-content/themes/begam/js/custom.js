@@ -100,10 +100,18 @@ $('.case_results_slider').slick({
   mobileFirst: true,
   dots:true,
   arrows:true,
-  prevArrow:".back_button",
-  nextArrow:".next_button",
+  fade:true,
+  prevArrow:".mobile_back_button",
+  nextArrow:".mobile_next_button",
   slide: ".case_results_single_slide",
   responsive: [
+	  {
+      breakpoint: 767,
+      settings: {
+        prevArrow:".back_button",
+				nextArrow:".next_button",
+      }
+     },
     {
       breakpoint: 1150,
       settings:"unslick"
