@@ -2,7 +2,7 @@
 	background: #ece9e6 url(#{$themePath}images/bg-whole.jpg) top left repeat;
 	width: 100%;
 	background-size:cover;
-	padding:0 75px
+	padding:0 75px 140px;
 }
 
 
@@ -14,10 +14,11 @@
 		font-style: normal;
 		font-weight: 300;
 		padding:370px 0 0;
-		font-family: $atf;
+		font-family: $ats;
 		color:$gold;
 		font-size:300px;
 		margin-bottom: 98px;
+		letter-spacing: -0.0015em;
 		span {
 			font-size: 100px;
 			color:#003454;
@@ -86,6 +87,11 @@
 		color:$gold;
 		display: block;
 		text-align: center;
+		font-size:120px;
+		font-family: $ats;
+		text-transform: lowercase;
+		letter-spacing: -0.015em;
+		margin:50px 0 0 0;
 	}
 	span.about_content {
 		font-family:$muliextrabold;
@@ -93,7 +99,7 @@
 		line-height: 45px;
 		letter-spacing: 0.025em;
 		display: block;
-		margin:83px auto 90px;
+		margin: 37px auto 90px;
 		max-width: 520px;
 	}
 	img {
