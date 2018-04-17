@@ -98,7 +98,7 @@ $('.case_results_slider').slick({
   slidesToScroll: 1,
   arrows:false,
   mobileFirst: true,
-  dots:true,
+  dots:false,
   arrows:true,
   fade:true,
   prevArrow:".mobile_back_button",

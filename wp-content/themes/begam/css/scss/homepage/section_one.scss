@@ -34,17 +34,21 @@
 
 
 .sec_one_form_wrapper {
-	margin:70px 0 0;
+	margin:65px 0 0;
 	span.get_stared_here {
 		text-transform: lowercase;
 		color:$gold;
+		font-family: $ats;
+		font-size: 40px;
+		margin-left:4px;
+		display: block;
 	}
 }
 
 
 .select_mock_wrapper {
 	width:470px;
-	margin:35px 0 0;
+	margin:14px 0 0;
 	.first_input_wrapper {
 		width:100%;
 		height:78px;
@@ -190,13 +194,16 @@
 
 
 .sec_one_form_wrapper {
-   margin: 49px 0 0;
+   margin: 39px 0 0;
+   span.get_stared_here {
+	   font-size:33px;
+   }
 }
 
 
 .select_mock_wrapper {
   width: 368px;
-  margin: 28px 0 0;
+	margin: 10px 0 0;
   .first_input_wrapper {
 	  height: 62px;
 	  .input_left {
@@ -231,6 +238,7 @@
 	height: 373px;
 	padding-left:10px;
 	padding-right:10px;
+	
 }
 
 
@@ -267,6 +275,10 @@
 			display: block;
 			text-decoration: none;
 			height:82px;
+			font-family: $ats;
+			text-transform: lowercase;
+			font-size:35px;
+			padding-top:27px;
 		}
 	}
 
