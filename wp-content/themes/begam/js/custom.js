@@ -122,6 +122,21 @@ $('.case_results_slider').slick({
 
 
 
+$('.reviews_slider').slick({
+  infinite: true,
+  slidesToShow:1,
+  slidesToScroll: 1,
+  arrows:true,
+  dots:false,
+  fade:true,
+  prevArrow:".reviews_back",
+  nextArrow:".reviews_next",
+  slide: ".reviews_single_slide"
+ });
+
+
+
+
 
 
 

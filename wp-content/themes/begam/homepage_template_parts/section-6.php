@@ -12,9 +12,38 @@
 				
 				<div class="reviews_slider">
 					
+					<div class="reviews_single_slide">
+						
+						
+						<span class="reviews_slide_content">Begam Marks & Traulsen is an excellent firm with caring, hardworking attorneys. They took a chance on my case when no one else would listen. </span><!-- reviews_slide_content -->
+						
+						
+						<span class="client_name">S.I.</span><!-- client_name -->
+						
+						
+					</div><!-- reviews_single_slide -->
 					
+					<div class="reviews_single_slide">
+						
+						
+						<span class="reviews_slide_content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad min</span><!-- reviews_slide_content -->
+						
+						
+						<span class="client_name">G.C.</span><!-- client_name -->
+						
+						
+					</div><!-- reviews_single_slide -->
 					
+										
 				</div><!-- reviews_slider -->
+				
+				<div class="reviews_buttons">
+					
+					<div class="reviews_back"></div><!-- reviews_back -->
+					
+					<div class="reviews_next"></div><!-- reviews_next -->
+					
+				</div><!-- reviews_buttons -->
 				
 			</div><!-- reviews_wrapper -->
 			
@@ -24,7 +53,9 @@
 			
 			</div><!-- reviews_img_wrapper -->
 			
-			<div class="reviews_gold_box"></div><!-- reviews_gold_box -->
+			<a class="review_view_more" href="">View More</a><!-- review_view_more -->
+			
+
 			
 			
 		</div><!-- sec_six_boxes_wrapper -->
