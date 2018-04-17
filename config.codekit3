@@ -4967,6 +4967,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/begam\/css\/scss\/homepage\/section_six.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/css\/scss\/homepage\/section_six.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/begam\/css\/scss\/homepage\/section_three.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5331,6 +5344,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/homepage_template_parts\/section-5.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/homepage_template_parts\/section-6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/homepage_template_parts\/section-6.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/begam\/images\/att-bio-temp-tablet.jpg": {
@@ -6031,6 +6051,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/wp-content\/themes\/begam\/images\/testimonials_bg.jpg": {
+		"ft": 16384,
+		"iS": 147643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/images\/testimonials_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/wp-content\/themes\/begam\/images\/texture-bg-01.png": {

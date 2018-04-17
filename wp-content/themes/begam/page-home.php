@@ -11,6 +11,7 @@
 <?php get_template_part( 'homepage_template_parts/section', '3' );?>
 <?php get_template_part( 'homepage_template_parts/section', '4' );?>
 <?php get_template_part( 'homepage_template_parts/section', '5' );?>
+<?php get_template_part( 'homepage_template_parts/section', '6' );?>
 
 
 <?php get_footer(); ?>
