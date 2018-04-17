@@ -100,7 +100,7 @@ $('.case_results_slider').slick({
   mobileFirst: true,
   dots:false,
   arrows:true,
-  fade:true,
+ 
   prevArrow:".mobile_back_button",
   nextArrow:".mobile_next_button",
   slide: ".case_results_single_slide",
