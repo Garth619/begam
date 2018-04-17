@@ -5465,15 +5465,26 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/wp-content\/themes\/begam\/images\/content-attorney-group-laptop.jpg": {
+		"ft": 16384,
+		"iS": 123581,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/images\/content-attorney-group-laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/wp-content\/themes\/begam\/images\/content-attorney-group-tablet.jpg": {
 		"ft": 16384,
-		"iS": 377002,
+		"iS": 110176,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/images\/content-attorney-group-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/wp-content\/themes\/begam\/images\/content-video-thumb.jpg": {

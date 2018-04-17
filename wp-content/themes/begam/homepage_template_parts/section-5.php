@@ -4,7 +4,9 @@
 	
 		<div class="sec_five_img_wrapper">
 		
-			<img src="<?php bloginfo('template_directory');?>/images/content-attorney-group-desktop.jpg"/>
+			<img class="desktop_image" src="<?php bloginfo('template_directory');?>/images/content-attorney-group-desktop.jpg"/>
+			
+			<img class="laptop_image" src="<?php bloginfo('template_directory');?>/images/content-attorney-group-laptop.jpg"/>
 		
 		</div><!-- sec_five_img_wrapper -->
 		
