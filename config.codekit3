@@ -5952,10 +5952,21 @@
 		},
 	"\/wp-content\/themes\/begam\/images\/reviews-desert-cactus-desktop.jpg": {
 		"ft": 16384,
-		"iS": 148295,
+		"iS": 149265,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/images\/reviews-desert-cactus-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/wp-content\/themes\/begam\/images\/reviews-desert-cactus-laptop.jpg": {
+		"ft": 16384,
+		"iS": 99221,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/images\/reviews-desert-cactus-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

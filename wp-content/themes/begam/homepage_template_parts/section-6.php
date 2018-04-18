@@ -49,7 +49,9 @@
 			
 			<div class="reviews_img_wrapper">
 			
-				<img src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-desktop.jpg"/>
+				<img class="desktop_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-desktop.jpg"/>
+				
+				<img class="laptop_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-laptop.jpg"/>
 			
 			</div><!-- reviews_img_wrapper -->
 			
