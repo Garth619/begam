@@ -136,7 +136,19 @@ $('.reviews_slider').slick({
 
 
 
+// form animation madness
 
+
+
+
+
+$('.gform_wrapper li').on('click', function(e) {
+  
+
+	$(this).addClass('clicked');
+
+
+});
 
 
 
