@@ -405,3 +405,24 @@ span.sec_six_title {
 	
 	
 } /* Media Query */
+
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	#section_six {
+		padding:0 90px 120px;
+		&:after {
+			width:382px;
+		}
+	}
+	
+	.reviews_single_slide {
+		padding-left:65px;
+		padding-right:65px;
+	}
+	
+	
+} /* Media Query */
