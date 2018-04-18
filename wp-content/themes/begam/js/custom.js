@@ -144,7 +144,10 @@ $('.reviews_slider').slick({
 
 $('.gform_wrapper li').on('click', function(e) {
   
-
+	
+	
+	$('.gform_wrapper li').removeClass('clicked');
+	
 	$(this).addClass('clicked');
 
 
@@ -155,6 +158,75 @@ $('.gform_wrapper li').on('click', function(e) {
 
 
 
+
+
+function checkForInput(element) {
+  // element is passed to the function 
+  
+  const $label = $(element).parents('.gform_wrapper li');
+
+  if ($(element).val().length > 0) {
+    $label.addClass('input_has_value');
+  } else {
+    $label.removeClass('input_has_value');
+  }
+}
+
+// The lines below are executed on page load
+$('input').each(function() {
+  checkForInput(this);
+});
+
+// The lines below (inside) are executed on change & keyup
+$('input').on('change keyup', function() {
+  checkForInput(this);  
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function checkForInput() {
+  // element is passed to the function ^
+  
+//   const $label = $(element).siblings('label');
+
+  if ($('input').val().length > 0) {
+    
+    $(this).parents('li').addClass('input_has_value');
+  
+  } else {
+    
+    $('input').removeClass('input_has_value');
+  
+  }
+}
+
+
+// The lines below are executed on page load
+$('input').each(function() {
+  
+  checkForInput(this);
+
+});
+
+// The lines below (inside) are executed on change & keyup
+$('input').on('change keyup', function() {
+  
+  checkForInput(this);  
+
+});
+*/
 
 
 }); // document ready
