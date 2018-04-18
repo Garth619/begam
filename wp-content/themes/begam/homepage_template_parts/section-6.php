@@ -3,6 +3,7 @@
 	<div class="sec_six_inner">
 		
 		
+		
 		<span class="sec_six_title">Client Reviews</span><!-- sec_six_title -->
 		
 		<div class="sec_six_boxes_wrapper">
@@ -52,6 +53,8 @@
 				<img class="desktop_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-desktop.jpg"/>
 				
 				<img class="laptop_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-laptop.jpg"/>
+				
+				<img class="tablet_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-tablet.jpg"/>
 			
 			</div><!-- reviews_img_wrapper -->
 			

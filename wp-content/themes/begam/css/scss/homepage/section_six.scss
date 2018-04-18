@@ -5,6 +5,7 @@
 	padding-bottom: 149px;
 	padding-left:62px;
 	padding-right:62px;
+	overflow: hidden;
 }
 
 .sec_six_inner {
@@ -57,7 +58,7 @@ span.sec_six_title {
 		bottom:-175px;
 		right:-120px;
 	}
-	img.laptop_image {
+	img.laptop_image, img.tablet_image {
 		display: none;
 	}
 	img {
@@ -127,9 +128,9 @@ span.client_name {
 
 .reviews_buttons {
 	display: flex;
-	margin-top:-90px;
-	float:right;
-	position: relative;
+	bottom:0px;
+	right:0;
+	position: absolute;
 	z-index:4;
 	cursor: pointer;
 	.reviews_back,.reviews_next {
@@ -228,9 +229,6 @@ a.review_view_more {
 	}
 }
 
-.reviews_buttons {
-	margin-top: -62px;
-}
 
 
 
@@ -289,3 +287,121 @@ span.sec_six_title {
 
 
 
+@media screen and (max-width: 1350px) {
+	
+	
+	
+	
+	.reviews_img_wrapper {
+		&:after {
+			width: 593px;
+		}
+		img {
+			margin-left:50px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+
+@media screen and (max-width: 1315px) {
+	
+	
+	
+	
+	
+	.reviews_wrapper {
+		max-width: 897px;
+	}
+	
+	
+	.reviews_single_slide {
+    padding: 83px 3%;
+	}
+	
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1200px) {
+	
+	
+	#section_six {
+		padding:0 0 100px;
+		position: relative;
+		&:before {
+			content:"";
+			display: block;
+			background: url(#{$themePath}images/reviews-desert-cactus-tablet.jpg) top left no-repeat;
+			background-size:cover;
+			width:100%;
+			height:612px;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		&:after {
+			content:"";
+			display: block;
+			width:500px;
+			height:325px;
+			background: $gold;
+			position: absolute;
+			top:612px;
+			right:0;
+		}
+	}
+	
+	
+	.sec_six_inner {
+    max-width: 717px;
+    margin: 0 auto;
+	}
+	
+	
+	
+	.reviews_wrapper {
+		margin-left:auto;
+		margin-right:auto;
+		max-width: 767px;
+		height: 589px;
+	}
+	
+	
+	.reviews_img_wrapper {
+		display: none;
+	}
+	
+	
+	span.sec_six_title {
+		position: relative;
+		z-index: 3;
+		color:#fff;
+		font-size:113px;
+		text-align: right;
+		padding: 108px 0 0;
+		
+	}
+	
+	.reviews_single_slide {
+		padding: 60px 3%;
+		span.reviews_slide_content {
+			font-size:40px;
+			line-height: 62px;
+		}
+	}
+	
+
+	
+	
+} /* Media Query */
