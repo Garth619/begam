@@ -15,6 +15,91 @@
 		
 	</div><!-- form_outer -->
 	
+	<div class="footer_location_wrapper">
+		
+		<div class="footer_location_inner">
+			
+			<div class="location_left">
+				
+				<div class="copyright_wrapper">
+				
+					<img class="att_image" src="<?php bloginfo('template_directory');?>/images/footer-image-desktop.jpg"/>
+				
+					<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
+					
+						<?php echo file_get_contents("wp-content/themes/begam/images/new_ilawyer.svg"); ?>
+					
+					</a>
+					
+					<ul>
+						<li>&copy;<?php echo date("Y"); ?> Begam Marks & Traulsen, P.A. All Rights Reserved.</li>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Disclaimer</a></li>
+					</ul>
+				
+				</div><!-- copyright_wrapper -->
+				
+			</div><!-- location_left -->
+			
+			<div class="location_right">
+				
+				
+				<?php echo file_get_contents("wp-content/themes/begam/images/new_teal_pattern.svg"); ?>
+				
+				<a class="address" href="" target="_blank">
+					
+					11201 N. Tatum Blvd. 
+					Suite #110<br/>
+					Phoenix, AZ 85028
+				
+				</a><!-- address -->
+				
+				<a class="tel" href="tel:(602) 254-6071">(602) 254-6071</a>
+				
+				<a class="directions" href="" target="_blank">Directions</a>
+				
+				<div class=""></div>
+				
+			</div><!-- location_right -->
+			
+			<div class="social_wrapper">
+				
+				<a class="" href="">
+					
+					<?php echo file_get_contents("wp-content/themes/begam/images/new_google.svg"); ?>
+					
+				</a>
+				
+				<a class="" href="">
+					
+					<?php echo file_get_contents("wp-content/themes/begam/images/new_facebook.svg"); ?>
+					
+				</a>
+				
+				<a class="" href="">
+					
+					<?php echo file_get_contents("wp-content/themes/begam/images/new_twitter.svg"); ?>
+					
+				</a>
+				
+				<a class="" href="">
+					
+					<?php echo file_get_contents("wp-content/themes/begam/images/new_linkedin.svg"); ?>
+					
+				</a>
+				
+				<div class="scroll_to_top">
+					
+					<?php echo file_get_contents("wp-content/themes/begam/images/new_arrow.svg"); ?>
+					
+				</div><!-- scroll_to_top -->
+				
+			</div><!-- social_wrapper -->
+			
+		</div><!-- footer_location_inner -->
+		
+	</div><!-- footer_location_wrapper -->
+	
 </footer>
 
 <?php wp_footer();?>

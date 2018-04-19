@@ -7928,6 +7928,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/begam\/css\/scss\/_footer_location.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/css\/scss\/_footer_location.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/begam\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -8844,6 +8857,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/begam\/images\/new_arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/begam\/images\/new_car.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -8864,6 +8887,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/begam\/images\/new_facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/begam\/images\/new_gold_pattern.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -8874,11 +8907,41 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/begam\/images\/new_google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/begam\/images\/new_heart.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_ilawyer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_ilawyer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_linkedin.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -8959,6 +9022,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_steth.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_teal_pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_teal_pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

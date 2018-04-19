@@ -1,0 +1,173 @@
+
+.footer_location_inner {
+	display: flex;
+	position: relative;
+}
+
+
+.location_left {
+	flex-basis:1105px;
+	margin-top:-200px;
+	&:after {
+		content:"";
+		width:500px;
+		height:689px;
+		background: $gold;
+		display: block;
+		max-width:916px;
+		width:90%;
+	}
+	.copyright_wrapper {
+		float:right;
+		margin:120px 0 0;
+		img.att_image {
+			display: block;
+		}
+		a.ilawyer {
+			margin-top:40px;
+			display: inline-block;
+			svg {
+				width:236px;
+				height:auto;
+				.laptop_image-cls-1 {
+					fill:#000;
+				}
+			}
+		}
+		ul {
+			list-style: none;
+			margin:15px 0 40px;
+			display: block;
+			
+			li {
+				display: inline-block;
+				font-family: $mulisemibold;
+				font-size: 13px;
+				line-height: 16px;
+				letter-spacing: 0.055em;
+				margin:0 20px 0 0;
+				a {
+					color:#000;
+					transition: all .2s ease-in-out;
+					text-decoration: none;
+					&:hover {
+						color:$gold;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+.location_right {
+	padding:163px 0 0 6%;
+	flex-grow: 1;
+	
+	svg#teal_pattern {
+		width:337px;
+		display:block;
+		margin-bottom:42px;
+		margin-left:-232px;
+	}
+	a.address, a.tel {
+		font-family: $actamedium;
+		font-size:40px;
+		line-height: 50px;
+		color:$bluedark;
+		text-decoration: none;
+		display: block;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:$teal;
+		}
+	}
+	a.address {
+		max-width:377px;
+		
+	}
+	a.tel {
+		margin:25px 0 0 0;
+	}
+	a.directions {
+		color:$gold;
+		display: inline-block;
+		margin:45px 0 0;
+		text-transform: lowercase;
+		font-family: $ats;
+		font-size:35px;
+		text-decoration: none;
+		transition: all .2s ease-in-out;
+		&:after {
+			content:"";
+			width:100%;
+			height:2px;
+			background: $gold;
+			display: block;
+			transition: all .2s ease-in-out;
+		}
+		&:hover {
+			color:$teal;
+			&:after {
+				background:$teal;
+			}
+		}
+	}
+}
+
+
+.social_wrapper {
+	position: absolute;
+	bottom:0;
+	right:30px;
+	margin:0 0 34px;
+	a {
+		text-decoration: none;
+		display: inline-block;
+		margin:0 0 0 28px;
+		&:hover {
+			svg {
+				path {
+					fill:$teal;
+				}
+			}
+		}
+		svg {
+			height:16px;
+			path {
+				fill:#111627;
+				transition: all .2s ease-in-out;
+			}
+		}
+		svg#google {
+			
+		}
+		svg#facebook {
+			
+		}
+		svg#twitter {
+			
+		}
+		svg#linkedin {
+			
+		}
+	}
+}
+
+
+
+.scroll_to_top {
+	display: inline-block;
+	background: #f2eeea;
+	width:80px;
+	height:80px;
+	display: inline-block;
+	margin-lefT:20px;
+	svg {
+		height:39px;
+		width:auto;
+		margin:20px 0 0 30px;
+	}
+}
