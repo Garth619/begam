@@ -173,12 +173,12 @@ function checkForInput(element) {
 }
 
 // The lines below are executed on page load
-$('input').each(function() {
+$('.gform_wrapper li input, .gform_wrapper li textarea').each(function() {
   checkForInput(this);
 });
 
 // The lines below (inside) are executed on change & keyup
-$('input').on('change keyup', function() {
+$('.gform_wrapper li input, .gform_wrapper li textarea').on('change keyup', function() {
   checkForInput(this);  
 });
 

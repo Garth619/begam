@@ -4,7 +4,7 @@ footer {
 
 .form_outer {
 	background: $bluedark;
-	padding-bottom:330px;
+	padding-bottom:280px;
 }
 
 
@@ -12,6 +12,11 @@ footer {
 	max-width:1354px;
 	padding:0 67px;
 	margin:0 auto;
+	&:after {
+		content:"";
+		clear:both;
+		display: block;
+	}
 	span.free_title {
 		font-family: $ats;
 		color:#c08e4e;
@@ -31,7 +36,7 @@ footer {
 		font-family: $muliblack;
 		font-size:11px;
 		letter-spacing: 0.5em;
-		margin:25px 0 0;
+		margin:-55px 0 0;
 		display: block;
 		span {
 			color:$teal;
@@ -48,29 +53,30 @@ footer {
 		ul {
 			li.input_has_value.clicked {
 				label {
-					border-bottom:3px solid transparent;
+					border-bottom:4px solid transparent;
 					
 				}
-				input {
-					border-bottom:3px solid transparent;
+				input, textarea {
+					border-bottom:4px solid transparent;
+					padding-left:23px;
 				}
 			}
 			li.input_has_value {
 				label {
 					padding-top:0;
-					border-bottom:3px solid transparent;
+					border-bottom:4px solid transparent;
 				}
-				input {
+				input, textarea {
 					opacity: 1;
-					border-bottom:3px solid $teal;
-					
+					border-bottom:4px solid $teal;
+					padding-left:0px;
 				}
 			}
 			li.clicked {
 				label {
 					position: relative;
 					padding-top:0;
-					border-bottom: 3px solid transparent;
+					border-bottom: 4px solid transparent;
 					transition-delay: 0ms, 200ms;
 				}
 				input,textarea {
@@ -90,6 +96,11 @@ footer {
 footer {
 	.gform_wrapper {
 		margin:25px 0 0;
+		&:after {
+				content:"";
+				clear:both;
+				display: block;
+			}
 		.gfield_description, .validation_message {
 			top:117px;
 			position: absolute;
@@ -115,6 +126,7 @@ footer {
 			display: flex;
 			flex-wrap:wrap;
 			justify-content: space-between;
+			
 			li#field_1_5 {
 				flex-basis: 100%;
 				height: 127px;
@@ -139,7 +151,7 @@ footer {
 					font-size:18px;
 					font-family: $muliextrabold;
 					letter-spacing: 0.05em;
-					border-bottom:3px solid #fff;
+					border-bottom:4px solid #fff;
 					color:#fff;
 					display: block;
 					position: absolute;
@@ -166,7 +178,7 @@ footer {
 				input, textarea {
 					background: transparent;
 					border:none;
-					border-bottom:3px solid transparent;
+					border-bottom:4px solid transparent;
 					width:100%;
 					font-size: 30px;
 					font-family:$actabookitalic;
@@ -180,7 +192,7 @@ footer {
 				select {
 					background: transparent;
 					border:none;
-					border-bottom:3px solid #fff;
+					border-bottom:4px solid #fff;
 					width:100%;
 					-webkit-appearance: none;
 					border-radius:0;
@@ -211,10 +223,12 @@ footer {
 @media screen and (max-width: 1450px) {
 	
 	
-	
+	footer .gform_wrapper {
+    margin: 13px 0 0;
+	}
 	
 	.form_outer {
-		padding-bottom: 276px;
+		padding-bottom: 226px;
 	}
 	
 	.form_inner {
@@ -241,17 +255,22 @@ footer {
 }
 
 .form_outer {
-	
+	padding-bottom: 150px;
 }
 
 
 .form_inner {
 	
 	span.free_title {
-		padding: 103px 0 0;
+		padding: 110px 0 0;
+		font-size:140px;
+		line-height: 140px;
+		max-width:570px;
+		margin-left:auto;
+		margin-right:auto;
 	}
 	span.my_required {
-	
+		margin: 12px 0 0;
 		span {
 			
 		}
@@ -270,7 +289,8 @@ footer {
 					
 				}
 				input, textarea {
-					border-bottom: 3px solid $teal;
+					border-bottom: 4px solid $teal;
+					padding-left:0;
 				}
 			}
 			li.input_has_value {
@@ -284,11 +304,11 @@ footer {
 			}
 			li.clicked {
 				label {
-					border-bottom:3px solid $teal;
+					border-bottom:4px solid $teal;
 				}
 				input,textarea {
 					box-shadow:none;
-					border-bottom: 3px solid $teal;
+					border-bottom: 4px solid $teal;
 				}
 			}
 		}
@@ -302,12 +322,13 @@ footer {
 
 footer {
 	.gform_wrapper {
-		margin: 11px 0 0;
+		margin: 32px 0 0;
 		.gfield_description, .validation_message {
-			
+			top: 76px;
 		}
 		input[type="submit"] {
-			
+			font-size:20px;
+			padding: 22px 47px;
 			&:hover {
 				
 			}
@@ -352,7 +373,7 @@ footer {
 					font-size:26px;
 					//background:blue;
 					height: 45px;
-					padding-left:4px;
+					padding-left:0px;
 				}
 				
 				select {
@@ -365,12 +386,114 @@ footer {
 
 
 
+	
+	
+} /* Media Query */
 
 
 
 
 
+@media screen and (max-width: 767px) {
+	
+	
+	
+	.form_outer {
+    padding-bottom: 165px;
+	}
+	
+	
+	
+.form_inner {
+	padding-left:31px;
+	padding-right:31px;
+	max-width:530px;
+	span.free_title {
+		font-size:70px;
+		line-height: 70px;
+		max-width:320px;
+		display: block;
+		padding: 68px 0 0;
+	}
+	span.my_required {
+		margin: -110px 0 0;
+		span {
+			
+		}
+	}
+}
+
+
+
+
+
+footer {
+	.gform_wrapper {
+		
+		.gfield_description, .validation_message {
+			
+		}
+		input[type="submit"] {
+			float:none;
+			display: block;
+			width:100%;
+			max-width:259px;
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:30px;
+			&:hover {
+				
+			}
+		}
+		ul {
+			
+			li#field_1_5 {
+				height: 81px;
+				.gfield_description, .validation_message {
+					top: 97px;
+					right:0;
+				}
+				.ginput_container {
+					 
+				}
+				label {
+					// background:blue;
+					height: 81px;
+				}
+				textarea {
+					height: 52px;
+					
+				}
+			}
+			li {
+				flex-basis: 100%;
+// 				background:blue;
+				margin-bottom: 14px;
+				label {
+					font-size:15px;
+					span.gfield_required {
+						
+					}
+				}
+				.ginput_container {
+					
+				}
+				input, textarea {
+					
+				}
+				
+				select {
+					
+				}
+			}
+		}
+	}
+}
+
+
+	
 	
 	
 	
 } /* Media Query */
+
