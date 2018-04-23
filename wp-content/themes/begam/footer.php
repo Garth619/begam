@@ -28,7 +28,7 @@
 					<img class="att_image mobile" src="<?php bloginfo('template_directory');?>/images/test_image.jpg"/>
 				
 					
-					<div class="copyright_tablet">
+					<div class="copyright_desktop">
 					
 						<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 					
@@ -42,7 +42,7 @@
 							<li><a href="">Disclaimer</a></li>
 						</ul>
 					
-					</div><!-- copyright_tablet -->
+					</div><!-- copyright_desktop -->
 				
 				</div><!-- copyright_wrapper -->
 				
@@ -116,6 +116,26 @@
 				</div><!-- scroll_to_top -->
 				
 			</div><!-- social_wrapper -->
+			
+			<div class="copyright_mobile">
+				
+				<div class="copyright_mobile_inner">
+					
+						<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
+					
+							<?php echo file_get_contents("wp-content/themes/begam/images/new_ilawyer.svg"); ?>
+					
+						</a>
+					
+						<ul>
+							<li>&copy;<?php echo date("Y"); ?> Begam Marks & Traulsen, P.A.<br/> All Rights Reserved.</li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Disclaimer</a></li>
+						</ul>
+					
+					</div><!-- copyright_mobile_inner -->
+					
+				</div><!-- copyright_mobile -->
 	
 </footer>
 
