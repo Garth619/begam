@@ -531,3 +531,88 @@
 	
 	
 } /* Media Query */
+
+
+
+
+
+@media screen and (max-width: 767px) {
+	
+	.footer_location_inner {
+		display: block;
+	}
+	
+	.location_left {
+		display: none;
+	}
+	
+	.location_right {
+		text-align: center;
+		padding-left:0;
+		padding-top: 44px;
+		svg#teal_pattern {
+			display: none;
+		}
+		a.address {
+			margin-left:auto;
+			margin-right:auto;
+		}
+		a.address, a.tel {
+			font-size:27px;
+			line-height: 39px;
+		}
+	}
+	
+	
+	.scroll_to_top {
+		display: none;
+	}
+	
+	.social_wrapper {
+		display: block;
+		margin: 52px 0 32px;
+		a {
+			svg {
+				height:16px;
+			}
+		}
+	}
+	
+	.tablet_center {
+		width:100%;
+		margin:0;
+		float:none;
+		display: block;
+		text-align: center;
+		max-width:100%;
+	}
+	
+	.social_icons {
+		
+	}
+	
+	
+	.copyright_mobile {
+		a.ilawyer {
+    	margin-top: 29px;
+			display: inline-block;
+		}
+		ul {
+			 margin: 11px auto 40px;
+			 max-width: 285px;
+			 li {
+				 line-height: 16px;
+				 &:first-of-type {
+					 margin-right:0;
+				 }
+				 br {
+					 display: inline-block;
+				 }
+			 }
+		}
+	}
+	
+	
+   
+	
+} /* Media Query */
