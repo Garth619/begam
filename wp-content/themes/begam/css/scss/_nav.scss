@@ -19,8 +19,8 @@ nav {
 						display: block;
 						background: $teal;
 						position: absolute;
-						top:14px;
-						right:0px;
+						top:19px;
+						right:-10px;
 						transform: rotate(-45deg);
 				}
 			}
@@ -103,6 +103,7 @@ nav.open {
 	background: $bluedark;
 	flex-basis: 33.3333%;
 	transform: translateX(-100%);
+	overflow-y: scroll;
 }
 
 
@@ -111,6 +112,7 @@ nav.open {
 	flex-basis: 66.6666%;
 	display: flex;
 	transform: translateX(100%);
+	
 }
 
 .nav_left, .nav_right {
@@ -142,21 +144,143 @@ nav.open {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding:0 45px;
+	padding:0 55px;
+	overflow-y: scroll;
 }
 
 .nav_col_one {
 	background:#fff;
-	.menu-header {
+}
+
+nav {
+	.menu-header, .submenu_container {
 		width:100%;
 		max-width:345px;
 	}
-	
 }
+
 
 
 .nav_col_two {
 	background: #f6f1eb;
 }
 
+
+
+@media screen and (max-width: 1675px) {
+	
+	
+	
+	
+	.nav_left {
+		flex-basis: 555px;
+		flex-shrink: 0;
+	}
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	nav {
+		ul {
+			li {
+				font-size:34px;
+				a {
+					
+				}
+			}
+		}
+	}
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1315px) {
+	
+	nav {
+		display: block;
+		background: #fff;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+		ul.menu {
+			margin-top:70px;
+			padding-bottom:100px;
+			> li {
+					border-bottom:1px solid #ebebeb;
+			}
+		}
+		ul {
+			li.menu-item-has-children {
+				> a {
+						&:before {
+							right:-185px;
+							
+							position: relative;
+							margin:0 auto;
+						}
+				}
+			}
+			li {
+				font-size:25px;
+				margin-bottom:0;
+				line-height: 31px;
+				
+				a {
+					padding:24px 40px;
+					max-width: 400px;
+					margin-left:auto;
+					margin-right:auto;
+					
+				}
+			}
+		}
+		ul.sub-menu {
+			display: block;
+			> li {
+					border-top:1px solid #ebebeb;
+			}
+		}
+	}
+	
+	.nav_left, .nav_col_two {
+		display: none;
+	}
+	
+	.nav_right {
+		width:100%;
+		transform: translateX(0);
+		text-align: center;
+		display: block;
+		
+	}
+	
+	
+	.nav_col_one {
+		background: transparent;
+		padding:0;
+	}
+	
+	
+nav {
+	.menu-header, .submenu_container {
+		width:100%;
+		max-width:100%;
+	}
+}
+
+
+.close {
+	width:78px;
+	height:78px;
+}
+	
+	
+	
+} /* Media Query */
 
