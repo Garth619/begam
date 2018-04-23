@@ -100,5 +100,44 @@
 	
 </header>
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+<nav>
+	
+	
+	
+	<div class="nav_left">
+		
+		
+		
+		
+	</div><!-- nav_left -->
+	
+	<div class="nav_right">
+		
+		<div class="close"></div><!-- close -->
+		
+		<div class="nav_col_one">
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'main_menu' ) ); ?>
+			
+		</div><!-- nav_col_one -->
+		
+		<div class="nav_col_two">
+			
+			<div class="submenu_container"></div><!-- submenu_container -->
+			
+		</div><!-- nav_col_two -->
+		
+		
+	</div><!-- nav_right -->
+	
+	
+</nav>
+
+<div class="start_button">
+	
+	Start Here
+	
+</div><!-- start_button -->
+
+
 			

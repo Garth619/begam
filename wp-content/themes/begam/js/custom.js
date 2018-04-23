@@ -69,6 +69,50 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
 
 
+createWaypoint("section_two", ".start_button", "visible", 300, null, true);
+
+
+
+// menu
+
+
+
+$('nav li.menu-item-has-children > a').on('click', function(e) {
+  
+
+	$(".submenu_container").empty();
+
+	$(this).next('ul.sub-menu').clone().appendTo('.submenu_container').fadeIn();
+	
+
+});
+
+$('.menu_wrapper').on('click', function(e) {
+  
+
+	$('nav').addClass('open');
+
+
+});
+
+$('.close').on('click', function(e) {
+	
+	
+	$('nav').addClass('remove');
+  
+
+
+	$('nav').delay(1500).queue(function(){
+     
+		$(this).removeClass('open remove').dequeue();
+  
+	});
+
+
+
+});
+
+
 
 
 
