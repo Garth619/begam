@@ -23,19 +23,26 @@
 				
 				<div class="copyright_wrapper">
 				
-					<img class="att_image" src="<?php bloginfo('template_directory');?>/images/footer-image-desktop.jpg"/>
+					<img class="att_image desktop" src="<?php bloginfo('template_directory');?>/images/footer-image-desktop.jpg"/>
+					
+					<img class="att_image mobile" src="<?php bloginfo('template_directory');?>/images/test_image.jpg"/>
 				
-					<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 					
-						<?php echo file_get_contents("wp-content/themes/begam/images/new_ilawyer.svg"); ?>
+					<div class="copyright_tablet">
 					
-					</a>
+						<a class="ilawyer" href="//ilawyermarketing.com" target="_blank">
 					
-					<ul>
-						<li>&copy;<?php echo date("Y"); ?> Begam Marks & Traulsen, P.A. All Rights Reserved.</li>
-						<li><a href="">Privacy Policy</a></li>
-						<li><a href="">Disclaimer</a></li>
-					</ul>
+							<?php echo file_get_contents("wp-content/themes/begam/images/new_ilawyer.svg"); ?>
+					
+						</a>
+					
+						<ul>
+							<li>&copy;<?php echo date("Y"); ?> Begam Marks & Traulsen, P.A.<br/> All Rights Reserved.</li>
+							<li><a href="">Privacy Policy</a></li>
+							<li><a href="">Disclaimer</a></li>
+						</ul>
+					
+					</div><!-- copyright_tablet -->
 				
 				</div><!-- copyright_wrapper -->
 				
@@ -62,31 +69,45 @@
 				
 			</div><!-- location_right -->
 			
-			<div class="social_wrapper">
+			
+			
+		</div><!-- footer_location_inner -->
+		
+	</div><!-- footer_location_wrapper -->
+	
+	<div class="social_wrapper">
 				
-				<a class="" href="">
+				<div class="social_icons">
 					
-					<?php echo file_get_contents("wp-content/themes/begam/images/new_google.svg"); ?>
-					
-				</a>
+					<div class="tablet_center">
 				
-				<a class="" href="">
+						<a class="" href="">
+							
+							<?php echo file_get_contents("wp-content/themes/begam/images/new_google.svg"); ?>
+							
+						</a>
+						
+						<a class="" href="">
+							
+							<?php echo file_get_contents("wp-content/themes/begam/images/new_facebook.svg"); ?>
+							
+						</a>
+						
+						<a class="" href="">
+							
+							<?php echo file_get_contents("wp-content/themes/begam/images/new_twitter.svg"); ?>
+							
+						</a>
+						
+						<a class="" href="">
+							
+							<?php echo file_get_contents("wp-content/themes/begam/images/new_linkedin.svg"); ?>
+							
+						</a>
 					
-					<?php echo file_get_contents("wp-content/themes/begam/images/new_facebook.svg"); ?>
-					
-				</a>
+					</div><!-- tablet_center -->
 				
-				<a class="" href="">
-					
-					<?php echo file_get_contents("wp-content/themes/begam/images/new_twitter.svg"); ?>
-					
-				</a>
-				
-				<a class="" href="">
-					
-					<?php echo file_get_contents("wp-content/themes/begam/images/new_linkedin.svg"); ?>
-					
-				</a>
+				</div><!-- social_icons -->
 				
 				<div class="scroll_to_top">
 					
@@ -95,10 +116,6 @@
 				</div><!-- scroll_to_top -->
 				
 			</div><!-- social_wrapper -->
-			
-		</div><!-- footer_location_inner -->
-		
-	</div><!-- footer_location_wrapper -->
 	
 </footer>
 
