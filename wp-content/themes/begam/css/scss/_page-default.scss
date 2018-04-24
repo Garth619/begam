@@ -1,0 +1,48 @@
+body:not(.page-template-page-home) {
+	.menu_wrapper {
+		margin:0;
+		height: 105px;
+		width: 109px;
+		background: $teal;
+		padding: 31px 27px 0;
+	}
+}
+
+
+
+.internal_banner {
+	width:100%;
+	height:690px;
+	background: url(#{$themePath}images/hero-internal.jpg) top left no-repeat;
+}
+
+
+
+.internal_banner_inner {
+	text-align: center;
+	span.banner_title {
+		color:#fff;
+		font-family: $ats;
+		text-transform: lowercase;
+		font-size:120px;
+		display: block;
+		padding:290px 0 0;
+		letter-spacing: -0.015em;
+	}
+	span.internal_consult {
+		background: $teal;
+		color:#fff;
+		text-transform: lowercase;
+		font-family: $actabold;
+		font-size:30px;
+		padding:31px 72px 23px;
+		display: inline-block;
+		margin-top:10px;
+		transition: all 200ms ease-in-out;
+		letter-spacing: 0.05em;
+		cursor: pointer;
+		&:hover {
+			background: $gold;
+		}
+	}
+}

@@ -79,11 +79,6 @@ createWaypoint("section_two", ".start_button", "visible", 300, null, true);
 
 
 
-$('.menu_wrapper').on('click', function(e) {
-	
-	$('nav').slideToggle();
-  
-});
 
 
 
@@ -95,6 +90,14 @@ $('.menu_wrapper').on('click', function(e) {
 	function checkwidthmenu() {
     
     if (windowWidth < 1315) {
+	    
+	    
+	    $('.menu_wrapper').on('click', function(e) {
+	
+				$('nav').slideToggle();
+  
+			});
+
 
 
     	$('.close').on('click', function(e) {
@@ -121,6 +124,13 @@ $('.menu_wrapper').on('click', function(e) {
     } 
     
     else {
+	    
+	    $('.menu_wrapper').on('click', function(e) {
+	
+				$('nav').addClass('open');
+  
+			});
+
 	    
 	    $('nav li.menu-item-has-children > a').on('click', function(e) {
   
