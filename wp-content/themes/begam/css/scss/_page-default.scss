@@ -66,13 +66,14 @@ body:not(.page-template-page-home) {
 	flex-shrink:0;
 	padding-left:76px;
 	.sidebar.pa_sidebar {
+		padding-top:45px;
 		&:before {
 			top:70px;
 		}
 	}
 	.sidebar {
 		background: #f2eeea;
-		padding:75px 66px 55px;
+		padding:75px 0px 55px;
 		position: relative;
 		margin-bottom:56px;
 		&:before {
@@ -90,10 +91,19 @@ body:not(.page-template-page-home) {
 			text-transform: lowercase;
 			font-family: $ats;
 			font-size:40px;
+			padding:0 66px;
 			margin:0 0 17px;
 		}
 		ul.menu {
+			li.menu-item-has-children.open {
+				background: #f6f3ee;
+				margin-bottom: 0;
+				> a {
+						color:$gold;
+				}
+			}
 			li.menu-item-has-children {
+				
 				> a {
 						position: relative;
 						display: block;
@@ -104,7 +114,7 @@ body:not(.page-template-page-home) {
 							display: block;
 							position: absolute;
 							top:9px;
-							right:-10px;
+							right:40px;
 							width: 0; 
 							height: 0; 
 							border-left: 5px solid transparent;
@@ -113,24 +123,40 @@ body:not(.page-template-page-home) {
 						}
 				}
 			}
-			li {
-				text-transform: uppercase;
-				font-family: $muliblack;
-				letter-spacing: 0.15em;
-				margin-bottom:45px;
-				font-size: 14px;
-				line-height: 24px;
+			> li {
+					text-transform: uppercase;
+					font-family: $muliblack;
+					letter-spacing: 0.15em;
+					margin-bottom:20px;
+					font-size: 14px;
+					line-height: 24px;
+					padding:30px 0 0;
+				a {
+					&:hover {
+						text-decoration: none;
+					}
+				}
 			}
 		}
 		ul.sub-menu {
 			max-height: 0;
 			opacity: 0;
 			visibility: hidden;
+			padding:0px;
+			li {
+				text-transform: capitalize;
+				margin-bottom:50px;
+			&:last-of-type {
+				margin-bottom:0
+			}
+				
+			}
 		}
 		ul.sub-menu.open {
 			max-height: 3000px;
 			opacity: 1;
 			visibility: visible;
+			padding: 21px 0;
 		}
 		ul {
 			list-style: none;
@@ -145,9 +171,12 @@ body:not(.page-template-page-home) {
 					text-decoration: none;
 					transition: all 200ms linear;
 					border-bottom:1px solid transparent;
+					padding:0 66px;
+					display: block;
 					&:hover {
 						color:$gold;
-						border-bottom:1px solid $gold;
+						text-decoration: underline;
+						//border-bottom:1px solid $gold;
 					}
 				}
 			}

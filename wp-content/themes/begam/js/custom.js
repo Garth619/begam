@@ -71,8 +71,6 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
 
 
-
-
 // menu
 
 
@@ -179,7 +177,9 @@ checkwidthmenu();
 $('.pa_sidebar ul > li.menu-item-has-children > a').on('click', function(e) {
   
 
-	$(this).next('ul.sub-menu').addClass('open');
+	$(this).next('ul.sub-menu').toggleClass('open');
+	
+	$(this).parent('li.menu-item-has-children').toggleClass('open');
 
 
 });
