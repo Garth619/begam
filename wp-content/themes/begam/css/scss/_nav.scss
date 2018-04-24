@@ -205,12 +205,14 @@ nav {
 @media screen and (max-width: 1315px) {
 	
 	nav {
-		display: block;
+		display: none;
 		background: #fff;
 		overflow-y: scroll;
 		-webkit-overflow-scrolling: touch;
+
 		opacity: 1;
 		visibility: visible;
+
 		ul.menu {
 			margin-top:70px;
 			padding-bottom:100px;

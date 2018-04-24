@@ -9340,6 +9340,16 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/begam\/js\/internal-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/js\/internal-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/wp-content\/themes\/begam\/js\/internal.js": {
 		"ft": 64,
 		"ma": 0,
@@ -10144,6 +10154,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/loop.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/page-caseresults.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/page-caseresults.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/begam\/page-home.php": {

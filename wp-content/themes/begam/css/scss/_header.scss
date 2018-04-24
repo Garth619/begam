@@ -137,6 +137,42 @@ a.logo {
 		margin-left:19px;
 	}
 }
+
+
+	header.banner_styles, header.no_banner_styles {
+		position: static;
+		.header_left {
+			background: #fff;
+			flex-basis: 480px;
+			height: 105px;
+			padding: 41px 35px 0;
+			flex-grow: 0;
+			flex-shrink: 0;
+			a.logo {
+				
+				svg {
+					width:398px;
+				}
+			}
+		}
+		.header_right {
+			background:#f2eeea;
+			flex-grow: 1;
+			justify-content: flex-end;
+		}
+		.phone_wrapper {
+			margin: 23px 31px 0 0;
+			span.free {
+				font-size: 32px;
+				margin:0;
+				text-align: right;
+			}
+			a.phone {
+				color:$bluedark;
+			}
+		}
+	}
+	
 	
 	
 	
@@ -193,6 +229,31 @@ a.logo {
 	
 	
 	
+	header.banner_styles, header.no_banner_styles {
+		
+		.header_left {
+			
+			a.logo {
+				
+				svg {
+					
+				}
+			}
+		}
+		.header_right {
+			
+		}
+		.phone_wrapper {
+			
+			span.free {
+				
+			}
+			a.phone {
+				
+			}
+		}
+	}
+
 	
 } /* Media Query */
 

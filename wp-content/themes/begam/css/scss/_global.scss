@@ -33,37 +33,97 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+
+body:not(.page-template-page-home) {
+	.content {
+		line-height: 30px;
+		h3 {
+			line-height: 30px;
+		}
+		blockquote {
+			&:before {
+				margin-left:-58px;
+			}
+		}
+	}
+	
+}
+	
+
+
 .content {
 	font-family: $mulireg;
 	font-size: 17px;
 	line-height: 35px;
 	color:#616466;
-	
+	h1.default_intro {
+		color:$teal;
+		font-family: $actamedium;
+		font-size:85px;
+		line-height: 90px;
+		margin-bottom:55px;
+	}
 	h2 {
 		color:$gold;
 		font-family: $muliblack;
 		font-size:20px;
 		line-height: 30px;
 		letter-spacing: 0.05em;
-		padding:24px 0 25px;
+		padding:0px 0 28px;
 		display: block;
 	}
 	h3 {
-		color:$gold;
+		
 		text-transform: uppercase;
 		font-family: $muliblack;
 		font-size:16px;
 		line-height: 35px;
 		letter-spacing: 0.2em;
-		padding:5px 0 12px;
+		padding:0px 0 12px;
 		display: block;
+		color:$teal;
 	}
-	p {
+	p, ul {
 		margin-bottom:32px;
 	}
 	a {
 		color:$teal;
 		text-decoration: none;
+	}
+	ul {
+		list-style: none;
+		li {
+			display: block;
+			position: relative;
+			padding-left:20px;
+			margin-bottom:10px;
+			&:before {
+				content:"";
+				display: block;
+				width:6px;
+				height:6px;
+				background: $teal;
+				border-radius: 50%;
+				position: absolute;
+				top:12px;
+				left:0;
+			}
+		}
+	}
+	blockquote {
+		color:$gold;
+		font-size: 38px;
+		font-family:$actamedium;
+		line-height: 60px;
+		padding:20px 0 43px;
+		&:before {
+			content:"";
+			width:118px;
+			height:27px;
+			background: url(#{$themePath}images/new_pattern.svg) top left no-repeat;
+			display: block;
+			margin-bottom:28px;
+		}
 	}
 }
 

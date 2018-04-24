@@ -10,10 +10,13 @@ body:not(.page-template-page-home) {
 
 
 
+
+
 .internal_banner {
 	width:100%;
 	height:690px;
 	background: url(#{$themePath}images/hero-internal.jpg) top left no-repeat;
+	background-size:cover;
 }
 
 
@@ -41,6 +44,7 @@ body:not(.page-template-page-home) {
 		transition: all 200ms ease-in-out;
 		letter-spacing: 0.05em;
 		cursor: pointer;
+		box-shadow: 6.889px 11.025px 48.96px 2.04px rgba(0, 0, 0, 0.45);
 		&:hover {
 			background: $gold;
 		}
@@ -48,15 +52,25 @@ body:not(.page-template-page-home) {
 }
 
 
+
+
+
+
 .internal_main.default {
 	min-height:400px;
 	display: flex;
 	max-width:1730px;
 	margin:0 auto;
-	padding:150px 0 0;
+	padding-top:145px;
 	.container {
 		padding-left:9%;
+		padding-right:76px;
 	}
+}
+
+
+.internal_main {
+	padding-bottom:120px;
 }
 
 
@@ -73,7 +87,7 @@ body:not(.page-template-page-home) {
 	}
 	.sidebar {
 		background: #f2eeea;
-		padding:75px 0px 55px;
+		padding: 75px 0px 41px;
 		position: relative;
 		margin-bottom:56px;
 		&:before {
@@ -143,6 +157,7 @@ body:not(.page-template-page-home) {
 			opacity: 0;
 			visibility: hidden;
 			padding:0px;
+			transition: all 500ms ease-in-out;
 			li {
 				text-transform: capitalize;
 				margin-bottom:50px;
@@ -183,3 +198,28 @@ body:not(.page-template-page-home) {
 		}
 	}
 }
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1150px) {
+	
+	
+	
+	
+	.internal_banner {
+		display: none;
+	}
+	
+	
+	
+} /* Media Query */

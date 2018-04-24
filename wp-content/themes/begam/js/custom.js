@@ -169,6 +169,21 @@ checkwidthmenu();
 
 
 
+// Banner Conditionals for Header Styles
+
+	
+	if ($(".internal_banner")[0]){
+   	
+   	$('body:not(.page-template-page-home) header').addClass('banner_styles');
+   
+  }
+  
+  else {
+	  
+	  $('body:not(.page-template-page-home) header').addClass('no_banner_styles');
+	  
+  }
+
 
 
 // Pa Sidebars
