@@ -28,13 +28,17 @@ img.aligncenter {
 }
 
 
-
+h1, h2, h3, h4, h5, h6 {
+	font-style: normal;
+	font-weight: 300;
+}
 
 .content {
 	font-family: $mulireg;
 	font-size: 17px;
 	line-height: 35px;
 	color:#616466;
+	
 	h2 {
 		color:$gold;
 		font-family: $muliblack;

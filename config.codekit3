@@ -9320,6 +9320,36 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/begam\/js\/home-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/js\/home-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/begam\/js\/home.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/js\/home-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/begam\/js\/internal.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/js\/internal-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
 	"\/wp-content\/themes\/begam\/js\/slick\/.gitignore": {
 		"cB": 0,
 		"ft": 8192,

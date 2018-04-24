@@ -69,7 +69,7 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
 
 
-createWaypoint("section_two", ".start_button", "visible", 300, null, true);
+
 
 
 
@@ -143,14 +143,6 @@ createWaypoint("section_two", ".start_button", "visible", 300, null, true);
 			});
 
 			
-/*
-			$('.menu_wrapper').on('click', function(e) {
-  
-				$('nav').addClass('open');
-
-			});
-*/
-
 			
 			$('.close').on('click', function(e) {
 	
@@ -177,6 +169,20 @@ createWaypoint("section_two", ".start_button", "visible", 300, null, true);
 
 checkwidthmenu();
 
+
+
+
+
+// Pa Sidebars
+
+
+$('.pa_sidebar ul > li.menu-item-has-children > a').on('click', function(e) {
+  
+
+	$(this).next('ul.sub-menu').addClass('open');
+
+
+});
 
 
 
