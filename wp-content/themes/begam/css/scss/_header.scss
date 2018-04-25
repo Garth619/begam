@@ -157,9 +157,8 @@ body:not(.page-template-page-home) {
 			flex-grow: 0;
 			flex-shrink: 0;
 			a.logo {
-				
 				svg {
-					width:398px;
+					width: 100%;
 				}
 			}
 		}
@@ -236,6 +235,11 @@ body:not(.page-template-page-home) {
 		padding: 18px 21px 0;
 	}
 	
+	
+		header.banner_styles, header.no_banner_styles {
+		
+			height:105px;
+		}
 	
 
 
@@ -413,7 +417,7 @@ body:not(.page-template-page-home) {
 	
 	
 	header.banner_styles, header.no_banner_styles {
-		
+		 height: auto;
 		.header_left {
 			flex-basis: 100%;
 			padding:28px 20px;

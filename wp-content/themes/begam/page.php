@@ -43,6 +43,8 @@
 
 <blockquote>Quisque placerat egestas dolor, non elementum purus. Integer convallis lectus quis varius suscipit. Aenean ultrices, turpis eget lacinia pharetra, tellus magna facilisis metus, sit amet finibus velit erat.</blockquote>
 
+<p>Fusce sem eros, eleifend molestie sollicitudin id, tempor rhoncus elit. Donec tempor laoreet nunc nec tempus. Donec in enim a sem faucibus volutpat id et metus. Nunc sollicitudin pretium urna, vel iaculis ante. Sed aliquet elit nunc, faucibus dignissim ipsum hendrerit in. Suspendisse potenti.</p>
+
 
 		
 	</div><!-- container -->

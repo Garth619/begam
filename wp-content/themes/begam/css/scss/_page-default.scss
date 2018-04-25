@@ -9,6 +9,8 @@
 	height:690px;
 	background: url(#{$themePath}images/hero-internal.jpg) top left no-repeat;
 	background-size:cover;
+	padding-left:75px;
+	padding-right:75px;
 }
 
 
@@ -51,7 +53,7 @@
 .internal_main.default {
 	min-height:400px;
 	display: flex;
-	max-width:1730px;
+	max-width:1880px;
 	margin:0 auto;
 	padding-top:145px;
 	.container {
@@ -63,6 +65,8 @@
 
 .internal_main {
 	padding-bottom:120px;
+	padding-left:75px;
+	padding-right:75px;
 }
 
 
@@ -103,7 +107,7 @@
 		ul.menu {
 			li.menu-item-has-children.open {
 				background: #f6f3ee;
-				margin-bottom: 0;
+				margin-bottom: 0;// this is the hitch
 				> a {
 						color:$gold;
 				}
@@ -192,15 +196,46 @@
 }
 
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1881px) {
+	
+	
+	.internal_main.default {
+		padding-left:20px;
+		
+	}
 	
 	
 	
+} /* Media Query */
+
+
+@media screen and (max-width: 1685px) {
+	
+	
+	
+	
+	.internal_main.default {
+		.container {
+    	padding-left: 5%;
+    	padding-right:0;
+		}
+	}	
 	
 	
 	
 	
 } /* Media Query */
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	.sidebar_wrapper {
+    flex-basis: 456px;
+   }
+	
+	
+	} /* Media Query */
 
 
 @media screen and (max-width: 1150px) {
@@ -213,5 +248,110 @@
 	}
 	
 	
+	.internal_main {
+		padding-bottom: 26px;
+	}
+	
+	.internal_main.default {
+		flex-direction: column;
+		padding-left:45px;
+		padding-right:45px;
+		padding-top: 95px;
+		.sidebar_wrapper {
+			flex-basis: 100%;
+			order:2;
+			padding-left: 37px;
+			margin-top: 35px;
+			.sidebar.pa_sidebar {
+				padding-top:31px;
+			}
+			.sidebar {
+				padding: 57px 0px 35px;
+				&:before {
+					top: 58px;
+					left: -66px;
+					width:118px;
+					height:27px;
+				}
+			}
+			
+		}
+		.container {
+    	flex-basis: 100%;
+			order:1;
+			padding:0;
+		}
+	}	
+	
+	
+	
+	
 	
 } /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+
+	
+	.internal_main {
+		
+	}
+	
+	.internal_main.default {
+		padding-top: 51px;
+		padding-left:26px;
+		padding-right:26px;
+		.sidebar_wrapper {
+			padding-left:0;
+			margin-top: 11px;
+			.sidebar.pa_sidebar {
+				
+			}
+			.sidebar {
+				margin-bottom:30px;
+				&:before {
+					display: none;
+				}
+				h3 {
+					padding: 0px 35px;
+				}
+				ul {
+					li {
+						a {
+							padding: 0px 35px;
+						}
+					}
+				}
+				ul.menu {
+					> li {
+						 padding: 15px 0 0;
+						 
+					}
+				}
+				ul.sub-menu {
+					li {
+						margin-bottom:25px;
+						&:last-of-type {
+							 margin-bottom: 0;
+						 }
+					}
+				}
+			}
+			
+		}
+		.container {
+    	
+		}
+	}	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+
