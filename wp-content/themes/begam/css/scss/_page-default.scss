@@ -51,7 +51,7 @@
 
 
 .internal_main.default {
-	min-height:400px;
+	
 	display: flex;
 	max-width:1880px;
 	margin:0 auto;
@@ -64,9 +64,11 @@
 
 
 .internal_main {
-	padding-bottom:120px;
+	padding-bottom:170px;
 	padding-left:75px;
 	padding-right:75px;
+	min-height:400px;
+	padding-top: 105px;
 }
 
 

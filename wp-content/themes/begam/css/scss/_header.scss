@@ -127,6 +127,40 @@ body:not(.page-template-page-home) {
 		padding: 31px 27px 0;
 	}
 }
+
+
+header.no_banner_styles {
+	.header_left {
+			background: #fff;
+			flex-basis: 480px;
+			height: 105px;
+			padding: 41px 35px 0;
+			flex-grow: 0;
+			flex-shrink: 0;
+			a.logo {
+				svg {
+					width: 100%;
+				}
+			}
+		}
+		.header_right {
+			background:#f2eeea;
+			flex-grow: 1;
+			justify-content: flex-end;
+			height: 105px;
+		}
+		.phone_wrapper {
+			margin: 23px 31px 0 0;
+			span.free {
+				font-size: 32px;
+				margin:0;
+				text-align: right;
+			}
+			a.phone {
+				color:$bluedark;
+			}
+		}
+}
 	
 	
 @media screen and (max-width: 1450px) {
