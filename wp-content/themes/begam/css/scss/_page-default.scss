@@ -68,7 +68,7 @@
 	padding-left:75px;
 	padding-right:75px;
 	min-height:400px;
-	padding-top: 105px;
+	padding-top: 97px;
 }
 
 
@@ -251,7 +251,7 @@
 	
 	
 	.internal_main {
-		padding-bottom: 26px;
+		padding-bottom: 97px;
 	}
 	
 	.internal_main.default {
@@ -293,13 +293,29 @@
 
 
 
+@media screen and (max-width: 1066px) {
+	
+	
+	
+	.internal_main {
+		padding-top: 92px;
+		padding-left:45px;
+		padding-right:45px;
+	}	
+	
+	
+	
+} /* Media Query */
+
+
+
 @media screen and (max-width: 767px) {
 	
 	
 
 	
 	.internal_main {
-		
+		padding:70px 26px 55px;
 	}
 	
 	.internal_main.default {
@@ -348,6 +364,13 @@
     	
 		}
 	}	
+	
+	
+	
+	.att_overview {
+		margin: 49px auto 0px;
+		
+	}
 	
 	
 	

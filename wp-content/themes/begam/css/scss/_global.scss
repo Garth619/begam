@@ -140,6 +140,20 @@ h1.no_banner_header {
 }
 
 
+
+@media screen and (max-width: 1445px) {
+	
+	
+h1.no_banner_header {
+	margin:68px 0 0;
+}
+
+	
+	
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1350px) {
 	
 	
@@ -167,6 +181,20 @@ h1.no_banner_header {
 		margin-bottom: 30px;
 	}
 }
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 1066px) {
+	
+	
+	
+	h1.no_banner_header {
+		margin:0px 0 0;
+		font-size:102px;
+		line-height: 102px;
+	}
+	
 	
 	
 } /* Media Query */
@@ -221,6 +249,18 @@ body:not(.page-template-page-home) {
 	}
 	
 }
+
+
+
+
+	h1.no_banner_header {
+		margin:0px 0 0;
+		font-size:90px;
+		line-height: 90px;
+	}
+
+
+
 
 	
 	
