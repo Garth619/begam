@@ -1,0 +1,188 @@
+body.page-template-page-caseresults {
+	svg#new_pattern {
+		width:133px;
+		height:auto;
+		display: block;
+		margin:-5px auto 0;
+	}
+}
+
+
+span.case_results_page_intro {
+	display: block;
+	margin:41px auto 0;
+	text-align: center;
+	font-size:45px;
+	font-family: $actamedium;
+	line-height: 45px;
+	letter-spacing: 0.02em;
+	color:$bluedark;
+	max-width:890px;
+}
+
+
+.case_results_page_wrapper {
+	max-width:1642px;
+	margin:170px auto 0;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+.case_results_page_single {
+	text-align: center;
+	width:31%;
+	position: relative;
+	margin-bottom:195px;
+	margin-right:3%;
+	&:nth-of-type(3n + 3) {
+		margin-right:0;
+	}
+	.cr_single_inner {
+		position: relative;
+		z-index: 1;
+		padding-top:208px;
+		.svg_wrapper {
+			position: absolute;
+			top:0;
+			left:0;
+			width:100%;
+			text-align: center;
+			svg {
+				display: block;
+				margin-left:auto;
+				margin-right:auto;
+			}
+			svg#steth {
+				width:85px;
+				margin-top:90px;
+				.steth-cls-1 {
+					fill:#17bbbd;
+				}
+				.steth-cls-2 {
+					fill:none;
+					stroke:#17bbbd;
+					stroke-miterlimit:10;
+					stroke-width:2px;
+				}
+			}
+			svg#truck {
+				width:128px;
+				margin-top:90px;
+				.truck-cls-1{
+					fill:none;
+					stroke:#17bbbd;
+					stroke-linecap:round;
+					stroke-linejoin:round;
+					stroke-width:2px;
+				}
+			}
+			svg#cactus {
+				width:62px;
+				margin-top:68px;
+				path, rect {
+					fill:$teal;
+				}
+			}
+			svg#fire {
+				width:67px;
+				margin-top:80px;
+				.fire-cls-1{
+					fill:none;
+					stroke:#17bbbd;
+					stroke-miterlimit:10;
+					stroke-width:2px;
+					}
+				.cls-2{
+					fill:#17bbbd;
+				}
+			}
+			svg#boat {
+				width:117px;
+				stroke-width:2px;
+				margin-top:75px;
+				position: relative;
+				left:-12px;
+				.boat-cls-1{
+					fill:none;
+					stroke:#17bbbd;
+					stroke-linecap:round;
+					stroke-linejoin:round;
+				}
+			}
+			svg#heart {
+				width:105px;
+				margin-top:95px;
+				.heart-cls-1{
+					fill:none;
+					stroke:#17bbbd;
+					stroke-width:2;
+					stroke-miterlimit:10;
+				}
+			}
+			svg#motor {
+				width:158px;
+				margin-top:100px;
+				.motor-cls-1,.motor-cls-2{
+					fill:none;stroke:#17bbbd;
+				}
+				.motor-cls-1 {
+					stroke-linecap:round;
+					stroke-linejoin:round;
+					stroke-width:2px;
+				}
+				.motor-cls-2 {
+					stroke-miterlimit:10;
+				}
+			}
+		}
+		span {
+			display: block;
+		}
+		span.amount {
+			font-size:90px;
+			font-family: $actaextrabold;
+			color:$bluedark;
+		}
+		span.case {
+			color:$gold;
+			font-size:38px;
+			font-family: $actabookitalic;
+			line-height: 40px;
+			margin-top:23px;
+		}
+		span.type {
+			text-transform: uppercase;
+			color:$gold;
+			font-family: $muliblack;
+			letter-spacing: 0.26em;
+			font-size:13px;
+			margin-top:25px;
+		}
+	}
+}
+
+
+
+.case_results_page_single {
+	.cr_bg_wrapper {
+		position: absolute;
+		top:-10px;
+		left:0;
+		width:100%;
+		height:100%;
+		background: url(#{$themePath}images/cr-bg-pattern-01.png) top center no-repeat;
+	}
+	&:nth-of-type(6n + 2), &:nth-of-type(6n + 4), &:nth-of-type(6n + 6) {
+		.cr_bg_wrapper {
+			top:-55px;
+			background: url(#{$themePath}images/cr-bg-pattern-02.png) top center no-repeat;
+		}
+	}
+}
+
+
+
+
+
+
+

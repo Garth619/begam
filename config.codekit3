@@ -7993,6 +7993,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/begam\/css\/scss\/_page-caseresults.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/css\/scss\/_page-caseresults.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/begam\/css\/scss\/_page-clientreviews.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -8932,6 +8945,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/begam\/images\/new_boat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_boat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_cactus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_cactus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/begam\/images\/new_car.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -8957,6 +8990,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_fire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_fire.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -9017,6 +9060,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_motorcycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_motorcycle.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -9097,6 +9150,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/begam\/images\/new_teal_pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/begam\/images\/new_truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/images\/new_truck.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -10200,6 +10263,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/page-attoverview.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/page-caseresults.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/page-caseresults.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/begam\/page-clientreviews.php": {
