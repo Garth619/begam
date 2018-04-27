@@ -198,6 +198,31 @@
 }
 
 
+
+
+.not_found {
+	max-width:860px;
+	margin:225px auto;
+	text-align: center;
+	span.not_found_title {
+		display: block;
+		color:$teal;
+		font-size:350px;
+		font-family: $actamedium;
+	}
+	span.not_found_description {
+		color:$bluedark;
+		font-size:35px;
+		line-height: 50px;
+		letter-spacing: 0.02em;
+		font-family: $actamedium;
+		display: block;
+		margin:-20px 0 0;
+	}
+}
+
+
+
 @media screen and (max-width: 1881px) {
 	
 	
