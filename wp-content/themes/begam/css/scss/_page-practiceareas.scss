@@ -1,0 +1,372 @@
+.pa_directory {
+	max-width: 1465px;
+	margin:70px auto 0;
+	ul {
+		list-style: none;
+		li {
+		
+			a {
+				color:$bluedark;
+				text-decoration: none;
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			display: block;
+			padding:85px 115px 42px;
+			margin-bottom:125px;
+			box-shadow: 4.769px 7.632px 51.84px 2.16px rgba(0, 0, 0, 0.3);
+			position: relative;
+			&:last-of-type {
+				margin-bottom: 0;
+			}
+			&:before {
+				content:"";
+				width:118px;
+				height:40px;
+				position: absolute;
+				top:88px;
+				left:-60px;
+				display: block;
+				background: url(#{$themePath}images/new_pattern.svg) top left no-repeat;
+			}
+		}
+		> li {
+				font-size:38px;
+				font-family:$actamedium;
+				> a {
+						color:$gold;
+				}
+		}
+	}
+	ul.sub-menu {
+		margin:68px 0 0;
+		
+		
+		&:after {
+			content:"";
+			clear:both;
+			display: block;
+		}
+		li {
+			float:left;
+			width:30%;
+			font-size:19px;
+			font-family: $mulibold;
+			line-height: 28px;
+			letter-spacing: 0.025em;
+			margin-bottom:35px;
+			margin-right:5%;
+			height: 63px;
+			display: flex;
+			align-items: center;
+			&:nth-of-type(3n + 3) {
+				margin-right:0;
+			}
+
+			a {
+				transition: all 200ms ease-in-out;
+				&:hover {
+					color:$teal;
+					border-bottom: 1px solid $teal;
+					//text-decoration: underline;
+				}
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1390px) {
+	
+	
+	
+	
+.pa_directory {
+	max-width:1000px;
+	ul {
+		l
+		li {
+		
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			
+			&:last-of-type {
+				
+			}
+			&:before {
+				left: -26px;
+			}
+		}
+		> li {
+				
+				> a {
+						
+				}
+		}
+	}
+	ul.sub-menu {
+		
+		
+		
+		&:after {
+			
+		}
+		li {
+			width:48%;
+			margin-right:4%;
+			&:nth-of-type(3n + 3) {
+				margin-right:4%;
+			}
+			&:nth-of-type(2n + 2) {
+				margin-right:0%;
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	body.page-template-page-padirectory {
+		.internal_main {
+			padding-left:75px;
+			padding-right:75px;
+		}
+	}
+	
+	
+
+	
+	
+.pa_directory {
+	max-width:900px;
+	ul {
+		l
+		li {
+		
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			padding: 85px 76px 42px;
+			margin-bottom:85px;
+			&:last-of-type {
+				
+			}
+			&:before {
+				left: -55px;
+			}
+		}
+		> li {
+				
+				> a {
+						
+				}
+		}
+	}
+	ul.sub-menu {
+		
+		
+		
+		&:after {
+			
+		}
+		li {
+			
+			&:nth-of-type(3n + 3) {
+			
+			}
+			&:nth-of-type(2n + 2) {
+				
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+	    
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 845px) {
+	
+	
+	
+	
+.pa_directory {
+	
+	ul {
+		l
+		li {
+		
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			
+			&:last-of-type {
+				
+			}
+			&:before {
+				
+			}
+		}
+		> li {
+				
+				> a {
+						
+				}
+		}
+	}
+	ul.sub-menu {
+		
+		
+		
+		&:after {
+			
+		}
+		li {
+			width:100%;
+			margin-right:0;
+			&:nth-of-type(3n + 3) {
+				margin-right:0;
+			}
+			&:nth-of-type(2n + 2) {
+				margin-right:0;	
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	body.page-template-page-padirectory {
+		.internal_main {
+			padding-left:26px;
+			padding-right:26px;
+		}
+	}
+	
+	
+.pa_directory {
+	margin: 45px auto 0;
+	ul {
+		l
+		li {
+		
+			a {
+				
+			}
+		}
+	}
+	ul.menu {
+		>li.menu-item-has-children {
+			margin-bottom: 47px;
+			padding: 55px 43px 42px;
+			&:last-of-type {
+				
+			}
+			&:before {
+				position: static;
+				margin-bottom:20px;
+			}
+		}
+		> li {
+				font-size: 30px;
+				margin-bottom: 28px;
+				> a {
+						
+				}
+		}
+	}
+	ul.sub-menu {
+		margin: 32px 0 0;
+		&:after {
+			
+		}
+		li {
+			height:auto;
+			&:nth-of-type(3n + 3) {
+				
+			}
+			&:nth-of-type(2n + 2) {
+					
+			}
+
+			a {
+				
+				&:hover {
+					
+				}
+			}
+		}
+	}
+}
+
+	
+	
+	
+} /* Media Query */
+

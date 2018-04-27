@@ -8032,6 +8032,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/begam\/css\/scss\/_page-practiceareas.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/css\/scss\/_page-practiceareas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/begam\/css\/scss\/_page-videocenter.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -10284,6 +10297,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/page-home.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/page-padirectory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/page-padirectory.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/begam\/page-videocenter.php": {
