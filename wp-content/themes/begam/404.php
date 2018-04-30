@@ -9,6 +9,8 @@
 			
 			<span class="not_found_description">Oops. The page you are looking for doesn’t exist.</span><!-- not_found_description -->
 			
+			<img class="tumble" src="<?php bloginfo('template_directory');?>/images/new_tumble.svg"/>
+						
 		</div><!-- not_found -->	
 		
 	</div><!-- internal_main -->
