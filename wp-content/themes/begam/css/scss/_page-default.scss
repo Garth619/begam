@@ -213,6 +213,7 @@ body.error404 {
 	position: relative;
 	padding:140px 0 0;
 	background: url(#{$themePath}images/404bg.jpg) top center no-repeat;
+	
 	.not_found_bg {
 		position: absolute;
 		top:0;
@@ -357,6 +358,43 @@ body.error404 {
 	
 	
 	
+	
+	
+	body.error404 {
+	.internal_main {
+		padding-bottom: 81px;
+		padding-top: 65px;
+	}
+}
+
+
+.not_found {
+	margin-top:0;
+	background-size:500px;
+	max-width: 607px;
+	span.not_found_title {
+		font-size: 265px;
+	}
+	span.not_found_description {
+		max-width:600px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+
+
+
+.tumble {
+	right: -22px;
+}
+
+
+
+	
+	
+	
+	
+	
 } /* Media Query */
 
 
@@ -427,8 +465,98 @@ body.error404 {
 	
 	
 	
+body.error404 {
+	.internal_main {
+		
+	}
+}
+
+
+.not_found {
+	max-width: 419px;
+	padding: 80px 0 0;
+	background-size: 307px;
+	margin-bottom:0px;
+	span.not_found_title {
+		font-size: 152px; 
+	}
+	span.not_found_description {
+		font-size: 29px;
+    line-height: 38px;
+    margin-top:10px;
+	}
+}
+
+
+
+.tumble {
+	top: 134px;
+  right: 25px;
+	width: 53px;
+}
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
 } /* Media Query */
 
 
 
+@media screen and (max-width: 495px) {
+	
+	
+	
+	body.error404 {
+	.internal_main {
+		
+	}
+}
+
+
+.not_found {
+	max-width: 258px;
+	padding: 61px 0 0;
+	span.not_found_title {
+		font-size: 122px;
+	}
+	span.not_found_description {
+		font-size: 25px;
+    line-height: 35px;
+    margin-top: -6px;
+	}
+}
+
+
+
+.tumble {
+	top: 116px;
+  right: -4px;
+}
+
+	
+	
+	
+} /* Media Query */
+
+@media screen and (max-width: 350px) {
+	
+	.tumble {
+	  top: 96px;
+    right: -15px;
+    width: 42px;
+	}
+
+	    
+	
+	
+	
+	
+} /* Media Query */
 
