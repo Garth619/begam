@@ -1,0 +1,153 @@
+.contact_wrapper {
+	display: flex;
+	max-width:1700px;
+	margin:0 auto;
+}
+
+
+.contact_left {
+	flex-basis:50%;
+	h1.no_banner_header {
+		text-align: left;
+		margin-left:62px;
+	}
+	svg#teal_pattern {
+		width:335px;
+		height:auto;
+		margin:27px 0 55px;
+	}
+	a.address, a.tel {
+		color:$bluedark;
+		display: block;
+		font-size:40px;
+		text-decoration: none;
+		font-family: $actamedium;
+		line-height: 50px;
+		max-width:400px;
+		margin-left:62px;
+	}
+	a.tel {
+		margin:25px 0 0 62px;
+	}
+	a.get_directions {
+		color:$gold;
+	
+		font-family: $ats;
+		text-transform: lowercase;
+		font-size:35px;
+		text-decoration: none;
+		display: inline-block;
+		margin:37px 0 0 62px;
+		&:after {
+			content:"";
+			display: block;
+			width:100%;
+			height:2px;
+			background: $gold;
+		}
+	}
+}
+
+
+.contact_right {
+	flex-basis:50%;
+	position: relative;
+	height:881px;
+	margin:220px 0 0;
+	z-index:1;
+	iframe {
+		position: absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+}
+
+
+
+body.page-template-page-contact {
+	footer {
+		margin-top:-340px;
+		//padding-top:100px;
+	}
+	.form_inner {
+		span.free_title {
+			padding-top:415px;
+		}
+	}
+	.location_right {
+		display: none;
+	}
+	.location_left {
+		margin-top: 0;
+		flex-basis: auto;
+		&:after {
+			display: none;
+		}
+		.copyright_wrapper {
+		 	margin: 23px 0 0 30px;
+			img.att_image {
+				display: none;
+			}
+		}
+	}
+}
+
+
+
+@media screen and (max-width: 1066px) {
+	
+	
+	body.page-template-page-contact {
+		.tablet_center {
+			float:none;
+			margin-left:auto;
+			margin-right:auto;
+			width:auto;
+		}
+		.social_wrapper {
+			align-items: center;
+			flex-direction: column;
+			margin: 24px 0 42px;
+		}
+		.social_icons {
+			flex-basis: auto;
+			order:2;
+		}
+		.scroll_to_top {
+			order:1;
+			margin-bottom:50px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	body.page-template-page-contact {
+		
+		.social_wrapper {
+			margin: 42px 0 32px;
+		}
+		.social_icons {
+			
+		}
+		.scroll_to_top {
+			
+		}
+	}
+	
+	
+	
+	
+	
+} /* Media Query */
