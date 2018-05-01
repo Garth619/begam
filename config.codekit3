@@ -8013,6 +8013,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/wp-content\/themes\/begam\/css\/scss\/_page-blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/begam\/css\/scss\/_page-blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/wp-content\/themes\/begam\/css\/scss\/_page-caseresults.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -10339,6 +10352,13 @@
 		"oAP": "\/wp-content\/themes\/begam\/page-attoverview.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/begam\/page-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/page-blog.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/begam\/page-caseresults.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -10404,6 +10424,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/begam\/search.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/begam\/sidebar-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/begam\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/begam\/sidebar.php": {
