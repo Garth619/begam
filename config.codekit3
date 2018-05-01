@@ -30,6 +30,13 @@
 		"oAP": "\/begam.sql",
 		"oF": 0
 		},
+	"\/begam.sql.gz": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/begam.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"cB": 0,
 		"ft": 8192,
