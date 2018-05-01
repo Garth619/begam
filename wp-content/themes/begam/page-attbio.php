@@ -11,6 +11,8 @@
 	
 	<div class="att_header_wrapper">
 		
+		<img class="att_bio_img" src="<?php bloginfo('template_directory');?>/images/att-bio-temp-tablet.jpg"/>
+		
 		<div class="att_header_center">
 	
 			<h1 class="attorney_bio_header">Richard Traulsen</h1><!-- attorney_bio_header -->
