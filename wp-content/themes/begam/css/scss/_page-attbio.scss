@@ -514,19 +514,49 @@ img.att_bio_img {
 		box-shadow: none;
 		background: transparent;
 		margin-top:0;
-		padding: 3px 0px 71px;
+		padding: 3px 0px 0px;
 		span {
 			font-size: 30px;
 			line-height: 42px;
-			padding: 55px 35px;
 			max-width:100%;
+			padding: 55px 35px 29px;
 		}
 		svg {
 			width: 280px;
 		}
 	}
 }
+
+
+.att_bio_content {
+	margin-top:0;
+	padding-left:35px;
+	padding-right:35px;
+}
+
+
+
+.att_bio_sidebar {
+	display: block;
+	padding-right:0;
+	margin-top: 56px;
+	.single_list {
+		ul {
+			margin: 16px 0 45px;
+		}
+	}
+}
+
+
+.sidebar_col {
 	
+	&:first-of-type {
+		padding:0;
+	}
+	&:last-of-type {
+		padding:0;
+	}
+}
 	
 	
 } /* Media Query */
@@ -546,8 +576,7 @@ img.att_bio_img {
 			
 		}
 		svg {
-		 	margin-left: -157px;
-		 
+		 	margin-left: -168px;
 		}
 	}
 }
