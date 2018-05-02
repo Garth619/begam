@@ -53,12 +53,6 @@ createWaypoint("section_two", ".start_button", "visible", 300, null, true);
 
 $('.select_mock_wrapper').on('click', function(e) {
 
-
-		// $('.mock_dropdown').slideToggle();	
-		
-		
-		// $('.mock_dropdown').toggleClass('open');
-
 		$(this).toggleClass('open');
 
 });

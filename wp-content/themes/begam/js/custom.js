@@ -75,6 +75,11 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
 
 
+$('.start_button').on('click', function(e) {
+
+		$('.form_overlay_wrapper').toggleClass('open');
+
+});
 
 
 
@@ -166,6 +171,8 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 	
 
 checkwidthmenu();
+
+
 
 
 

@@ -9,6 +9,9 @@
 	opacity: 0;
 	visibility: hidden;
 	transition: all 500ms ease-in-out;
+	padding:0 65px;
+	overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
 }
 
 
@@ -271,3 +274,305 @@
 	
 }
 
+
+@media screen and (max-width: 1066px) {
+	
+
+
+.form_overlay_wrapper {
+	padding:0;
+}
+	
+.form_overlay_inner {
+	width:100%;
+	max-width:100%;
+	margin:0px auto;
+	background: #fff;
+	display: flex;
+	position: relative;
+	height: 100%;
+}
+
+
+.form_overlay_left {
+	display: none;
+}
+
+
+.form_overlay_right {
+	flex-basis: 100%;
+}
+
+
+
+
+
+
+.form_overlay_right {
+	.gform_wrapper {
+		
+		ul {
+			li#field_2_5.clicked, li#field_2_5.input_has_value {
+				label {
+					
+				}
+			}
+			li.input_has_value.clicked {
+				label {
+					
+					
+				}
+				input, textarea {
+					
+				}
+			}
+			li.input_has_value {
+				label {
+				
+				}
+				input, textarea {
+					
+				}
+			}
+			li.clicked {
+				label {
+					
+				}
+				input,textarea {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+		
+.form_overlay_right {
+	max-width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	.gform_wrapper {
+		
+		&:after {
+				
+			}
+		.gfield_description, .validation_message {
+			
+		}
+		input[type="submit"] {
+			font-size:21px;
+			padding: 22px 50px;
+			margin-top: -6px;
+			&:hover {
+				
+			}
+		}
+		ul {
+			
+			li#field_2_5 {
+				
+				.gfield_description, .validation_message {
+					
+				}
+				label {
+					
+				}
+				textarea {
+					
+				}
+			}
+			li {
+				margin: 0 0 26px;
+				label {
+					font-size:16px;
+					span.gfield_required {
+						
+					}
+				}
+				.ginput_container {
+					
+				}
+				input, textarea {
+					font-size:26px;
+				}
+				
+				select {
+					
+				}
+			}
+		}
+	}
+	span.my_overlay_required {
+		
+		span {
+			
+		}
+	}
+	
+}
+
+
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	
+	
+	
+	
+.form_overlay_close {
+	height:57px;
+	width: 72px;
+}	
+	
+.form_overlay_right {
+	.gform_wrapper {
+		
+		ul {
+			li#field_2_5.clicked, li#field_2_5.input_has_value {
+				label {
+					
+				}
+			}
+			li.input_has_value.clicked {
+				label {
+					
+					
+				}
+				input, textarea {
+					
+				}
+			}
+			li.input_has_value {
+				label {
+				
+				}
+				input, textarea {
+					
+				}
+			}
+			li.clicked {
+				label {
+					
+				}
+				input,textarea {
+					
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+		
+.form_overlay_right {
+	padding-left:43px;
+	padding-right:43px;
+	span.free {
+	  font-size: 80px;
+	  max-width: 430px;
+	  margin: 75px auto 0;
+	}	
+	.gform_wrapper {
+		margin: 15px 0 0px;
+		&:after {
+				
+			}
+		.gfield_description, .validation_message {
+			
+		}
+		input[type="submit"] {
+			margin-top: 31px;
+			float:none;
+			margin-left:auto;
+			margin-right:auto;
+			padding: 22px 95px;
+			display: block;
+			&:hover {
+				
+			}
+		}
+		ul {
+			
+			li#field_2_5 {
+				
+				.gfield_description, .validation_message {
+					
+				}
+				label {
+					
+				}
+				textarea {
+					
+				}
+			}
+			li {
+				flex-basis: 100%;
+				margin: 0 0 13px;
+				label {
+					
+					span.gfield_required {
+						
+					}
+				}
+				.ginput_container {
+					
+				}
+				input, textarea {
+					
+				}
+				
+				select {
+					
+				}
+			}
+		}
+	}
+	span.my_overlay_required {
+		margin: -115px 0 0;
+		span {
+			
+		}
+	}
+	
+}
+
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 405px) {
+	
+	.form_overlay_right {
+		span.free {
+			 font-size: 63px;
+		}
+	}
+	
+	   
+	
+	
+	
+	
+} /* Media Query */
