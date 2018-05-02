@@ -26,6 +26,19 @@
 						
 					</div><!-- input_right -->
 					
+					<div class="mock_dropdown">
+						
+						<ul>
+							<li>Test Injury 1</li>
+							<li>Test Injury 2</li>
+							<li>Test Injury 3</li>
+							<li>Test Injury 4</li>
+							<li>Test Injury 5</li>
+							<li>Test Injury 6</li>
+						</ul>
+						
+					</div><!-- mock_dropdown -->
+					
 				</div><!-- first_input_wrapper -->
 				
 			</div><!-- select_mock_wrapper -->

@@ -50,6 +50,19 @@ body:not(.page-template-page-home) {
 	
 
 
+
+
+body.single {
+	.content {
+		h1.default_intro {
+			font-size: 58px;
+			line-height: 67px;
+		}
+	}
+}
+
+
+
 .content {
 	font-family: $mulireg;
 	font-size: 17px;
@@ -235,6 +248,17 @@ body:not(.page-template-page-home) {
 				margin-left:0;
 				margin-bottom: 21px;
 			}
+		}
+	}
+}
+
+
+
+body.single {
+	.content {
+		h1.default_intro {
+			font-size: 48px;
+			line-height: 60px;
 		}
 	}
 }

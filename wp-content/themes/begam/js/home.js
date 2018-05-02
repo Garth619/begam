@@ -45,3 +45,86 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 createWaypoint("section_two", ".start_button", "visible", 300, null, true);
 
+
+
+
+
+// select injury
+
+$('.select_mock_wrapper').on('click', function(e) {
+
+
+		// $('.mock_dropdown').slideToggle();	
+		
+		
+		// $('.mock_dropdown').toggleClass('open');
+
+		$(this).toggleClass('open');
+
+});
+
+
+
+$(document).click(function(event){
+    
+    if (!($(event.target).closest(".select_mock_wrapper.open").length)) {
+        
+        $(".select_mock_wrapper").removeClass('open');
+    
+    }
+});
+
+
+
+
+
+$('.mock_dropdown li').on('click', function() {
+    
+    
+    var text = $(this).text();
+    
+    
+    $('span.input_left_select_copy').text(text);
+    
+    
+    if ($('span.input_left_select_copy').text() === "select how you were injured") {
+	        
+	  
+	  } 
+	  
+	  else {
+	        
+			 		
+			$('.form_overlay_wrapper').addClass('open');
+			
+			$('#input_2_6').val(text);
+			
+			$('.form_overlay_wrapper li#field_2_6').addClass('input_has_value');
+			
+			
+			
+		}
+       
+
+});
+
+
+
+$('.form_overlay_close').on('click', function(e) {
+  
+
+	$('.form_overlay_wrapper').removeClass('open');
+
+
+});
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-body.blog {
+body.blog, body.single, body.archive {
 	.internal_main.default {
 		padding-top: 250px;
 	}
@@ -8,6 +8,16 @@ body.blog {
 	padding-top:7px;
 }
 
+
+body.single {
+	.single_post_feed {
+		border-bottom:none;
+		padding-bottom:0;
+		.meta {
+			margin-bottom: 35px;
+		}
+	}
+}
 
 .single_post_feed {
 	padding:0 0 85px;
@@ -23,7 +33,7 @@ body.blog {
 		line-height: 30px;
 		letter-spacing: 0.2em;
 		vertical-align:0;
-		display: inline-block;
+		display: block;
 		&:before {
 			content:"";
 			width:6px;
@@ -220,3 +230,169 @@ body.blog {
 		}
 	}
 }
+
+
+
+@media screen and (max-width: 1450px) {
+	
+	
+	
+	
+	
+	body.blog, body.single, body.archive {
+	.internal_main.default {
+		padding-top: 150px;
+	}
+}
+	
+
+
+
+	
+	
+	
+	
+	
+} /* Media Query */
+
+
+@media screen and (max-width: 1150px) {
+	
+
+
+body.blog, body.single, body.archive {
+	.internal_main.default {
+		padding-top: 100px;
+	}
+}
+
+
+
+
+.internal_main.default {
+	.sidebar_wrapper.blog_sidebar {
+		margin-top:45px;
+	}
+} 
+
+
+
+	
+.sidebar_wrapper.blog_sidebar {
+	.sidebar.pa_sidebar { 
+		padding: 40px 0px 1px;
+		&:last-of-type {
+			margin-bottom:0;
+		}
+		&:before {
+			top: 33px;
+		}
+		&:not(:first-of-type) {
+			ul {
+				li {
+					
+				}
+			}
+		}
+		h3 {
+			
+			&:after {
+				
+			}
+		}
+		ul {
+			
+			li {
+				
+			}
+		}
+	}
+}
+
+
+
+	
+	
+	
+.sidebar_wrapper.blog_sidebar {
+	.sidebar.pa_sidebar.open {
+		
+		&:before {
+			
+		}
+		h3 {
+			
+			&:after {
+				
+			}
+		}
+		ul {
+			
+			li {
+				
+			}
+		}
+	}
+}
+	
+	
+	
+
+	#nav_below {
+    text-align: center;
+	}
+	
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 767px) {
+	
+	
+	body.blog, body.single, body.archive {
+		.internal_main.default {
+			padding-top: 68px;
+		}
+	}
+	
+	
+	.single_post_feed {
+    padding: 0 0 66px;
+  }
+  
+  .single_post_feed:not(:first-of-type) {
+	  padding-top:60px;
+  }
+  
+  
+  
+  .sidebar_wrapper.blog_sidebar {
+	.sidebar.pa_sidebar.open {
+		padding-top:31px;
+		&:before {
+			
+		}
+		h3 {
+			
+			&:after {
+				
+			}
+		}
+		ul {
+			
+			li {
+				
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+} /* Media Query */
