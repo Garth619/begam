@@ -20,7 +20,7 @@
 
 	<div class="single_post_feed">
 				
-		<div class="meta">Posted On <span>03/30/18</span></div>
+		<div class="meta">Posted On <span><?php $pfx_date = get_the_date(); echo $pfx_date ?></span></div>
 				
 			<h2 class="post_title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
 				
@@ -42,11 +42,16 @@
 
 <?php if (  $wp_query->max_num_pages > 1 ) : ?>
 	
-	<div id="nav-below" class="navigation">
+	<div id="nav_below" class="navigation">
 		
-		<div class="nav-previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts' ) ); ?></div>
+		
+		<?php if(get_next_posts_link()):?>
+		
+		<div class="nav_previous"><?php next_posts_link( __( '<span class="meta-nav"><span></span></span>' ) ); ?></div>
+		
+		<?php endif;?>
 			
-		<div class="nav-next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>') ); ?></div>
+		<div class="nav_next"><?php previous_posts_link( __( '<span class="meta-nav"><span></span></span>') ); ?></div>
 	
 	</div><!-- #nav-below -->
 
