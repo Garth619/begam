@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "D421DF55-7E86-48DB-B3F7-FD48B1E092E2"
+		"uuidString": "65F3D0BE-97AF-4664-85C1-1A8C7815AD3B"
 		}
 	],
 "creatorBuild": "26330",
@@ -43,6 +43,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_footer_location.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_footer_location.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_global.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -69,6 +95,136 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/_nav.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_nav.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-attbio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-attbio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-attorneydirectory.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-attorneydirectory.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-blog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-blog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-caseresults.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-caseresults.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-clientreviews.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-clientreviews.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-default.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-default.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-practiceareas.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-practiceareas.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_page-videocenter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_page-videocenter.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/_reset.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -78,6 +234,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/_slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/_slick.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -95,6 +264,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/scss\/homepage\/section_five.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_five.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/homepage\/section_four.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_four.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/scss\/homepage\/section_one.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -104,6 +299,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/scss\/homepage\/section_one.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/homepage\/section_six.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_six.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/homepage\/section_three.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_three.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/scss\/homepage\/section_two.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/scss\/homepage\/section_two.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -316,6 +550,82 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/fonts\/atf\/MyFontsWebfontsKit.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/MyFontsWebfontsKit-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/atf\/Start here files\/header.png": {
+		"ft": 32768,
+		"iS": 3167,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/Start here files\/header.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/fonts\/atf\/Start here files\/highlight.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/Start here files\/highlight-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/fonts\/atf\/Start here files\/layout.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/Start here files\/layout-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fonts\/atf\/StartHere.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/StartHere.html",
+		"oF": 0
+		},
+	"\/fonts\/atf\/webfonts\/364FFA_0_0.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.eot",
+		"oF": 0
+		},
+	"\/fonts\/atf\/webfonts\/364FFA_0_0.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.ttf",
+		"oF": 0
+		},
+	"\/fonts\/atf\/webfonts\/364FFA_0_0.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.woff",
+		"oF": 0
+		},
+	"\/fonts\/atf\/webfonts\/364FFA_0_0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.woff2",
+		"oF": 0
+		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -344,6 +654,51 @@
 		"oAP": "\/homepage_template_parts\/section-1.php",
 		"oF": 0
 		},
+	"\/homepage_template_parts\/section-2.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-2.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-3.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-3.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-4.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-4.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-5.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-5.php",
+		"oF": 0
+		},
+	"\/homepage_template_parts\/section-6.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/homepage_template_parts\/section-6.php",
+		"oF": 0
+		},
+	"\/images\/404bg.jpg": {
+		"ft": 16384,
+		"iS": 21820,
+		"oA": 0,
+		"oAP": "\/images\/404bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/att-bio-temp-tablet.jpg": {
 		"ft": 16384,
 		"iS": 155196,
@@ -366,7 +721,7 @@
 		},
 	"\/images\/att-overview-temp.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 193240,
 		"oA": 0,
 		"oAP": "\/images\/att-overview-temp.jpg",
 		"oF": 0,
@@ -376,7 +731,7 @@
 		},
 	"\/images\/aw-01.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 4780,
 		"oA": 0,
 		"oAP": "\/images\/aw-01.png",
 		"oF": 0,
@@ -387,7 +742,7 @@
 		},
 	"\/images\/aw-02.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 34402,
 		"oA": 0,
 		"oAP": "\/images\/aw-02.png",
 		"oF": 0,
@@ -398,7 +753,7 @@
 		},
 	"\/images\/aw-03.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 14807,
 		"oA": 0,
 		"oAP": "\/images\/aw-03.png",
 		"oF": 0,
@@ -409,7 +764,7 @@
 		},
 	"\/images\/aw-04.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 17484,
 		"oA": 0,
 		"oAP": "\/images\/aw-04.png",
 		"oF": 0,
@@ -420,7 +775,7 @@
 		},
 	"\/images\/aw-05.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 7217,
 		"oA": 0,
 		"oAP": "\/images\/aw-05.png",
 		"oF": 0,
@@ -431,7 +786,7 @@
 		},
 	"\/images\/aw-06.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 12561,
 		"oA": 0,
 		"oAP": "\/images\/aw-06.png",
 		"oF": 0,
@@ -442,7 +797,7 @@
 		},
 	"\/images\/bg-pattern.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 57013,
 		"oA": 0,
 		"oAP": "\/images\/bg-pattern.png",
 		"oF": 0,
@@ -451,9 +806,19 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/bg-whole.jpg": {
+		"ft": 16384,
+		"iS": 92298,
+		"oA": 0,
+		"oAP": "\/images\/bg-whole.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/content-attorney-group-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 189391,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-desktop.jpg",
 		"oF": 0,
@@ -461,45 +826,66 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/content-attorney-group-laptop.jpg": {
+		"ft": 16384,
+		"iS": 123581,
+		"oA": 0,
+		"oAP": "\/images\/content-attorney-group-laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/content-attorney-group-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 109336,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/content-video-thumb.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 74033,
 		"oA": 0,
 		"oAP": "\/images\/content-video-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/cr-bg-pattern-01.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 36950,
 		"oA": 0,
 		"oAP": "\/images\/cr-bg-pattern-01.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/cr-bg-pattern-02.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 40290,
 		"oA": 0,
 		"oAP": "\/images\/cr-bg-pattern-02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/cr-bg-pattern-03.png": {
+		"ft": 32768,
+		"iS": 101858,
+		"oA": 0,
+		"oAP": "\/images\/cr-bg-pattern-03.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -543,74 +929,85 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/cr-new.png": {
+		"ft": 32768,
+		"iS": 41305,
+		"oA": 0,
+		"oAP": "\/images\/cr-new.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/footer-image-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 83324,
 		"oA": 0,
 		"oAP": "\/images\/footer-image-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/footer-image-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 93615,
 		"oA": 0,
 		"oAP": "\/images\/footer-image-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 257204,
 		"oA": 0,
 		"oAP": "\/images\/hero-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-internal.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 178019,
 		"oA": 0,
 		"oAP": "\/images\/hero-internal.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-laptop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 174627,
 		"oA": 0,
 		"oAP": "\/images\/hero-laptop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 32038,
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/hero-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 123304,
 		"oA": 0,
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/icon-angles-02.svg": {
@@ -713,11 +1110,251 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new_arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_boat.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_boat.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_cactus.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_cactus.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_car.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_car.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_fire.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_fire.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_gold_pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_gold_pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_google.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_google.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_heart.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_heart.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_ilawyer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_ilawyer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_linkedin.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/new_logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/new_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_motorcycle.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_motorcycle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_phone.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_phone.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_play.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_play.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_sp_one.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_sp_one.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_sp_three.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_sp_three.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_sp_two.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_sp_two.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_steth.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_steth.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_teal_pattern.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_teal_pattern.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_truck.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_truck.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_tumble.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_tumble.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_twitter.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -735,12 +1372,12 @@
 		},
 	"\/images\/results-bg.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 39268,
 		"oA": 0,
 		"oAP": "\/images\/results-bg.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/results-icon-01.svg": {
@@ -775,22 +1412,32 @@
 		},
 	"\/images\/reviews-desert-cactus-desktop.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 149265,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/reviews-desert-cactus-laptop.jpg": {
+		"ft": 16384,
+		"iS": 99221,
+		"oA": 0,
+		"oAP": "\/images\/reviews-desert-cactus-laptop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/reviews-desert-cactus-tablet.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 125065,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/images\/social-fb.svg": {
@@ -863,36 +1510,67 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/test.png": {
+		"ft": 32768,
+		"iS": 176391,
+		"oA": 0,
+		"oAP": "\/images\/test.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/test_image.jpg": {
+		"ft": 16384,
+		"iS": 51962,
+		"oA": 0,
+		"oAP": "\/images\/test_image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/testimonials_bg.jpg": {
+		"ft": 16384,
+		"iS": 147643,
+		"oA": 0,
+		"oAP": "\/images\/testimonials_bg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/texture-bg-01.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 174108,
 		"oA": 0,
 		"oAP": "\/images\/texture-bg-01.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/texture-bg-02.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 64751,
 		"oA": 0,
 		"oAP": "\/images\/texture-bg-02.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/images\/video-thumb.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 173608,
 		"oA": 0,
 		"oAP": "\/images\/video-thumb.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 1,
+		"opt": 0,
 		"q": 100
 		},
 	"\/index.php": {
@@ -922,6 +1600,821 @@
 		"sC": 0,
 		"tS": 0
 		},
+	"\/js\/home-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/home-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/home.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/home-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/internal-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/internal-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/internal.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/internal-min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 0
+		},
+	"\/js\/slick\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/.gitignore",
+		"oF": 0
+		},
+	"\/js\/slick\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/slick\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/slick\/component.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/slick\/component-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/slick\/CONTRIBUTING.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/CONTRIBUTING.markdown",
+		"oF": 0
+		},
+	"\/js\/slick\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/index.html",
+		"oF": 0
+		},
+	"\/js\/slick\/ISSUE_TEMPLATE.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/slick\/ISSUE_TEMPLATE.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/slick\/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/LICENSE",
+		"oF": 0
+		},
+	"\/js\/slick\/Makefile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/Makefile",
+		"oF": 0
+		},
+	"\/js\/slick\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/slick\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/slick\/README.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/README.markdown",
+		"oF": 0
+		},
+	"\/js\/slick\/slick.jquery.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/slick\/slick.jquery-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/slick\/slick\/ajax-loader.gif": {
+		"ft": 4194304,
+		"iS": 4178,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/ajax-loader.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/js\/slick\/slick\/config.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/config.rb",
+		"oF": 0
+		},
+	"\/js\/slick\/slick\/fonts\/slick.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/fonts\/slick.eot",
+		"oF": 0
+		},
+	"\/js\/slick\/slick\/fonts\/slick.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/js\/slick\/slick\/fonts\/slick.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/js\/slick\/slick\/fonts\/slick.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/fonts\/slick.ttf",
+		"oF": 0
+		},
+	"\/js\/slick\/slick\/fonts\/slick.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/fonts\/slick.woff",
+		"oF": 0
+		},
+	"\/js\/slick\/slick\/slick-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick-theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/slick\/slick\/slick-theme.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/js\/slick\/slick\/slick-theme.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick-theme.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/js\/slick\/slick\/slick.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/slick\/slick\/slick.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/slick\/slick\/slick.less": {
+		"aP": 0,
+		"bl": 0,
+		"dJ": 0,
+		"ft": 1,
+		"ie": 1,
+		"iI": 0,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"rU": 0,
+		"sI": 0,
+		"sM": 0,
+		"sU": 0
+		},
+	"\/js\/slick\/slick\/slick.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/slick\/slick\/slick.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/slick\/slick\/slick.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/js\/waypoints\/.eslintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/.eslintrc",
+		"oF": 0
+		},
+	"\/js\/waypoints\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/.gitignore",
+		"oF": 0
+		},
+	"\/js\/waypoints\/.travis.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/.travis.yml",
+		"oF": 0
+		},
+	"\/js\/waypoints\/bower.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/waypoints\/bower-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/waypoints\/CHANGELOG.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/CHANGELOG.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/waypoints\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/CONTRIBUTING.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/waypoints\/gulpfile.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/gulpfile-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/jquery.waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/jquery.waypoints-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/jquery.waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/jquery.waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/noframework.waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/noframework.waypoints-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/noframework.waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/noframework.waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/infinite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/infinite-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/infinite.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/infinite.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/inview.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/inview-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/inview.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/inview.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/sticky.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/sticky-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/shortcuts\/sticky.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/shortcuts\/sticky.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/waypoints.debug.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/waypoints.debug-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/zepto.waypoints.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/zepto.waypoints-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/lib\/zepto.waypoints.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/lib\/zepto.waypoints.min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/licenses.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/licenses.txt",
+		"oF": 0
+		},
+	"\/js\/waypoints\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/waypoints\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/js\/waypoints\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/jquery-zepto-fn-extension-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/noframework.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/noframework-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/adapters\/zepto.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/adapters\/zepto-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/context.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/context-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/debug.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/debug-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/group.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/group-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/shortcuts\/infinite.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/shortcuts\/infinite-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/shortcuts\/inview.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/shortcuts\/inview-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/shortcuts\/sticky.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/shortcuts\/sticky-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/src\/waypoint.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/src\/waypoint-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/adapter-fn-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/adapter-fn-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/context-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/context-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/debug-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/debug-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/fixtures\/infinite.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/fixtures\/infinite.html",
+		"oF": 0
+		},
+	"\/js\/waypoints\/test\/fixtures\/standard.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/fixtures\/standard.html",
+		"oF": 0
+		},
+	"\/js\/waypoints\/test\/fixtures\/sticky.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/fixtures\/sticky.html",
+		"oF": 0
+		},
+	"\/js\/waypoints\/test\/group-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/group-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/infinite-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/infinite-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/inview-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/inview-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/coffee-script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/coffee-script-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine-html.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-html-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine-jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/js\/waypoints\/test\/lib\/jasmine.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/jasmine-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/require.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/require-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/lib\/testloader.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/lib\/testloader-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/settings.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/settings-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/sticky-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/sticky-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/test\/waypoint-spec.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/waypoints\/test\/waypoint-spec-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/waypoints\/testem.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/js\/waypoints\/testem-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/loop-page.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -943,11 +2436,67 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-attbio.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-attbio.php",
+		"oF": 0
+		},
+	"\/page-attoverview.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-attoverview.php",
+		"oF": 0
+		},
+	"\/page-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-blog.php",
+		"oF": 0
+		},
+	"\/page-caseresults.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-caseresults.php",
+		"oF": 0
+		},
+	"\/page-clientreviews.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-clientreviews.php",
+		"oF": 0
+		},
+	"\/page-contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-contact.php",
+		"oF": 0
+		},
 	"\/page-home.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-home.php",
+		"oF": 0
+		},
+	"\/page-padirectory.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-padirectory.php",
+		"oF": 0
+		},
+	"\/page-videocenter.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-videocenter.php",
 		"oF": 0
 		},
 	"\/page.php": {
@@ -959,12 +2508,12 @@
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
-		"iS": 57403,
+		"iS": 194663,
 		"oA": 0,
 		"oAP": "\/screenshot.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -973,6 +2522,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/search.php",
+		"oF": 0
+		},
+	"\/sidebar-blog.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/sidebar-blog.php",
 		"oF": 0
 		},
 	"\/sidebar.php": {
@@ -1012,10 +2568,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 545073878,
+	"creationDate": 546919438,
 	"displayValue": "begam",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-obama"
+	"iconImageName": "meme-karate"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

@@ -18,10 +18,21 @@
 
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-	<?php the_content();?>
-			
-		<?php edit_post_link( __( 'Edit'), '', '' ); ?>
-			
+	<div class="single_post_feed">
+				
+		<div class="meta">Posted On <span>03/30/18</span></div>
+				
+			<h2 class="post_title"><a href="<?php the_permalink();?>"><?php the_title();?></a></h2>
+				
+			<span class="post_content"> <?php echo wp_trim_words( get_the_content(), 110, '...' );?></span>
+				
+			<a class="read_more" href="<?php the_permalink();?>">Read More</a>
+				
+			<?php edit_post_link( __( 'Edit'), '', '' ); ?>
+				
+				
+		</div><!-- single_post_feed -->
+					
 		
 <?php endwhile; // end of loop ?>
 

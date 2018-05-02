@@ -1,8 +1,8 @@
 
-	<div class="sidebar_wrapper">
+	<div class="sidebar_wrapper blog_sidebar">
 		
 		
-		<div class="sidebar pa_sidebar">
+		<div class="sidebar pa_sidebar open">
 			
 			<?php dynamic_sidebar( 'sidebar' ); ?>
 			
@@ -10,7 +10,14 @@
 		
 		<div class="sidebar blog_sidebar pa_sidebar">
 			
-			<h3>Categories</h3>
+			<?php dynamic_sidebar( 'category_sidebar' ); ?>
+			
+		</div><!-- sidebar -->
+		
+		
+		<div class="sidebar blog_sidebar pa_sidebar">
+			
+			<?php dynamic_sidebar( 'archive_sidebar' ); ?>
 			
 		</div><!-- sidebar -->
 		

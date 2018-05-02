@@ -200,6 +200,19 @@ $('.pa_sidebar ul > li.menu-item-has-children > a').on('click', function(e) {
 });
 
 
+// Blog Sidebars
+
+
+$('.blog_sidebar h3').on('click', function(e) {
+  
+
+	$(this).parents('.pa_sidebar').toggleClass('open');
+
+
+});
+
+
+
 
 $('.sec_two_slider').slick({
   infinite: true,
