@@ -175,7 +175,7 @@
 
 .scroll_to_top {
 	display: inline-block;
-	a {
+	a.scroll_link {
 		display: block;
 		background: #f2eeea;
 		width:80px;
@@ -473,7 +473,7 @@
 
 .social_icons {
 	flex-basis: 50%;
-	
+	top:6px;
 	//text-align: center;
 	a {
 		

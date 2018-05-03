@@ -111,7 +111,7 @@
 				
 				<div class="scroll_to_top">
 					
-					<a class="" href="#header_trigger">
+					<a class="scroll_link" href="#header_trigger">
 					
 						<?php echo file_get_contents("wp-content/themes/begam/images/new_arrow.svg"); ?>
 					

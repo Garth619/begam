@@ -194,6 +194,27 @@
 } /* Media Query */
 
 
+
+@media screen and (max-width: 1450px) {
+	
+	
+	.sec_five_blockquote {
+		
+		svg#gold_pattern {
+			margin-left:-50px;
+		}
+		span {
+			
+		}
+	}
+	
+	.sec_five_col_wrapper {
+    margin: 94px auto 118px;
+	}
+	
+} /* Media Query */
+
+
 @media screen and (max-width: 1365px) {
 	
 	
@@ -225,7 +246,7 @@
 		flex-basis: auto;
 		padding: 79px 0px 0 0;
 		svg#gold_pattern {
-			margin-left:-33px;
+			margin-left: -73px;
 		}
 		span {
 			margin:35px 0 0 70px;
