@@ -18,7 +18,7 @@ a.logo {
 		width:490px;
 		height:auto;
 		path {
-			fill:#000;
+			fill:#003454;
 		}
 	}	
 }
@@ -125,6 +125,10 @@ body:not(.page-template-page-home) {
 		width: 109px;
 		background: $teal;
 		padding: 31px 27px 0;
+		transition: all 200ms ease-in-out;
+		&:hover {
+			background: $gold;
+		}
 	}
 }
 

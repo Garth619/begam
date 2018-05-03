@@ -29,7 +29,13 @@ Sed commodo eros at felis interdum gravida. Suspendisse vulputate, neque a molli
 				<img src="<?php bloginfo('template_directory');?>/images/content-video-thumb.jpg"/>
 				
 				
-				<?php echo file_get_contents("wp-content/themes/begam/images/new_play.svg"); ?>
+				<div class="play_video wistia_embed wistia_async_fvynu51wm6 popover=true popoverContent=html">
+					
+					<?php echo file_get_contents("wp-content/themes/begam/images/new_play.svg"); ?>
+				
+					<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
+				
+				</div><!-- play_video -->
 				
 				<span class="about_title">About Us</span><!-- about_title -->
 				

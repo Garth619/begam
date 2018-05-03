@@ -344,16 +344,15 @@
 		width:100%;
 		background:$teal;
 		text-align: center;
-		a {
-			color:#fff;
-			display: block;
-			text-decoration: none;
-			height:82px;
-			font-family: $ats;
-			text-transform: lowercase;
-			font-size:35px;
-			padding-top:27px;
-		}
+		color:#fff;
+		display: block;
+		text-decoration: none;
+		height:82px;
+		font-family: $ats;
+		text-transform: lowercase;
+		font-size:35px;
+		padding-top:27px;
+		cursor: pointer;
 	}
 
 	

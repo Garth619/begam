@@ -53,6 +53,6 @@
 
 <div class="mobile_free_button">
 	
-	<a href="">Free Consultation Here</a>
+	Free Consultation Here
 	
 </div><!-- mobile_free_button -->

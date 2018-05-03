@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "CCD2B987-5E70-42B1-8764-6D01573C3E39"
+		"uuidString": "D3E5A189-B5D8-445A-9B44-20888A2056F9"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -705,6 +705,7 @@
 	"\/images\/404bg.jpg": {
 		"ft": 16384,
 		"iS": 21820,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/404bg.jpg",
 		"oF": 0,
@@ -715,6 +716,7 @@
 	"\/images\/att-bio-temp-tablet.jpg": {
 		"ft": 16384,
 		"iS": 155196,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/att-bio-temp-tablet.jpg",
 		"oF": 0,
@@ -725,6 +727,7 @@
 	"\/images\/att-bio-temp.jpg": {
 		"ft": 16384,
 		"iS": 107069,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/att-bio-temp.jpg",
 		"oF": 0,
@@ -735,6 +738,7 @@
 	"\/images\/att-overview-temp.jpg": {
 		"ft": 16384,
 		"iS": 193240,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/att-overview-temp.jpg",
 		"oF": 0,
@@ -822,6 +826,7 @@
 	"\/images\/bg-whole.jpg": {
 		"ft": 16384,
 		"iS": 92298,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-whole.jpg",
 		"oF": 0,
@@ -832,6 +837,7 @@
 	"\/images\/content-attorney-group-desktop.jpg": {
 		"ft": 16384,
 		"iS": 189391,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-desktop.jpg",
 		"oF": 0,
@@ -842,6 +848,7 @@
 	"\/images\/content-attorney-group-laptop.jpg": {
 		"ft": 16384,
 		"iS": 123581,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-laptop.jpg",
 		"oF": 0,
@@ -852,6 +859,7 @@
 	"\/images\/content-attorney-group-tablet.jpg": {
 		"ft": 16384,
 		"iS": 109336,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-tablet.jpg",
 		"oF": 0,
@@ -862,6 +870,7 @@
 	"\/images\/content-video-thumb.jpg": {
 		"ft": 16384,
 		"iS": 74033,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-video-thumb.jpg",
 		"oF": 0,
@@ -956,6 +965,7 @@
 	"\/images\/footer-image-desktop.jpg": {
 		"ft": 16384,
 		"iS": 83324,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer-image-desktop.jpg",
 		"oF": 0,
@@ -966,6 +976,7 @@
 	"\/images\/footer-image-tablet.jpg": {
 		"ft": 16384,
 		"iS": 93615,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer-image-tablet.jpg",
 		"oF": 0,
@@ -976,6 +987,7 @@
 	"\/images\/form_cactus.jpg": {
 		"ft": 16384,
 		"iS": 131494,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/form_cactus.jpg",
 		"oF": 0,
@@ -986,6 +998,7 @@
 	"\/images\/hero-desktop.jpg": {
 		"ft": 16384,
 		"iS": 257204,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-desktop.jpg",
 		"oF": 0,
@@ -996,6 +1009,7 @@
 	"\/images\/hero-internal.jpg": {
 		"ft": 16384,
 		"iS": 178019,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-internal.jpg",
 		"oF": 0,
@@ -1006,6 +1020,7 @@
 	"\/images\/hero-laptop.jpg": {
 		"ft": 16384,
 		"iS": 174627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-laptop.jpg",
 		"oF": 0,
@@ -1016,6 +1031,7 @@
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
 		"iS": 32038,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
@@ -1026,6 +1042,7 @@
 	"\/images\/hero-tablet.jpg": {
 		"ft": 16384,
 		"iS": 123304,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
@@ -1396,6 +1413,7 @@
 	"\/images\/results-bg.jpg": {
 		"ft": 16384,
 		"iS": 39268,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/results-bg.jpg",
 		"oF": 0,
@@ -1436,6 +1454,7 @@
 	"\/images\/reviews-desert-cactus-desktop.jpg": {
 		"ft": 16384,
 		"iS": 149265,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-desktop.jpg",
 		"oF": 0,
@@ -1446,6 +1465,7 @@
 	"\/images\/reviews-desert-cactus-laptop.jpg": {
 		"ft": 16384,
 		"iS": 99221,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-laptop.jpg",
 		"oF": 0,
@@ -1456,6 +1476,7 @@
 	"\/images\/reviews-desert-cactus-tablet.jpg": {
 		"ft": 16384,
 		"iS": 125065,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-tablet.jpg",
 		"oF": 0,
@@ -1547,6 +1568,7 @@
 	"\/images\/test_image.jpg": {
 		"ft": 16384,
 		"iS": 51962,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/test_image.jpg",
 		"oF": 0,
@@ -1557,6 +1579,7 @@
 	"\/images\/testimonials_bg.jpg": {
 		"ft": 16384,
 		"iS": 147643,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonials_bg.jpg",
 		"oF": 0,
@@ -1589,6 +1612,7 @@
 	"\/images\/video-thumb.jpg": {
 		"ft": 16384,
 		"iS": 173608,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/video-thumb.jpg",
 		"oF": 0,
@@ -2591,10 +2615,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 547008647,
+	"creationDate": 547054383,
 	"displayValue": "begam",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-maroney"
+	"iconImageName": "brackets_teal",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3793,7 +3818,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -4397,6 +4422,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
