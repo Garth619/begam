@@ -75,7 +75,7 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
 
 
-$('.start_button, .mobile_free_button').on('click', function(e) {
+$('.start_button, .mobile_free_button, .mobile_email').on('click', function(e) {
 
 		$('.form_overlay_wrapper').toggleClass('open');
 

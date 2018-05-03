@@ -82,7 +82,7 @@
 		
 		<div class="mobile_tel">
 			
-			<a href="">
+			<a href="tel:(602) 254-6071">
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_phone.svg"); ?>
 				
