@@ -16,6 +16,8 @@
 		<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'pa_menu' ) ); ?>	
 		
 	</div><!-- pa_directory -->
+	
+	<img class="test_bgimage" src="<?php bloginfo('template_directory');?>/images/testbg.jpg"/>
 		
 </div><!-- internal_main -->
 

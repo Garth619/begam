@@ -73,7 +73,13 @@
 			
 		</div><!-- cr_col -->
 		
+		
+		
+		
+		
 	</div><!-- case_results_page -->
+	
+	<img class="test_bgimage" src="<?php bloginfo('template_directory');?>/images/testbg.jpg"/>
 		
 	
 </div><!-- internal_main -->

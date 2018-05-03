@@ -65,7 +65,7 @@
 				
 				<a class="directions" href="" target="_blank">Directions</a>
 				
-				<div class=""></div>
+<!-- 				<div class=""></div> -->
 				
 			</div><!-- location_right -->
 			
@@ -111,7 +111,11 @@
 				
 				<div class="scroll_to_top">
 					
-					<?php echo file_get_contents("wp-content/themes/begam/images/new_arrow.svg"); ?>
+					<a class="" href="#header_trigger">
+					
+						<?php echo file_get_contents("wp-content/themes/begam/images/new_arrow.svg"); ?>
+					
+					</a>
 					
 				</div><!-- scroll_to_top -->
 				

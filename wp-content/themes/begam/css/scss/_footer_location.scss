@@ -175,15 +175,34 @@
 
 .scroll_to_top {
 	display: inline-block;
-	background: #f2eeea;
-	width:80px;
-	height:80px;
-	display: inline-block;
-	margin-lefT:20px;
-	svg {
-		height:39px;
-		width:auto;
-		margin:20px 0 0 32px;
+	a {
+		display: block;
+		background: #f2eeea;
+		width:80px;
+		height:80px;
+		display: inline-block;
+		margin-left:20px;
+		cursor: pointer;
+		transition: all 200ms ease-in-out;
+		&:hover {
+			background: $bluedark;
+			svg {
+				.arrow-cls-1{
+					stroke:#fff;
+				}
+			}
+		}
+		svg {
+			height:39px;
+			width:auto;
+			margin:20px 0 0 32px;
+			.arrow-cls-1{
+				fill:none;
+				stroke:#282d33;
+				stroke-width:2px;
+				transition: all 200ms ease-in-out;
+			}
+		}
 	}
 }
 

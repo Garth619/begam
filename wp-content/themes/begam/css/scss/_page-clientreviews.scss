@@ -3,6 +3,7 @@
 	margin:100px auto 50px;
 	display: flex;
 	justify-content: space-between;
+	position: relative;
 	.cr_col {
 		flex-basis: 45%;
 		.cr_single {
@@ -11,6 +12,7 @@
 			padding:107px 45px 80px;
 			margin:0 0 145px;
 			position: relative;
+			z-index:1;
 			transition: all 350ms ease-in-out;
 			&:nth-last-of-type(-n + 1) {
 				margin-bottom:0;
@@ -66,6 +68,13 @@
 			}
 		}
 	}
+}
+
+
+img.test_bgimage {
+	position: absolute;
+	bottom:375px;
+	left:0;
 }
 
 

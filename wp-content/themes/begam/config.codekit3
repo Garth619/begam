@@ -1576,6 +1576,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/testbg.jpg": {
+		"ft": 16384,
+		"iS": 41238,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/images\/testbg.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/testimonials_bg.jpg": {
 		"ft": 16384,
 		"iS": 147643,

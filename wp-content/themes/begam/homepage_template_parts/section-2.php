@@ -41,7 +41,7 @@
 				
 				<span class="sec_two_content">Since 1957, we have been helping seriously injured victims and their families recover full and fair compensation. </span><!-- sec_two_content -->
 				
-				<span class="gold_link">view results</span><!-- gold_link -->
+				<span class="gold_link">Meet the Team</span><!-- gold_link -->
 
 			</a>
 			
@@ -67,7 +67,7 @@
 				
 				<span class="sec_two_content">You get the best lawyers at no charge. We only get paid if we win your case and recover compensation on your behalf.</span><!-- sec_two_content -->
 				
-				<span class="gold_link">view results</span><!-- gold_link -->
+				<span class="gold_link">Learn More</span><!-- gold_link -->
 
 			
 			</a>
