@@ -365,6 +365,16 @@ a.view_more {
 	
 	.case_results_single_slide {
 		margin:40px 40px;
+		&:hover {
+			.hover_content {
+				opacity: 0;
+				visibility: hidden;
+			}
+		}
+		.hover_content.hover {
+			opacity: 1;
+			visibility: visible;
+		}
 	}
 	
 	

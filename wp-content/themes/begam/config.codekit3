@@ -2494,6 +2494,13 @@
 		"oAP": "\/loop.php",
 		"oF": 0
 		},
+	"\/page-about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-about.php",
+		"oF": 0
+		},
 	"\/page-attbio.php": {
 		"cB": 0,
 		"ft": 8192,

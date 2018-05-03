@@ -332,6 +332,7 @@ header.no_banner_styles {
 	header {
 		flex-direction: column;
 		height: auto;
+		
 	}
 	
 	.header_left, .header_right {
@@ -457,6 +458,8 @@ header.no_banner_styles {
 	
 	header.banner_styles, header.no_banner_styles {
 		 height: auto;
+		 position: relative;
+		 z-index: 2;
 		.header_left {
 			flex-basis: 100%;
 			padding:28px 20px;

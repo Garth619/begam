@@ -104,19 +104,40 @@ $('.mock_dropdown li').on('click', function() {
 
 
 
-$('.form_overlay_close').on('click', function(e) {
-  
-
-	$('.form_overlay_wrapper').removeClass('open');
-
-
-});
 
 
 
 
 
 
+	
+	var windowWidth = $(window).width();
+
+
+
+	function checkWidthhover() {
+    
+    if (windowWidth < 1066) {
+        
+      
+      $('.case_results_single_slide').on('click', function(e) {
+        
+      	
+      	//$('.hover_content').removeClass('hover');
+      	
+      	$(this).find('.hover_content').toggleClass('hover');
+      
+      
+      });
+    	    	   		
+    		
+    } 
+    
+    
+  };
+	
+
+checkWidthhover();
 
 
 

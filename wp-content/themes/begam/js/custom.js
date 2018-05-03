@@ -75,13 +75,21 @@ createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
 
 
-$('.start_button, .mobile_free_button, .mobile_email').on('click', function(e) {
+$('.start_button, .mobile_free_button, .mobile_email, .internal_consult').on('click', function(e) {
 
 		$('.form_overlay_wrapper').toggleClass('open');
 
 });
 
 
+
+$('.form_overlay_close').on('click', function(e) {
+  
+
+	$('.form_overlay_wrapper').removeClass('open');
+
+
+});
 
 
 

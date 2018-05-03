@@ -78,6 +78,26 @@ img.test_bgimage {
 }
 
 
+img.test_bgimage_two {
+	position: absolute;
+	top:575px;
+	right:-200px;
+	transform: rotate(180deg);
+}
+
+
+@media screen and (max-width: 1615px) {
+	
+	
+	img.test_bgimage_two {
+		display: none;
+	}
+	
+	
+} /* Media Query */
+
+
+
 @media screen and (max-width: 1290px) {
 	
 	
