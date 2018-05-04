@@ -314,7 +314,10 @@ body.error404 {
 			margin-top: 35px;
 			.sidebar.pa_sidebar {
 				padding-top:31px;
-				margin-bottom:0;
+				
+				&:last-of-type {
+					margin-bottom:0;
+				}
 			}
 			.sidebar {
 				padding: 57px 0px 35px;

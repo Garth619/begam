@@ -309,18 +309,6 @@
 	
 	
 	
-	// scroll to top 
-	
-	.scroll_to_top a.scroll_link svg {
-		animation-name: scroll_arrow;
-	  animation-duration: 2000ms;
-	  animation-fill-mode: both;
-	  animation-timing-function: linear;
-	  animation-iteration-count: infinite;
-	  position: relative;
-	  top:-5px;
-	}
-	
 	
 	
 	// att bio
@@ -368,6 +356,20 @@
 	
 } /* Media Query */
 
+
+	
+	// scroll to top 
+	
+	.scroll_to_top a.scroll_link svg {
+		animation-name: scroll_arrow;
+	  animation-duration: 2000ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+	  position: relative;
+	  top:-5px;
+	}
+	
 
 
 	

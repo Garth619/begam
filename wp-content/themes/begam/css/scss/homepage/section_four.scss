@@ -308,6 +308,14 @@ a.view_more {
 	.case_results_single_slide {
 		margin:40px 40px;
 		height: 497px;
+		svg {
+			width:140px;
+			margin: 138px 0 31px;
+			path, circle {
+				stroke: #17bbbd;
+				fill:none;
+			}
+		}
 		svg#car {
 			margin: 138px 0 31px;
 			.car-cls-1 {
@@ -364,7 +372,7 @@ a.view_more {
 	}
 	
 	.case_results_single_slide {
-		margin:40px 40px;
+		margin:60px 50px;
 		&:hover {
 			.hover_content {
 				opacity: 0;

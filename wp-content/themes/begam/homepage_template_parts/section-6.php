@@ -58,7 +58,7 @@
 			
 			</div><!-- reviews_img_wrapper -->
 			
-			<a class="review_view_more" href="">View More</a><!-- review_view_more -->
+			<a class="review_view_more" href="<?php bloginfo('url');?>/testimonials/">View More</a><!-- review_view_more -->
 			
 
 			

@@ -9,6 +9,10 @@ textarea { resize: none;}
 *, *:before, *:after {-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
 
 
+html, body {
+	overflow-x: hidden;
+}
+
 html {-webkit-text-size-adjust: 100%;} /* Disables scaling on landscape mobile */
 
 

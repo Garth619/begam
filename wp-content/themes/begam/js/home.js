@@ -106,9 +106,9 @@ $('.mock_dropdown li').on('click', function() {
 			 		
 			$('.form_overlay_wrapper').addClass('open');
 			
-			$('#input_2_6').val(text);
+			$('#input_1_6, #input_2_6, #input_3_6').val(text);
 			
-			$('.form_overlay_wrapper li#field_2_6').addClass('input_has_value');
+			$('li#field_1_6, li#field_2_6, li#field_3_6').addClass('input_has_value');
 			
 			
 			

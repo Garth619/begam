@@ -16,7 +16,7 @@
 		
 		<div class="single_att_overview">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/attorney">
 			
 				<div class="single_att_inner">
 			
@@ -35,7 +35,7 @@
 		
 		<div class="single_att_overview">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/attorney">
 			
 				<div class="single_att_inner">
 			
@@ -54,7 +54,7 @@
 		
 		<div class="single_att_overview">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/attorney">
 			
 				<div class="single_att_inner">
 			
@@ -73,7 +73,7 @@
 		
 		<div class="single_att_overview">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/attorney">
 			
 				<div class="single_att_inner">
 			
@@ -92,7 +92,7 @@
 		
 		<div class="single_att_overview">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/attorney">
 			
 				<div class="single_att_inner">
 			

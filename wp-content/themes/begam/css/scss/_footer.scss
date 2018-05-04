@@ -79,7 +79,7 @@ footer {
 					border-bottom: 4px solid transparent;
 					transition-delay: 0ms, 200ms;
 				}
-				input,textarea {
+				input,textarea, select {
 					opacity: 1;
 					transition-delay: 600ms;
 					background: $bluedark;
@@ -196,6 +196,12 @@ footer {
 					width:100%;
 					-webkit-appearance: none;
 					border-radius:0;
+					height:72px;
+					opacity: 0;
+					color:#fff;
+					font-family:$actabookitalic;
+					font-size: 30px;
+					padding:4px 0 0 23px;
 				}
 			}
 		}

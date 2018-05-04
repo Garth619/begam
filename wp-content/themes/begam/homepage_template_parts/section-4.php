@@ -68,7 +68,7 @@
 
 			<div class="view_more_wrapper">
 			
-				<a class="view_more" href="">View More</a><!-- view_more -->
+				<a class="view_more" href="<?php bloginfo('url');?>/case-results">View More</a><!-- view_more -->
 			
 			</div><!-- view_more_wrapper -->
 			
