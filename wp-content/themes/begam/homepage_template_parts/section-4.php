@@ -10,7 +10,7 @@
 		
 		<div class="case_results_slider">
 			
-			<div class="case_results_single_slide">
+			<div class="case_results_single_slide one">
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_car.svg"); ?>
 				
@@ -26,7 +26,7 @@
 				
 			</div><!-- case_results_single_slide -->
 			
-			<div class="case_results_single_slide">
+			<div class="case_results_single_slide two">
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_heart.svg"); ?>
 				
@@ -42,7 +42,7 @@
 				
 			</div><!-- case_results_single_slide -->
 			
-			<div class="case_results_single_slide">
+			<div class="case_results_single_slide three">
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_steth.svg"); ?>
 				

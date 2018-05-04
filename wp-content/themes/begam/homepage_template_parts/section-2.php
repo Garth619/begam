@@ -6,7 +6,7 @@
 		
 		<div class="sec_two_single one">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/case-results/">
 			
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_sp_one.svg"); ?>
 				
@@ -31,7 +31,7 @@
 		
 		<div class="sec_two_single two">
 			
-			<a class="" href="">
+			<a class="" href="<?php bloginfo('url');?>/attorneys/">
 			
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_sp_two.svg"); ?>
 				

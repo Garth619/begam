@@ -45,7 +45,15 @@ createWaypoint("header_trigger", "#header_trigger", "visible", 300, null, true);
 createWaypoint("section_one", "#section_one", "visible", 300, null, true);
 
 
-createWaypoint("section_two", ".start_button", "visible", 300, null, true);
+createWaypoint("section_two", ".start_button, #section_two", "visible", 300, null, false);
+
+
+createWaypoint("section_three", "#section_three", "visible", 300, null, false);
+
+
+createWaypoint("section_four", "#section_four", "visible", 0, null, true);
+
+
 
 
 

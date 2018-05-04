@@ -83,4 +83,129 @@
 	
 	
 	
+	// section two
+	
+	
+	.sec_two_single {
+		a {
+			svg#sp_one, svg#sp_two, svg#sp_three {
+				transform: translateY(-35px);
+				opacity: 0;
+				transition: opacity 400ms linear, transform 1100ms cubic-bezier(.17,.66,.34,.98);
+			}
+		}
+	} 
+	
+	
+	#section_two.visible {
+		.sec_two_single {
+			a {
+				svg#sp_one, svg#sp_two, svg#sp_three {
+					transform: translateY(0px);
+					opacity: 1;
+				}
+				svg#sp_one {
+					transition-delay: 0;
+				}
+				svg#sp_two {
+					transition-delay: 400ms;
+				}
+				svg#sp_three {
+					transition-delay: 600ms;
+				}
+			}
+		}
+	}
+	
+	
+	// section three
+	
+	
+	
+	
+	
+	
+	.aboutus_img_wrapper {
+		transform: translateY(150px);
+		transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	#section_three.visible {
+		.aboutus_img_wrapper {
+			transform: translateY(0px);
+		}
+	}
+	
+	
+	
+	// section_four 
+	
+	
+	
+	
+	.case_results_single_slide {
+		svg#car, svg#heart, svg#steth {
+			transform: translateY(-30px);
+			transition:transform 1100ms cubic-bezier(.17,.66,.34,.98);
+		}
+		span.case_amount, span.case_cat {
+			transform: translateY(-30px);
+			transition:transform 1100ms cubic-bezier(.17,.66,.34,.98);
+		}
+	}
+	
+	
+	#section_four.visible {
+		.case_results_single_slide {
+			svg#car, svg#heart, svg#steth {
+				transform: translateY(0px);
+			}
+			svg#car {
+				transition-delay: 0ms;
+			}
+			svg#heart {
+				transition-delay: 300ms;
+			}
+			svg#steth {
+				transition-delay: 600ms;
+			}
+			span.case_amount {
+				transform: translateY(0px);
+			}
+			span.case_cat {
+				transform: translateY(0px);
+			}
+		}
+		.case_results_single_slide.one {
+			span.case_amount {
+				transition-delay: 0ms;
+			}
+			span.case_cat {
+				transition-delay: 0ms;
+			}
+		}
+		.case_results_single_slide.two {
+			span.case_amount {
+				transition-delay: 300ms;
+			}
+			span.case_cat {
+				transition-delay: 300ms;
+			}
+		}
+		.case_results_single_slide.three {
+			span.case_amount {
+				transition-delay: 600ms;
+			}
+			span.case_cat {
+				transition-delay: 600ms;
+			}
+		}
+	}
+	
+	
+	
+	
+	
+	
 } /* Media Query */
