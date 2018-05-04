@@ -3,7 +3,7 @@
 	
 	<div class="internal_main">
 	
-		<div class="not_found">
+		<div id="not_found_trigger" class="not_found">
 			
 			<span class="not_found_title">404</span><!-- not_found_title -->
 			

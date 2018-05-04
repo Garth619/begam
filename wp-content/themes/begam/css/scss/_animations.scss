@@ -351,7 +351,22 @@
 	}
 
 	
+	// 404
 	
+	
+	.tumble {
+		transform:translateX(130px) rotate(180deg);
+		opacity: 0;
+		transition: transform 2000ms cubic-bezier(.17,.66,.34,.98), opacity 300ms linear;
+	}
+	
+	
+	#not_found_trigger.visible {
+		.tumble {
+			transform: translateX(0) rotate(0deg);
+			opacity: 1;
+		}
+	}
 	
 	
 } /* Media Query */
