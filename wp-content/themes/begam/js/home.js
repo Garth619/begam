@@ -39,8 +39,10 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 
 
+createWaypoint("header_trigger", "#header_trigger", "visible", 300, null, true);
 
 
+createWaypoint("section_one", "#section_one", "visible", 300, null, true);
 
 
 createWaypoint("section_two", ".start_button", "visible", 300, null, true);
