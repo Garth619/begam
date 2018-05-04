@@ -33,6 +33,13 @@ function my_jquery_enqueue() {
 	   else {
 		   wp_enqueue_script( 'jquery-internal', get_template_directory_uri() . '/js/internal-min.js', array('jquery'), '', true );
 	   }
+	   
+	   if(is_page_template( 'page-attbio.php' ) ) {
+		   
+		   
+		   wp_enqueue_script( 'jquery-attbio', get_template_directory_uri() . '/js/attbio-min.js', array('jquery'), '', true );
+		   
+	   }
      
  }
  

@@ -23,7 +23,7 @@
 		
 		</div><!-- att_header_wrapper -->
 		
-		<div class="att_excerpt">
+		<div id="att_trigger" class="att_excerpt">
 			
 			<div class="att_excerpt_content">
 				

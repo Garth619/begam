@@ -320,6 +320,47 @@
 	  position: relative;
 	  top:-5px;
 	}
+	
+	
+	
+	// att bio
+	
+	
+	
+	.att_bio_image {
+		&:after, img {
+			transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+		}
+		&:after {
+			transform: translateY(55px);
+		}
+		img {
+			transform: translateY(-55px);
+		}
+	}
+	
+	
+	
+	#att_trigger.visible {
+		.att_bio_image {
+			&:after, img {
+				transform: translateY(0px);
+			}
+		}
+	}
+	
+	
+	
+	.att_excerpt_content .att_excerpt_content_inner svg {
+		transform: translateX(50px);
+		transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	
+	#att_trigger.visible .att_excerpt_content .att_excerpt_content_inner svg {
+		transform: translateX(0px);
+	}
 
 	
 	

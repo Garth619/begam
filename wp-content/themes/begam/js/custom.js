@@ -67,6 +67,7 @@ jQuery(document).ready(function($){
 
 createWaypoint("header_trigger", ".mobile_nav", "visible", -148, null, true);
 
+createWaypoint("header_trigger", "#header_trigger", "visible", 300, null, true);
 
 createWaypoint("location_trigger", ".footer_location_wrapper", "visible", 350, null, false);
 
