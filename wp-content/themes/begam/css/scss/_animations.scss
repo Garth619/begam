@@ -203,9 +203,151 @@
 		}
 	}
 	
+	// section five
 	
+	
+	
+	.sec_five_img_wrapper {
+		&:before, img {
+			transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+		}
+		&:before {
+			transform: translateY(80px);
+		}
+		img {
+			transform: translateY(-80px);
+		}
+	}
+	
+	
+	#section_five.visible {
+		.sec_five_img_wrapper {
+			&:before {
+				transform: translateY(0px);
+			}
+			img {
+				transform: translateY(0px);
+			}
+		}
+	}
+	
+	
+	.sec_five_blockquote svg#gold_pattern {
+		transform: translateX(60px);
+		transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	#section_five.visible .sec_five_blockquote svg#gold_pattern {
+		transform: translateX(0px);
+	}
+	
+	
+	// section six
+	
+	
+	.reviews_img_wrapper {
+		&:after, img {
+			transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+		}
+		&:after {
+			transform: translateY(70px);
+		}
+		img {
+			transform: translateY(-70px);
+		}
+	}
+	
+	
+	#section_six.visible {
+		.reviews_img_wrapper {
+			&:after, img {
+				transform: translateY(0px);
+			}
+		} 
+	}
+	
+	
+	// footer trigger
+	
+	
+	
+	.location_left {
+		&:after, img {
+			transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+		}
+		&:after {
+			transform: translateY(90px);
+		}
+		img {
+			z-index:1;
+			position: relative;
+			transform: translateY(-90px);
+		}
+		
+	}
+	
+	.location_right svg#teal_pattern {
+		position: relative;
+		z-index: 1;
+		transform: translateX(60px);
+		transition: all 1400ms cubic-bezier(.17,.66,.34,.98);
+	}
+	
+	
+	
+	.footer_location_wrapper.visible {
+		.location_left {
+			&:after, img {
+				transform: translateY(0px);
+			}
+		}
+		.location_right svg#teal_pattern {
+			transform: translateX(0px);
+		}
+	}
+	
+	
+	
+	// scroll to top 
+	
+	.scroll_to_top a.scroll_link svg {
+		animation-name: scroll_arrow;
+	  animation-duration: 2000ms;
+	  animation-fill-mode: both;
+	  animation-timing-function: linear;
+	  animation-iteration-count: infinite;
+	  position: relative;
+	  top:-5px;
+	}
+
 	
 	
 	
 	
 } /* Media Query */
+
+
+
+	
+	@keyframes scroll_arrow {
+	  0 {
+	    transform: translateY(-50px);
+	 		
+	  }
+	
+	  50% {
+	    
+	    transform: translateY(10px);
+	  }
+	  100% {
+		  transform: translateY(0px);
+	  }
+	}
+	
+	
+	
+	
+
+
+

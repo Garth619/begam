@@ -15,7 +15,7 @@
 		
 	</div><!-- form_outer -->
 	
-	<div class="footer_location_wrapper">
+	<div id="location_trigger" class="footer_location_wrapper">
 		
 		<div class="footer_location_inner">
 			
