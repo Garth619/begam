@@ -53,7 +53,7 @@
 			
 			<span class="free">Free Consultation</span><!-- free -->
 			
-			<a class="phone" href="tel:(602) 254-6071">(602) 254-6071</a><!-- phone -->
+			<a class="phone" href="tel:<?php the_field( 'phone',18); ?>"><?php the_field( 'phone',18); ?></a><!-- phone -->
 			
 		</div><!-- phone_wrapper -->
 		
@@ -82,7 +82,7 @@
 		
 		<div class="mobile_tel">
 			
-			<a href="tel:(602) 254-6071">
+			<a href="tel:<?php the_field( 'phone',18); ?>">
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_phone.svg"); ?>
 				
