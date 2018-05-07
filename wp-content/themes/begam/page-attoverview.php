@@ -9,105 +9,66 @@
 <div id="main" class="internal_main">
 	
 		
-	<h1 class="no_banner_header">Attorney Overview</h1><!-- no_banner_header -->
+	<h1 class="no_banner_header"><?php the_title();?></h1><!-- no_banner_header -->
 	
 	<div class="att_overview">
 		
 		
-		<div class="single_att_overview">
-			
-			<a class="" href="<?php bloginfo('url');?>/attorney">
-			
-				<div class="single_att_inner">
-			
-					<img src="<?php bloginfo('template_directory');?>/images/att-overview-temp.jpg"/>
-			
-				</div><!-- single_att_inner -->
-			
-			</a>
-			
-			<span class="att_name">Stanley J. Marks</span><!-- att_title -->
-			
-			<span class="att_title">Attorney/Partner</span><!-- att_title -->
-			
-			
-		</div><!-- single_att_overview -->
+		<?php if(get_field('attorney_directory')): ?>
+		 
+			<?php while(has_sub_field('attorney_directory')): ?>
+		 
+						
+			<?php $post_object = get_sub_field( 'attorney' ); ?>
 		
-		<div class="single_att_overview">
+				<?php if ( $post_object ): ?>
 			
-			<a class="" href="<?php bloginfo('url');?>/attorney">
+				<?php $post = $post_object; ?>
 			
-				<div class="single_att_inner">
+				<?php setup_postdata( $post ); ?> 
+					
+					
+					
+					<div class="single_att_overview">
 			
-					<img src="<?php bloginfo('template_directory');?>/images/att-overview-temp.jpg"/>
+						<a class="" href="<?php the_permalink();?>">
 			
-				</div><!-- single_att_inner -->
+							<div class="single_att_inner">
 			
-			</a>
-			
-			<span class="att_name">Stanley J. Marks</span><!-- att_title -->
-			
-			<span class="att_title">Attorney/Partner</span><!-- att_title -->
-			
-			
-		</div><!-- single_att_overview -->
+								<?php $attorney_image = get_sub_field( 'attorney_image' ); ?>
 		
-		<div class="single_att_overview">
+								<?php if ( $attorney_image ) { ?>
 			
-			<a class="" href="<?php bloginfo('url');?>/attorney">
-			
-				<div class="single_att_inner">
-			
-					<img src="<?php bloginfo('template_directory');?>/images/att-overview-temp.jpg"/>
-			
-				</div><!-- single_att_inner -->
-			
-			</a>
-			
-			<span class="att_name">Stanley J. Marks</span><!-- att_title -->
-			
-			<span class="att_title">Attorney/Partner</span><!-- att_title -->
-			
-			
-		</div><!-- single_att_overview -->
+									<img src="<?php echo $attorney_image['url']; ?>" alt="<?php echo $attorney_image['alt']; ?>" />
 		
-		<div class="single_att_overview">
+								<?php } ?>
 			
-			<a class="" href="<?php bloginfo('url');?>/attorney">
+							</div><!-- single_att_inner -->
 			
-				<div class="single_att_inner">
+						</a>
 			
-					<img src="<?php bloginfo('template_directory');?>/images/att-overview-temp.jpg"/>
+						<span class="att_name"><?php the_title();?></span><!-- att_title -->
 			
-				</div><!-- single_att_inner -->
+						<span class="att_title"><?php the_field( 'position' ); ?></span><!-- att_title -->
 			
-			</a>
+					</div><!-- single_att_overview -->
+					
+					
+
+				
+				<?php wp_reset_postdata(); ?>
+						
+			<?php endif; ?>
+						
 			
-			<span class="att_name">Stanley J. Marks</span><!-- att_title -->
-			
-			<span class="att_title">Attorney/Partner</span><!-- att_title -->
-			
-			
-		</div><!-- single_att_overview -->
+				
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
-		<div class="single_att_overview">
-			
-			<a class="" href="<?php bloginfo('url');?>/attorney">
-			
-				<div class="single_att_inner">
-			
-					<img src="<?php bloginfo('template_directory');?>/images/att-overview-temp.jpg"/>
-			
-				</div><!-- single_att_inner -->
-			
-			</a>
-			
-			<span class="att_name">Stanley J. Marks</span><!-- att_title -->
-			
-			<span class="att_title">Attorney/Partner</span><!-- att_title -->
-			
-			
-		</div><!-- single_att_overview -->
+		
+
 		
 		
 	</div><!-- att_overview -->
