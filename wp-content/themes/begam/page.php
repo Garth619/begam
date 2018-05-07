@@ -6,9 +6,9 @@
 	
 	<div class="internal_banner_inner">
 		
-		<span class="banner_title">Need To Say Something Here</span>
+		<span class="banner_title"><?php the_field( 'banner_verbiage','option'); ?></span>
 		
-		<span class="internal_consult">Free Consultation</span>
+		<span class="internal_consult"><?php the_field( 'free_consultation_verbiage','option'); ?></span>
 		
 	</div><!-- internal_banner_inner -->
 	

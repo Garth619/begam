@@ -200,6 +200,13 @@ if (function_exists('acf_add_options_page')) {
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+    acf_add_options_page(array(
+        'page_title' => 'Internal Banner Settings',
+        'menu_title' => 'Internal Banner Settings',
+        'menu_slug' => 'banner-general-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
 }
 
 /* ALLOW SVGs IN MEDIA UPLOAD

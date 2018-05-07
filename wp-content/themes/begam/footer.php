@@ -5,7 +5,7 @@
 		
 		<div class="form_inner">
 			
-			<span class="free_title">Free Consultation</span><!-- free_title -->
+			<span class="free_title"><?php the_field( 'free_consultation_footer_verbiage','option'); ?></span><!-- free_title -->
 		
 			<?php gravity_form(1, false, false, false, '', false, 12); ?>
 			

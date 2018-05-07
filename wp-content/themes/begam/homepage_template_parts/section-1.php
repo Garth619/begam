@@ -4,11 +4,11 @@
 	<div class="inner_section_one">
 		
 		
-		<span class="sec_one_content">We <strong>maximize</strong> the value of your case.</span><!-- sec_one_content -->
+		<span class="sec_one_content"><?php the_field( 'section_one_verbiage' ); ?></span><!-- sec_one_content -->
 		
 		<div class="sec_one_form_wrapper">
 			
-			<span class="get_stared_here">Get Started Here</span><!-- get_stared_here -->
+			<span class="get_stared_here"><?php the_field( 'sec_one_get_started_verbiage' ); ?></span><!-- get_stared_here -->
 			
 			<div class="select_mock_wrapper">
 				
@@ -16,7 +16,7 @@
 					
 					<div class="input_left">
 						
-						<span class="input_left_select_copy">select how you were injured</span><!-- input_left_select_copy -->
+						<span class="input_left_select_copy"><?php the_field( 'select_tee_up' ); ?></span><!-- input_left_select_copy -->
 						
 					</div><!-- input_left -->
 					
@@ -29,12 +29,18 @@
 					<div class="mock_dropdown">
 						
 						<ul>
-							<li>Test Injury 1</li>
-							<li>Test Injury 2</li>
-							<li>Test Injury 3</li>
-							<li>Test Injury 4</li>
-							<li>Test Injury 5</li>
-							<li>Test Injury 6</li>
+							
+							
+							<?php if(get_field('select_options')): ?>
+							 
+								<?php while(has_sub_field('select_options')): ?>
+							 
+									<li><?php the_sub_field( 'option' ); ?></li>
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+							
 						</ul>
 						
 					</div><!-- mock_dropdown -->

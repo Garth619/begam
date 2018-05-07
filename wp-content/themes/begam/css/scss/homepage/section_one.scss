@@ -330,7 +330,7 @@
 	height: 373px;
 	padding-left:10px;
 	padding-right:10px;
-	background-position-x: -160px;
+	
 	
 }
 
@@ -379,8 +379,12 @@
 } /* Media Query */
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
 	
+	
+	#section_one {
+		background-position-x: -160px;
+	}
 	
 	
 	
