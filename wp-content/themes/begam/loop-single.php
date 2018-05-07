@@ -8,7 +8,7 @@
 				
 				
 				
-				<span class="post_content"> <?php echo wp_trim_words( get_the_content(), 110, '...' );?></span>
+				<span class="post_content"><?php the_content();?></span>
 				
 				
 				
