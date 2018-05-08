@@ -36,6 +36,12 @@
 		background-size:cover;
 	}
 	
+	.form_overlay_left {
+		background: url(<?php the_field( 'form_overlay_image_desktop','option'); ?>) top center no-repeat;
+		background-size:cover;
+	}
+
+	
 	<?php the_field( 'review_css','option'); ?>
 
 

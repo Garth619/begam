@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 2, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 3, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
@@ -207,6 +207,16 @@ if (function_exists('acf_add_options_page')) {
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+    
+     acf_add_options_page(array(
+        'page_title' => 'Form Overlay Settings',
+        'menu_title' => 'Form Overlay Settings',
+        'menu_slug' => 'form-overlay-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+    
+   
 }
 
 /* ALLOW SVGs IN MEDIA UPLOAD
