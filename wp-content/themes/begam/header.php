@@ -35,11 +35,15 @@
 		background: url(<?php the_field( 'internal_banner_image','option'); ?>) top left no-repeat;
 		background-size:cover;
 	}
+	
+	<?php the_field( 'review_css','option'); ?>
 
 
 </style>
 
 <?php wp_head(); ?>
+
+<?php the_field( 'header_scripts','option'); ?>
 
 </head>
 
