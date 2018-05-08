@@ -51,7 +51,7 @@
 
 
 .sec_three_col:first-of-type {
-	p:first-of-type:first-letter {
+	> p:first-of-type:first-letter {
 		color:$teal;
     font-family: $actablack;
     font-size: 121px;
