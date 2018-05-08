@@ -42,7 +42,7 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 
 
-createWaypoint("section_one", "#section_one", "visible", 300, null, true);
+createWaypoint("section_one", "#section_one", "visible", 300, null, false);
 
 
 createWaypoint("section_two", ".start_button, #section_two", "visible", 300, null, true);
@@ -51,7 +51,7 @@ createWaypoint("section_two", ".start_button, #section_two", "visible", 300, nul
 createWaypoint("section_three", "#section_three", "visible", 300, null, false);
 
 
-createWaypoint("section_four", "#section_four", "visible", 0, null, true);
+createWaypoint("section_four", "#section_four", "visible", 0, null, false);
 
 createWaypoint("section_five", "#section_five", "visible", 400, null, false);
 
