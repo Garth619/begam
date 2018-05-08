@@ -381,6 +381,13 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/fonts\/acta-muli\/ActaDisplayW01-Black.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -1152,6 +1159,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 8496,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/images\/logo.svg": {
 		"ft": 2097152,

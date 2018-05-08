@@ -55,7 +55,9 @@
 		
 		<a class="logo" href="<?php bloginfo('url');?>">
 			
-			<?php echo file_get_contents("wp-content/themes/begam/images/new_logo.svg"); ?>
+			<img src="<?php bloginfo('template_directory');?>/images/logo.png"/>
+			
+			<?php // echo file_get_contents("wp-content/themes/begam/images/new_logo.svg"); ?>
 			
 		</a>
 		

@@ -46,6 +46,7 @@
 	justify-content: center;
 	flex-direction: column;
 	transition: all 200ms ease-in-out;
+	z-index:5;
 	&:hover {
 		background: $teal;
 	}
@@ -438,6 +439,8 @@
 }	
 	
 .form_overlay_right {
+	overflow-y: scroll;
+	padding-bottom: 195px;
 	.gform_wrapper {
 		
 		ul {

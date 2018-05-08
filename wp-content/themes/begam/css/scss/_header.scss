@@ -14,7 +14,7 @@ header {
 
 
 a.logo {
-	svg {
+	img, svg {
 		width:490px;
 		height:auto;
 		path {
@@ -142,7 +142,7 @@ header.no_banner_styles {
 			flex-grow: 0;
 			flex-shrink: 0;
 			a.logo {
-				svg {
+				img,svg {
 					width: 100%;
 				}
 			}
@@ -195,7 +195,7 @@ header.no_banner_styles {
 			flex-grow: 0;
 			flex-shrink: 0;
 			a.logo {
-				svg {
+				img,svg {
 					width: 100%;
 				}
 			}
@@ -237,7 +237,7 @@ header.no_banner_styles {
 	}
 	
 	.header_left {
-		padding: 34px 27px;
+		padding: 30px 27px;
 		flex-grow:1;
 		
 	}
@@ -249,7 +249,7 @@ header.no_banner_styles {
 	
 	
 	a.logo {
-		svg {
+		img,svg {
 			width:352px;
 		}
 	}
@@ -300,7 +300,7 @@ header.no_banner_styles {
 			padding: 41px 26px 0;
 			a.logo {
 				
-				svg {
+				img,svg {
 					width: 330px;
 				}
 			}
@@ -375,7 +375,7 @@ header.no_banner_styles {
 	
 	a.logo {
 		display: block;
-		svg {
+		img,svg {
 			width:100%;
 			max-width:270px;
 			
