@@ -309,12 +309,27 @@
 
 
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 675px) {
 	
 	
 	.sec_five_img_wrapper {
 		&:before {
-			max-height: 374px;
+			max-height: 434px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 610px) {
+	
+	
+	.sec_five_img_wrapper {
+		&:before {
+			max-height: 380px;
 		}
 	}
 	

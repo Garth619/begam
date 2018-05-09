@@ -1004,17 +1004,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/hero-desktop.jpg": {
-		"ft": 16384,
-		"iS": 257204,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-desktop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/hero-internal.jpg": {
 		"ft": 16384,
 		"iS": 178019,
@@ -1032,17 +1021,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-laptop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/hero-mobile.jpg": {
-		"ft": 16384,
-		"iS": 32038,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
