@@ -35,7 +35,7 @@
 			
 			<?php echo file_get_contents("wp-content/themes/begam/images/new_play.svg"); ?>
 			
-			<span class="video_title wistia_embed wistia_async_fvynu51wm6 popover=true popoverContent=html">Lorem ipsum dolor</span>
+			<span class="video_title wistia_embed wistia_async_fvynu51wm6 popover=true popoverContent=html"><?php the_sub_field( 'video_title' ); ?></span>
 			
 		</div><!-- single_video -->
 		 

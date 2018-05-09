@@ -52,6 +52,7 @@ nav {
 .close {
 	position: absolute;
 	top:0;
+	z-index:5;
 	right:0;
 	background: $gold;
 	width:85px;

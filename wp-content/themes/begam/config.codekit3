@@ -920,17 +920,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/cr-bg-pattern-03.png": {
-		"ft": 32768,
-		"iS": 101858,
-		"oA": 0,
-		"oAP": "\/images\/cr-bg-pattern-03.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/images\/cr-icon-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1059,17 +1048,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/hero-tablet.jpg": {
-		"ft": 16384,
-		"iS": 123304,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/hero-tablet.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/icon-angles-02.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1159,17 +1137,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/images\/logo.png": {
-		"ft": 32768,
-		"iS": 8496,
-		"oA": 0,
-		"oAP": "\/images\/logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/images\/logo.svg": {
 		"ft": 2097152,
@@ -1441,17 +1408,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/results-bg.jpg": {
-		"ft": 16384,
-		"iS": 39268,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/results-bg.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/results-icon-01.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1499,17 +1455,6 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-laptop.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/reviews-desert-cactus-tablet.jpg": {
-		"ft": 16384,
-		"iS": 125065,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "\/images\/reviews-desert-cactus-tablet.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
