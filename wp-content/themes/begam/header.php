@@ -40,6 +40,24 @@
 		background: url(<?php the_field( 'form_overlay_image_desktop','option'); ?>) top center no-repeat;
 		background-size:cover;
 	}
+	
+	
+	#section_one {
+		background: url(<?php the_field( 'section_one_image_desktop'); ?>) top center no-repeat;
+		background-size:cover;
+	}
+	
+
+@media screen and (max-width: 767px) {	
+	
+	#section_one {
+		background: url(<?php the_field( 'section_one_image_mobile' ); ?>) top center no-repeat;
+		background-size:cover;
+	}
+
+} /* Media Query */
+	
+
 
 	
 	<?php the_field( 'review_css','option'); ?>
