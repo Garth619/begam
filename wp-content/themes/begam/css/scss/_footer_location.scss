@@ -36,7 +36,7 @@
 			display: inline-block;
 			svg {
 				width:236px;
-				height:auto;
+				height: 20px;;
 				.laptop_image-cls-1 {
 					fill:#000;
 				}
@@ -79,6 +79,7 @@
 	
 	svg#teal_pattern {
 		width:337px;
+		height: 40px;
 		display:block;
 		margin-bottom:42px;
 		margin-left:-232px;
@@ -147,6 +148,7 @@
 		}
 		svg {
 			height:16px;
+			width: 18px;
 			path {
 				fill:#111627;
 				transition: all .2s ease-in-out;
@@ -194,7 +196,7 @@
 		}
 		svg {
 			height:39px;
-			width:auto;
+			width: 17px;
 			margin:20px 0 0 32px;
 			.arrow-cls-1{
 				fill:none;

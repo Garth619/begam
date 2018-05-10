@@ -30,11 +30,14 @@
 	}
 	.single_att_inner {
 		position: relative;
-		
+		a {
+			text-decoration: none;
+		}
 		&:before {
 			content:"View More";
 			max-width:475px;
 			display: flex;
+			text-decoration: none;
 			width:100%;
 			height:100%;
 			position: absolute;
