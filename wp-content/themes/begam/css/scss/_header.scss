@@ -40,7 +40,10 @@ a.logo {
 		text-transform: lowercase;
 		font-size:37px;
 		letter-spacing: 0.02em;
-		
+		display: block;
+		line-height: 37px;
+		font-weight: normal;
+	font-style: normal;
 	}
 	a.phone {
 		color:#fff;
