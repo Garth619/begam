@@ -83,6 +83,10 @@
 	column-gap:75px;
 	 padding-left:104px;
     padding-right:104px;
+    p, ul,ol h2, h3 {
+	    width:100%;
+	    display: inline-block; //column hack
+    }
 }
 
 // remove
