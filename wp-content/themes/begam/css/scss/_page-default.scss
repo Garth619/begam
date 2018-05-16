@@ -70,6 +70,62 @@
 
 
 
+
+body.page-template-page-burninjuries {
+	.sidebar_wrapper {
+		.sidebar.pa_sidebar {
+			ul.menu {
+				li#menu-item-1876 {
+					margin-bottom:0;
+					background: #f6f3ee;
+					> a {
+						color:$gold;
+					}
+					ul.sub-menu {
+						max-height: 3000px;
+						opacity: 1;
+						visibility: visible;
+						padding: 21px 0;
+					}
+				}
+				> li:not(#menu-item-1876) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+body.page-template-page-caraccidents {
+	.sidebar_wrapper {
+		.sidebar.pa_sidebar {
+			ul.menu {
+				li#menu-item-43 {
+					margin-bottom:0;
+					background: #f6f3ee;
+					> a {
+						color:$gold;
+					}
+					ul.sub-menu {
+						max-height: 3000px;
+						opacity: 1;
+						visibility: visible;
+						padding: 21px 0;
+					}
+				}
+				> li:not(#menu-item-43) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+
+
+
 .sidebar_wrapper {
 	flex-basis:490px;
 	flex-shrink:0;
@@ -110,6 +166,12 @@
 				> a {
 						color:$gold;
 				}
+			}
+			li.current-menu-parent {
+				> a {
+					color:$gold;
+				}
+				
 			}
 			li.menu-item-has-children {
 				
@@ -153,6 +215,11 @@
 			visibility: hidden;
 			padding:0px;
 			transition: all 500ms ease-in-out;
+			li.current-menu-item {
+				a {
+					color:$gold;
+				}
+			}
 			li {
 				text-transform: capitalize;
 				margin-bottom:50px;
@@ -430,7 +497,7 @@ body.error404 {
 				ul {
 					li {
 						a {
-							padding: 0px 35px;
+							padding: 0px 50px 0 35px;
 						}
 					}
 				}
