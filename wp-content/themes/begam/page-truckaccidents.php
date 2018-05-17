@@ -1,6 +1,6 @@
 <?php
 	
-	/* Template Name: Car Accidents */
+	/* Template Name: Truck Accidents */
 	
 	get_header(); ?>
 

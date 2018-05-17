@@ -2555,13 +2555,6 @@
 		"oAP": "\/page-burninjuries.php",
 		"oF": 0
 		},
-	"\/page-caraccidents.php": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/page-caraccidents.php",
-		"oF": 0
-		},
 	"\/page-caseresults.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2595,6 +2588,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-padirectory.php",
+		"oF": 0
+		},
+	"\/page-truckaccidents.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-truckaccidents.php",
 		"oF": 0
 		},
 	"\/page-videocenter.php": {
