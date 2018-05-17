@@ -2590,11 +2590,11 @@
 		"oAP": "\/page-padirectory.php",
 		"oF": 0
 		},
-	"\/page-truckaccidents.php": {
+	"\/page-truckaccidentstemplate.php": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/page-truckaccidents.php",
+		"oAP": "\/page-truckaccidentstemplate.php",
 		"oF": 0
 		},
 	"\/page-videocenter.php": {
