@@ -86,6 +86,23 @@
 							
 							
 							<?php endif; ?>
+							
+							<?php if( get_sub_field('select_svg') == 'Construction' ): ?>
+	
+	
+								<?php echo file_get_contents("wp-content/themes/begam/images/new_construction.svg"); ?>
+							
+							
+							<?php endif; ?>
+							
+							<?php if( get_sub_field('select_svg') == 'Traffic' ): ?>
+	
+	
+								<?php echo file_get_contents("wp-content/themes/begam/images/new_traffic.svg"); ?>
+							
+							
+							<?php endif; ?>
+			
 			
 							
 			
