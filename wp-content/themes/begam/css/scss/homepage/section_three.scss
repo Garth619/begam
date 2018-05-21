@@ -51,7 +51,7 @@
 
 
 .sec_three_col:first-of-type {
-	p:first-of-type:first-letter {
+	> p:first-of-type:first-letter {
 		color:$teal;
     font-family: $actablack;
     font-size: 121px;
@@ -111,6 +111,7 @@
 	}
 	svg#play_button {
 		width:310px;
+		height: 310px;
 		display: block;
 		margin:-185px auto 0;
 		.play_button-cls-1 {
@@ -235,7 +236,7 @@
 
 
 	.sec_three_col:last-of-type {
-		margin: -659px 0 0;
+		margin: -616px 0 0;
 	}
 	
 	

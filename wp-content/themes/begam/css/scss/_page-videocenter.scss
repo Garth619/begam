@@ -3,7 +3,7 @@
    height: 100% !important;
  }
 
-.video-center-item-thumbnail .wistia_click_to_play div div {
+.wistia_click_to_play div div {
 	display: none !important;
 }
 
@@ -70,6 +70,7 @@
 	}
 	svg#play_button {
 		width:200px;
+		    height: 200px;
 		display: block;
 		margin: -115px auto 0;
 		position: relative;

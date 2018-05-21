@@ -102,6 +102,28 @@ body.single {
 		color:$teal;
 		text-decoration: none;
 	}
+	ol {
+		list-style: none;
+		counter-reset: item;
+		margin-bottom:45px;
+		> li {
+			counter-increment: item;
+			margin-bottom:25px;
+			position: relative;
+			padding-left:23px;
+ 		}
+ 		> li:before {
+ 				margin-right: 10px;
+ 				content: counter(item)".";
+ 				color: $teal;
+ 				width: 30px;
+ 				display: inline-block;
+ 				font-family: $muliextrabold;
+ 				position: absolute;
+ 				top:0;
+ 				left:0;
+ 			}
+	}
 	ul {
 		list-style: none;
 		li {
@@ -128,6 +150,9 @@ body.single {
 		font-family:$actamedium;
 		line-height: 60px;
 		padding:20px 0 43px;
+		p {
+			margin-bottom:0;
+		}
 		&:before {
 			content:"";
 			width:118px;
@@ -280,7 +305,7 @@ body.single {
 	h1.no_banner_header {
 		margin:0px 0 0;
 		font-size:90px;
-		line-height: 90px;
+		line-height: 83px;
 	}
 
 

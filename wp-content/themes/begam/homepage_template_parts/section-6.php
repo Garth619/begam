@@ -4,7 +4,7 @@
 		
 		
 		
-		<span class="sec_six_title">Client Reviews</span><!-- sec_six_title -->
+		<span class="sec_six_title"><?php the_field( 'section_six_header' ); ?></span><!-- sec_six_title -->
 		
 		<div class="sec_six_boxes_wrapper">
 			
@@ -13,30 +13,27 @@
 				
 				<div class="reviews_slider">
 					
-					<div class="reviews_single_slide">
-						
-						
-						<span class="reviews_slide_content">Begam Marks & Traulsen is an excellent firm with caring, hardworking attorneys. They took a chance on my case when no one else would listen. </span><!-- reviews_slide_content -->
-						
-						
-						<span class="client_name">S.I.</span><!-- client_name -->
-						
-						
-					</div><!-- reviews_single_slide -->
 					
-					<div class="reviews_single_slide">
+					<?php if(get_field('section_six_reviews')): ?>
+					 
+						<?php while(has_sub_field('section_six_reviews')): ?>
+					 
 						
+							<div class="reviews_single_slide">
 						
-						<span class="reviews_slide_content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad min</span><!-- reviews_slide_content -->
+								<span class="reviews_slide_content"><?php the_sub_field( 'reviews_content' ); ?></span><!-- reviews_slide_content -->
 						
+								<span class="client_name"><?php the_sub_field( 'reviews_name' ); ?></span><!-- client_name -->
 						
-						<span class="client_name">G.C.</span><!-- client_name -->
+							</div><!-- reviews_single_slide -->
 						
-						
-					</div><!-- reviews_single_slide -->
+					    
+						<?php endwhile; ?>
+					 
+					<?php endif; ?>
 					
-										
-				</div><!-- reviews_slider -->
+					
+					</div><!-- reviews_slider -->
 				
 				<div class="reviews_buttons">
 					
@@ -49,19 +46,38 @@
 			</div><!-- reviews_wrapper -->
 			
 			<div class="reviews_img_wrapper">
+				
+				
+				<?php $section_six_image_desktop = get_field( 'section_six_image_desktop' ); ?>
+
+				<?php if ( $section_six_image_desktop ) { ?>
+	
+					<img class="desktop_image" src="<?php echo $section_six_image_desktop['url']; ?>" alt="<?php echo $section_six_image_desktop['alt']; ?>" />
+
+				<?php } ?>
+				
+				
+				<?php $section_six_image_tablet = get_field( 'section_six_image_tablet' ); ?>
+				
+				<?php if ( $section_six_image_tablet ) { ?>
+	
+				<img class="laptop_image" src="<?php echo $section_six_image_tablet['url']; ?>" alt="<?php echo $section_six_image_tablet['alt']; ?>" />
+
+				<?php } ?>
+				
+				
+				<?php $section_six_image_mobile = get_field( 'section_six_image_mobile' ); ?>
+				
+				<?php if ( $section_six_image_mobile ) { ?>
+	
+					<img class="tablet_image" src="<?php echo $section_six_image_mobile['url']; ?>" alt="<?php echo $section_six_image_mobile['alt']; ?>" />
+
+				<?php } ?>
 			
-				<img class="desktop_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-desktop.jpg"/>
-				
-				<img class="laptop_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-laptop.jpg"/>
-				
-				<img class="tablet_image" src="<?php bloginfo('template_directory');?>/images/reviews-desert-cactus-tablet.jpg"/>
 			
 			</div><!-- reviews_img_wrapper -->
 			
-			<a class="review_view_more" href="">View More</a><!-- review_view_more -->
-			
-
-			
+			<a class="review_view_more" href="<?php the_field( 'section_six_view_more_link' ); ?>"><?php the_field( 'section_six__view_more_verbiage' ); ?></a><!-- review_view_more -->
 			
 		</div><!-- sec_six_boxes_wrapper -->
 		

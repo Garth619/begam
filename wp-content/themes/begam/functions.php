@@ -21,7 +21,7 @@ function my_jquery_enqueue() {
 
  function load_my_styles_scripts() {
      // Load my stylesheet
-     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 1, 'all' ); 
+     wp_enqueue_style( 'styles', get_template_directory_uri() . '/style.css', '', 4, 'all' ); 
 
      // Load my javascripts
      wp_enqueue_script( 'jquery-addon', get_template_directory_uri() . '/js/custom-min.js', array('jquery'), '', true );
@@ -32,6 +32,18 @@ function my_jquery_enqueue() {
 	   
 	   else {
 		   wp_enqueue_script( 'jquery-internal', get_template_directory_uri() . '/js/internal-min.js', array('jquery'), '', true );
+	   }
+	   
+	   if(is_page_template( 'page-attbio.php' ) ) {
+		   
+		   wp_enqueue_script( 'jquery-attbio', get_template_directory_uri() . '/js/attbio-min.js', array('jquery'), '', true );
+		   
+	   }
+	   
+	   if(is_404()) {
+		   
+		   wp_enqueue_script( 'jquery-notfound', get_template_directory_uri() . '/js/not_found_page-min.js', array('jquery'), '', true );
+		   
 	   }
      
  }
@@ -188,6 +200,23 @@ if (function_exists('acf_add_options_page')) {
         'capability' => 'edit_posts',
         'redirect' => false
     ));
+    acf_add_options_page(array(
+        'page_title' => 'Internal Banner Settings',
+        'menu_title' => 'Internal Banner Settings',
+        'menu_slug' => 'banner-general-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+    
+     acf_add_options_page(array(
+        'page_title' => 'Form Overlay Settings',
+        'menu_title' => 'Form Overlay Settings',
+        'menu_slug' => 'form-overlay-settings',
+        'capability' => 'edit_posts',
+        'redirect' => false
+    ));
+    
+   
 }
 
 /* ALLOW SVGs IN MEDIA UPLOAD

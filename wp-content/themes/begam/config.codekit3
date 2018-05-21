@@ -4,10 +4,10 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "D3E5A189-B5D8-445A-9B44-20888A2056F9"
+		"uuidString": "F5E14EEF-F1B2-4C3F-A2B5-6D9435224B0C"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/404.php": {
 		"cB": 0,
@@ -381,6 +381,44 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
+	"\/fonts\/abovetheskythree\/ATS-Script.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/abovetheskythree\/ATS-Script.woff",
+		"oF": 0
+		},
+	"\/fonts\/abovetheskythree\/ATS-Script.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/abovetheskythree\/ATS-Script.woff2",
+		"oF": 0
+		},
+	"\/fonts\/abovetheskythree\/demo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fonts\/abovetheskythree\/demo.html",
+		"oF": 0
+		},
+	"\/fonts\/abovetheskythree\/stylesheet.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fonts\/abovetheskythree\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/fonts\/acta-muli\/ActaDisplayW01-Black.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -576,82 +614,6 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"\/fonts\/atf\/MyFontsWebfontsKit.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/MyFontsWebfontsKit-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/fonts\/atf\/Start here files\/header.png": {
-		"ft": 32768,
-		"iS": 3167,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/Start here files\/header.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/fonts\/atf\/Start here files\/highlight.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/Start here files\/highlight-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/fonts\/atf\/Start here files\/layout.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/Start here files\/layout-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/fonts\/atf\/StartHere.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/StartHere.html",
-		"oF": 0
-		},
-	"\/fonts\/atf\/webfonts\/364FFA_0_0.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.eot",
-		"oF": 0
-		},
-	"\/fonts\/atf\/webfonts\/364FFA_0_0.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.ttf",
-		"oF": 0
-		},
-	"\/fonts\/atf\/webfonts\/364FFA_0_0.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.woff",
-		"oF": 0
-		},
-	"\/fonts\/atf\/webfonts\/364FFA_0_0.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/fonts\/atf\/webfonts\/364FFA_0_0.woff2",
-		"oF": 0
-		},
 	"\/footer.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -718,6 +680,7 @@
 	"\/images\/404bg.jpg": {
 		"ft": 16384,
 		"iS": 21820,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/404bg.jpg",
 		"oF": 0,
@@ -728,6 +691,7 @@
 	"\/images\/att-bio-temp-tablet.jpg": {
 		"ft": 16384,
 		"iS": 155196,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/att-bio-temp-tablet.jpg",
 		"oF": 0,
@@ -738,6 +702,7 @@
 	"\/images\/att-bio-temp.jpg": {
 		"ft": 16384,
 		"iS": 107069,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/att-bio-temp.jpg",
 		"oF": 0,
@@ -748,6 +713,7 @@
 	"\/images\/att-overview-temp.jpg": {
 		"ft": 16384,
 		"iS": 193240,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/att-overview-temp.jpg",
 		"oF": 0,
@@ -835,6 +801,7 @@
 	"\/images\/bg-whole.jpg": {
 		"ft": 16384,
 		"iS": 92298,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/bg-whole.jpg",
 		"oF": 0,
@@ -845,6 +812,7 @@
 	"\/images\/content-attorney-group-desktop.jpg": {
 		"ft": 16384,
 		"iS": 189391,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-desktop.jpg",
 		"oF": 0,
@@ -855,6 +823,7 @@
 	"\/images\/content-attorney-group-laptop.jpg": {
 		"ft": 16384,
 		"iS": 123581,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-laptop.jpg",
 		"oF": 0,
@@ -865,6 +834,7 @@
 	"\/images\/content-attorney-group-tablet.jpg": {
 		"ft": 16384,
 		"iS": 109336,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-attorney-group-tablet.jpg",
 		"oF": 0,
@@ -875,6 +845,7 @@
 	"\/images\/content-video-thumb.jpg": {
 		"ft": 16384,
 		"iS": 74033,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/content-video-thumb.jpg",
 		"oF": 0,
@@ -906,7 +877,7 @@
 		},
 	"\/images\/cr-bg-pattern-03.png": {
 		"ft": 32768,
-		"iS": 101858,
+		"iS": 63249,
 		"oA": 0,
 		"oAP": "\/images\/cr-bg-pattern-03.png",
 		"oF": 0,
@@ -969,6 +940,7 @@
 	"\/images\/footer-image-desktop.jpg": {
 		"ft": 16384,
 		"iS": 83324,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer-image-desktop.jpg",
 		"oF": 0,
@@ -979,6 +951,7 @@
 	"\/images\/footer-image-tablet.jpg": {
 		"ft": 16384,
 		"iS": 93615,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/footer-image-tablet.jpg",
 		"oF": 0,
@@ -989,6 +962,7 @@
 	"\/images\/form_cactus.jpg": {
 		"ft": 16384,
 		"iS": 131494,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/form_cactus.jpg",
 		"oF": 0,
@@ -998,7 +972,8 @@
 		},
 	"\/images\/hero-desktop.jpg": {
 		"ft": 16384,
-		"iS": 257204,
+		"iS": 618594,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-desktop.jpg",
 		"oF": 0,
@@ -1009,6 +984,7 @@
 	"\/images\/hero-internal.jpg": {
 		"ft": 16384,
 		"iS": 178019,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-internal.jpg",
 		"oF": 0,
@@ -1019,6 +995,7 @@
 	"\/images\/hero-laptop.jpg": {
 		"ft": 16384,
 		"iS": 174627,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-laptop.jpg",
 		"oF": 0,
@@ -1028,7 +1005,8 @@
 		},
 	"\/images\/hero-mobile.jpg": {
 		"ft": 16384,
-		"iS": 32038,
+		"iS": 117516,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-mobile.jpg",
 		"oF": 0,
@@ -1038,7 +1016,8 @@
 		},
 	"\/images\/hero-tablet.jpg": {
 		"ft": 16384,
-		"iS": 123304,
+		"iS": 221647,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/hero-tablet.jpg",
 		"oF": 0,
@@ -1136,6 +1115,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 7189,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1181,6 +1171,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/images\/new_car.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/images\/new_construction.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_construction.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1366,6 +1366,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/images\/new_traffic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/images\/new_traffic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/images\/new_truck.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1408,7 +1418,8 @@
 		},
 	"\/images\/results-bg.jpg": {
 		"ft": 16384,
-		"iS": 39268,
+		"iS": 27669,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/results-bg.jpg",
 		"oF": 0,
@@ -1449,6 +1460,7 @@
 	"\/images\/reviews-desert-cactus-desktop.jpg": {
 		"ft": 16384,
 		"iS": 149265,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-desktop.jpg",
 		"oF": 0,
@@ -1459,6 +1471,7 @@
 	"\/images\/reviews-desert-cactus-laptop.jpg": {
 		"ft": 16384,
 		"iS": 99221,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-laptop.jpg",
 		"oF": 0,
@@ -1468,7 +1481,8 @@
 		},
 	"\/images\/reviews-desert-cactus-tablet.jpg": {
 		"ft": 16384,
-		"iS": 125065,
+		"iS": 100445,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/reviews-desert-cactus-tablet.jpg",
 		"oF": 0,
@@ -1560,6 +1574,7 @@
 	"\/images\/test_image.jpg": {
 		"ft": 16384,
 		"iS": 51962,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/test_image.jpg",
 		"oF": 0,
@@ -1570,6 +1585,7 @@
 	"\/images\/testbg.jpg": {
 		"ft": 16384,
 		"iS": 41238,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testbg.jpg",
 		"oF": 0,
@@ -1580,6 +1596,7 @@
 	"\/images\/testimonials_bg.jpg": {
 		"ft": 16384,
 		"iS": 147643,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/testimonials_bg.jpg",
 		"oF": 0,
@@ -1612,6 +1629,7 @@
 	"\/images\/video-thumb.jpg": {
 		"ft": 16384,
 		"iS": 173608,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/video-thumb.jpg",
 		"oF": 0,
@@ -1625,6 +1643,26 @@
 		"oA": 0,
 		"oAP": "\/index.php",
 		"oF": 0
+		},
+	"\/js\/attbio-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/attbio-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/attbio.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/attbio-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/js\/custom-min.js": {
 		"ft": 64,
@@ -1643,7 +1681,7 @@
 		"oA": 0,
 		"oAP": "\/js\/custom-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/home-min.js": {
@@ -1663,7 +1701,7 @@
 		"oA": 0,
 		"oAP": "\/js\/home-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/internal-min.js": {
@@ -1683,7 +1721,27 @@
 		"oA": 0,
 		"oAP": "\/js\/internal-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/not_found_page-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/not_found_page-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/js\/not_found_page.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/not_found_page-min.js",
+		"oF": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"\/js\/slick\/.gitignore": {
@@ -2510,6 +2568,13 @@
 		"oAP": "\/page-blog.php",
 		"oF": 0
 		},
+	"\/page-burninjuries.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-burninjuries.php",
+		"oF": 0
+		},
 	"\/page-caseresults.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2543,6 +2608,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/page-padirectory.php",
+		"oF": 0
+		},
+	"\/page-truckaccidentstemplate.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/page-truckaccidentstemplate.php",
 		"oF": 0
 		},
 	"\/page-videocenter.php": {
@@ -2621,10 +2693,11 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 547054383,
+	"creationDate": 548186713,
 	"displayValue": "begam",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_teal"
+	"iconImageName": "meme-chloe",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -4427,6 +4500,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

@@ -1,7 +1,7 @@
 body.page-template-page-caseresults {
 	svg#new_pattern {
 		width:133px;
-		height:auto;
+		height: 34px;
 		display: block;
 		margin:-5px auto 0;
 	}
@@ -136,6 +136,16 @@ span.case_results_page_intro {
 				.motor-cls-2 {
 					stroke-miterlimit:10;
 				}
+			}
+			svg#new_construction {
+				width:105px;
+				margin-top:79px;
+				.new_construction-cls-1{fill:#29b6b9;}
+			}
+			svg#new_traffic {
+				width:120px;
+				margin-top:65px;
+				.new_traffic-cls-1{fill:#29b6b9;stroke:#28b5b8;stroke-miterlimit:10;stroke-width:0.47px;}
 			}
 		}
 		span {

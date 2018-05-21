@@ -28,7 +28,46 @@
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
 
+<style type="text/css">
+	
+
+	.internal_banner {
+		background: url(<?php the_field( 'internal_banner_image','option'); ?>) top left no-repeat;
+		background-size:cover;
+	}
+	
+	.form_overlay_left {
+		background: url(<?php the_field( 'form_overlay_image_desktop','option'); ?>) top center no-repeat;
+		background-size:cover;
+	}
+	
+	
+	#section_one {
+		background: url(<?php the_field( 'section_one_image_desktop'); ?>) top center no-repeat;
+		background-size:cover;
+	}
+	
+
+@media screen and (max-width: 767px) {	
+	
+	#section_one {
+		background: url(<?php the_field( 'section_one_image_mobile' ); ?>) top center no-repeat;
+		background-size:cover;
+	}
+
+} /* Media Query */
+	
+
+
+	
+	<?php the_field( 'review_css','option'); ?>
+
+
+</style>
+
 <?php wp_head(); ?>
+
+<?php the_field( 'header_scripts','option'); ?>
 
 </head>
 
@@ -40,7 +79,9 @@
 		
 		<a class="logo" href="<?php bloginfo('url');?>">
 			
-			<?php echo file_get_contents("wp-content/themes/begam/images/new_logo.svg"); ?>
+			<img src="<?php bloginfo('template_directory');?>/images/logo.png"/>
+			
+			<?php // echo file_get_contents("wp-content/themes/begam/images/new_logo.svg"); ?>
 			
 		</a>
 		
@@ -53,7 +94,7 @@
 			
 			<span class="free">Free Consultation</span><!-- free -->
 			
-			<a class="phone" href="tel:(602) 254-6071">(602) 254-6071</a><!-- phone -->
+			<a class="phone" href="tel:<?php the_field( 'phone',18); ?>"><?php the_field( 'phone',18); ?></a><!-- phone -->
 			
 		</div><!-- phone_wrapper -->
 		
@@ -82,7 +123,7 @@
 		
 		<div class="mobile_tel">
 			
-			<a href="tel:(602) 254-6071">
+			<a href="tel:<?php the_field( 'phone',18); ?>">
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_phone.svg"); ?>
 				

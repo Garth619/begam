@@ -46,6 +46,7 @@
 	justify-content: center;
 	flex-direction: column;
 	transition: all 200ms ease-in-out;
+	z-index:5;
 	&:hover {
 		background: $teal;
 	}
@@ -68,8 +69,10 @@
 
 
 .form_overlay_left {
+/*
 	background: url(#{$themePath}images/form_cactus.jpg) top center no-repeat;
 	background-size:cover;
+*/
 	flex-grow: 1;
 }
 
@@ -438,6 +441,8 @@
 }	
 	
 .form_overlay_right {
+	overflow-y: scroll;
+	padding-bottom: 195px;
 	.gform_wrapper {
 		
 		ul {

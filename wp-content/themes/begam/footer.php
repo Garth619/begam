@@ -5,7 +5,7 @@
 		
 		<div class="form_inner">
 			
-			<span class="free_title">Free Consultation</span><!-- free_title -->
+			<span class="free_title"><?php the_field( 'free_consultation_footer_verbiage','option'); ?></span><!-- free_title -->
 		
 			<?php gravity_form(1, false, false, false, '', false, 12); ?>
 			
@@ -15,17 +15,31 @@
 		
 	</div><!-- form_outer -->
 	
-	<div class="footer_location_wrapper">
+	<div id="location_trigger" class="footer_location_wrapper">
 		
 		<div class="footer_location_inner">
 			
 			<div class="location_left">
 				
 				<div class="copyright_wrapper">
-				
-					<img class="att_image desktop" src="<?php bloginfo('template_directory');?>/images/footer-image-desktop.jpg"/>
 					
-					<img class="att_image mobile" src="<?php bloginfo('template_directory');?>/images/test_image.jpg"/>
+					<?php $footer_image_desktop = get_field( 'footer_image_desktop','option'); ?>
+
+					<?php if ( $footer_image_desktop ) { ?>
+	
+						<img class="att_image desktop" src="<?php echo $footer_image_desktop['url']; ?>" alt="<?php echo $footer_image_desktop['alt']; ?>" />
+
+					<?php } ?>
+				
+					
+					
+					<?php $footer_image_tablet = get_field( 'footer_image_tablet','option'); ?>
+
+					<?php if ( $footer_image_tablet ) { ?>
+	
+						<img class="att_image mobile" src="<?php echo $footer_image_tablet['url']; ?>" alt="<?php echo $footer_image_tablet['alt']; ?>" />
+
+						<?php } ?>
 				
 					
 					<div class="copyright_desktop">
@@ -37,9 +51,18 @@
 						</a>
 					
 						<ul>
-							<li>&copy;<?php echo date("Y"); ?> Begam Marks & Traulsen, P.A.<br/> All Rights Reserved.</li>
-							<li><a href="">Privacy Policy</a></li>
-							<li><a href="">Disclaimer</a></li>
+							<li>&copy;<?php echo date("Y"); ?> <?php the_field( 'copyright','option'); ?></li>
+							
+							<?php if(get_field('footer_links','option')): ?>
+							 
+								<?php while(has_sub_field('footer_links','option')): ?>
+							 
+									<li><a href="<?php the_sub_field( 'single_bullet_page_link'); ?>"><?php the_sub_field( 'single_bullet'); ?></a></li>
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+							
 						</ul>
 					
 					</div><!-- copyright_desktop -->
@@ -53,17 +76,15 @@
 				
 				<?php echo file_get_contents("wp-content/themes/begam/images/new_teal_pattern.svg"); ?>
 				
-				<a class="address" href="" target="_blank">
+				<a class="address" href="<?php the_field( 'address_link',18); ?>" target="_blank">
 					
-					11201 N. Tatum Blvd. 
-					Suite #110<br/>
-					Phoenix, AZ 85028
+					<?php the_field( 'address',18); ?>
 				
 				</a><!-- address -->
 				
-				<a class="tel" href="tel:(602) 254-6071">(602) 254-6071</a>
+				<a class="tel" href="tel:<?php the_field( 'phone',18); ?>"><?php the_field( 'phone',18); ?></a>
 				
-				<a class="directions" href="" target="_blank">Directions</a>
+				<a class="directions" href="<?php the_field( 'address_link',18); ?>" target="_blank">Directions</a>
 				
 <!-- 				<div class=""></div> -->
 				
@@ -80,30 +101,46 @@
 				<div class="social_icons">
 					
 					<div class="tablet_center">
+						
+						<?php if(get_field('google_plus_link','option')) { ?>
 				
-						<a class="" href="">
+							<a class="" href="<?php the_field( 'google_plus_link','option'); ?>" target="_blank">
 							
-							<?php echo file_get_contents("wp-content/themes/begam/images/new_google.svg"); ?>
+								<?php echo file_get_contents("wp-content/themes/begam/images/new_google.svg"); ?>
 							
-						</a>
+							</a>
 						
-						<a class="" href="">
-							
-							<?php echo file_get_contents("wp-content/themes/begam/images/new_facebook.svg"); ?>
-							
-						</a>
+						<?php } ?>
 						
-						<a class="" href="">
-							
-							<?php echo file_get_contents("wp-content/themes/begam/images/new_twitter.svg"); ?>
-							
-						</a>
+						<?php if(get_field('facebook_link','option')) { ?>
 						
-						<a class="" href="">
+							<a class="" href="<?php the_field( 'facebook_link','option'); ?>" target="_blank">
 							
-							<?php echo file_get_contents("wp-content/themes/begam/images/new_linkedin.svg"); ?>
+								<?php echo file_get_contents("wp-content/themes/begam/images/new_facebook.svg"); ?>
 							
-						</a>
+							</a>
+						
+						<?php } ?>
+						
+						<?php if(get_field('twitter_link','option')) { ?>
+						
+							<a class="" href="<?php the_field( 'twitter_link','option'); ?>" target="_blank">
+							
+								<?php echo file_get_contents("wp-content/themes/begam/images/new_twitter.svg"); ?>
+							
+							</a>
+						
+						<?php } ?>
+						
+						<?php if(get_field('linkedin_link','option')) { ?>
+						
+							<a class="" href="<?php the_field( 'linkedin_link','option'); ?>" target="_blank">
+							
+								<?php echo file_get_contents("wp-content/themes/begam/images/new_linkedin.svg"); ?>
+							
+							</a>
+						
+						<?php } ?>
 					
 					</div><!-- tablet_center -->
 				
@@ -145,6 +182,7 @@
 
 <?php wp_footer();?>
 
+<?php the_field( 'footer_scripts','option'); ?>
 
 </body>
 </html>

@@ -100,7 +100,7 @@
 	}
 	ul.menu {
 		>li.menu-item-has-children {
-			
+			margin-bottom:85px;
 			&:last-of-type {
 				
 			}
@@ -182,7 +182,7 @@
 	ul.menu {
 		>li.menu-item-has-children {
 			padding: 85px 76px 42px;
-			margin-bottom:85px;
+			
 			&:last-of-type {
 				
 			}
@@ -327,13 +327,14 @@
 	ul.menu {
 		>li.menu-item-has-children {
 			margin-bottom: 47px;
-			padding: 55px 43px 42px;
+			padding: 70px 43px 42px;
 			&:last-of-type {
 				
 			}
 			&:before {
 				position: static;
 				margin-bottom:20px;
+				display: none;
 			}
 		}
 		> li {

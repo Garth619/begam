@@ -60,7 +60,7 @@
 	flex-grow:0;
 	svg#gold_pattern {
 		width:335px;
-		height:auto;
+		height: 39px;
 		margin-left: -65px;
 	}
 	span {
@@ -83,6 +83,10 @@
 	column-gap:75px;
 	 padding-left:104px;
     padding-right:104px;
+    p, ul,ol h2, h3 {
+	    width:100%;
+	    display: inline-block; //column hack
+    }
 }
 
 // remove
@@ -309,12 +313,27 @@
 
 
 
-@media screen and (max-width: 625px) {
+@media screen and (max-width: 675px) {
 	
 	
 	.sec_five_img_wrapper {
 		&:before {
-			max-height: 374px;
+			max-height: 434px;
+		}
+	}
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (max-width: 610px) {
+	
+	
+	.sec_five_img_wrapper {
+		&:before {
+			max-height: 380px;
 		}
 	}
 	

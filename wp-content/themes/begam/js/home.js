@@ -39,19 +39,24 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 
 
-createWaypoint("header_trigger", "#header_trigger", "visible", 300, null, true);
 
 
-createWaypoint("section_one", "#section_one", "visible", 300, null, true);
+
+createWaypoint("section_one", "#section_one", "visible", 300, null, false);
 
 
-createWaypoint("section_two", ".start_button, #section_two", "visible", 300, null, false);
+createWaypoint("section_two", ".start_button, #section_two", "visible", 300, null, true);
 
 
 createWaypoint("section_three", "#section_three", "visible", 300, null, false);
 
 
-createWaypoint("section_four", "#section_four", "visible", 0, null, true);
+createWaypoint("section_four", "#section_four", "visible", 0, null, false);
+
+createWaypoint("section_five", "#section_five", "visible", 400, null, false);
+
+createWaypoint("section_six", "#section_six", "visible", 250, null, false);
+
 
 
 
@@ -101,9 +106,9 @@ $('.mock_dropdown li').on('click', function() {
 			 		
 			$('.form_overlay_wrapper').addClass('open');
 			
-			$('#input_2_6').val(text);
+			$('#input_1_6, #input_2_6, #input_3_6').val(text);
 			
-			$('.form_overlay_wrapper li#field_2_6').addClass('input_has_value');
+			$('li#field_1_6, li#field_2_6, li#field_3_6').addClass('input_has_value');
 			
 			
 			
