@@ -218,6 +218,15 @@ nav.open {
 					height: 67px;
 				}
 			}
+			li#field_3_2 {
+				.gfield_description {
+					display: none;
+				}
+				.instruction {
+					top: 70px;
+					display: block;
+				}
+			}
 			li {
 				width:100%;
 				margin:0 0 37px;
@@ -365,6 +374,24 @@ nav {
 	background: #f6f1eb;
 }
 
+
+@media screen and (max-width:1730px) {
+	
+	
+	
+	nav ul li {
+   margin-bottom: 40px;
+   line-height: 43px;
+   font-size: 36px;
+  }
+  
+  nav ul.menu > li:last-of-type {
+	  margin-bottom: 0;
+  }
+	
+	
+	
+} /* Media Query */
 
 
 @media screen and (max-width: 1675px) {

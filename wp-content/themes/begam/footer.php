@@ -169,9 +169,18 @@
 						</a>
 					
 						<ul>
-							<li>&copy;<?php echo date("Y"); ?> Begam Marks & Traulsen, P.A.<br/> All Rights Reserved.</li>
-							<li><a href="">Privacy Policy</a></li>
-							<li><a href="">Disclaimer</a></li>
+							<li>&copy;<?php echo date("Y"); ?> <?php the_field( 'copyright','option'); ?></li>
+							
+							<?php if(get_field('footer_links','option')): ?>
+							 
+								<?php while(has_sub_field('footer_links','option')): ?>
+							 
+									<li><a href="<?php the_sub_field( 'single_bullet_page_link'); ?>"><?php the_sub_field( 'single_bullet'); ?></a></li>
+							    
+								<?php endwhile; ?>
+							 
+							<?php endif; ?>
+							
 						</ul>
 					
 					</div><!-- copyright_mobile_inner -->

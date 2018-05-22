@@ -1,4 +1,10 @@
-<?php get_header(); ?>
+<?php 
+	
+	
+	/* Template Name: Thank You */
+	
+	
+	get_header(); ?>
 
 
 <div class="internal_banner">
@@ -6,7 +12,7 @@
 	
 	<div class="internal_banner_inner">
 		
-		<span class="banner_title"></span>
+		<span class="banner_title"><?php the_title();?></span>
 		
 		<span class="internal_consult"><?php the_field( 'free_consultation_verbiage','option'); ?></span>
 		

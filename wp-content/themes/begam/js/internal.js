@@ -44,3 +44,18 @@ function createWaypoint (triggerElementId, animatedElement, className, offsetVal
 
 
 createWaypoint("main", ".start_button", "visible", 300, null, true);
+
+
+
+
+
+if ($('ul#menu-pa-menu li.menu-item').is('.current-menu-ancestor')) {
+	
+	
+	var bannertext = $('ul#menu-pa-menu li.current-menu-ancestor > a').text();
+	
+	$('span.banner_title').text(bannertext);
+	
+}
+	
+	

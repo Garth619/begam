@@ -294,22 +294,6 @@ $('.reviews_slider').slick({
 
 
 
-// form animation madness
-
-
-
-
-
-$('.gform_wrapper li').on('click', function(e) {
-  
-	
-	
-	$('.gform_wrapper li').removeClass('clicked');
-	
-	$(this).addClass('clicked');
-
-
-});
 
 
 
@@ -367,6 +351,55 @@ $(function() {
 });
 
 
+
+// Validation Form Error Anchor
+
+
+if ($('div#gform_wrapper_1 div').hasClass('validation_error')) {
+	
+	$(document).scrollTop( $(".form_inner span.free_title").offset().top );
+	
+}
+
+if ($('div#gform_wrapper_2 div').hasClass('validation_error')) {
+	
+	$('.form_overlay_wrapper').addClass('open');
+	
+}
+
+
+if ($('div#gform_wrapper_3 div').hasClass('validation_error')) {
+	
+	$('nav').addClass('open');
+	
+}
+
+
+// Form Animation Madness
+
+
+$('.gform_wrapper li').on('click', function(e) {
+  
+	$('.gform_wrapper li').removeClass('clicked');
+	
+	$(this).addClass('clicked');
+
+});
+
+
+// Fire Animations on Tabbed Inputs
+
+
+$('.gform_wrapper input,.gform_wrapper textarea').keydown(function(e) {
+    var code = e.keyCode || e.which;
+    if (code === 9) {  
+        // e.preventDefault();
+        
+        $('.gform_wrapper li').removeClass('clicked');
+        
+        $(this).parents('li').addClass('clicked');
+     }
+});
 
 
 

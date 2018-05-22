@@ -231,5 +231,5 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 
 
-add_filter( 'gform_confirmation_anchor', '__return_true' );
+// add_filter( 'gform_confirmation_anchor', '__return_true' );
 

@@ -184,6 +184,15 @@
 			display: flex;
 			flex-wrap:wrap;
 			justify-content: space-between;
+			li#field_2_2 {
+				.gfield_description {
+					display: none;
+				}
+				.instruction {
+					top: 64px;
+					display: block;
+				}
+			}
 			li#field_2_5 {
 				flex-basis: 100%;
 				height: 121px;
@@ -283,7 +292,8 @@
 
 
 .form_overlay_wrapper {
-	padding:0;
+	padding:0 0 45px;
+	background: #fff;
 }
 	
 .form_overlay_inner {
@@ -291,9 +301,9 @@
 	max-width:100%;
 	margin:0px auto;
 	background: #fff;
-	display: flex;
+	display: block;
 	position: relative;
-	height: 100%;
+	padding-top:1px;
 }
 
 
@@ -303,7 +313,8 @@
 
 
 .form_overlay_right {
-	flex-basis: 100%;
+	width: 100%;
+	
 }
 
 
@@ -315,6 +326,7 @@
 	.gform_wrapper {
 		
 		ul {
+			
 			li#field_2_5.clicked, li#field_2_5.input_has_value {
 				label {
 					
@@ -529,7 +541,7 @@
 			}
 			li {
 				flex-basis: 100%;
-				margin: 0 0 13px;
+				margin: 0 0 22px;
 				label {
 					
 					span.gfield_required {
