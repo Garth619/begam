@@ -62,6 +62,19 @@ body.single {
 }
 
 
+.sec_five_col_wrapper { // max 3 h2s on the homepage, the other two were converted to divs
+	div {
+		color:$gold;
+		font-family: $muliblack;
+		font-size:20px;
+		line-height: 30px;
+		letter-spacing: 0.05em;
+		padding:0px 0 28px;
+		display: block;
+	}
+}
+
+
 
 .content {
 	font-family: $mulireg;
