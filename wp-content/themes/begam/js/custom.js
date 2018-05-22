@@ -397,7 +397,7 @@ $('.gform_wrapper input,.gform_wrapper textarea').keydown(function(e) {
         
         $('.gform_wrapper li').removeClass('clicked');
         
-        $(this).parents('li').addClass('clicked');
+        $(this).parents('li').next('li').addClass('clicked');
      }
 });
 
